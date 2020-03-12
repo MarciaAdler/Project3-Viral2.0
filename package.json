@@ -1,0 +1,31 @@
+{
+  "name": "project3-viral2.0",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "if-env NODE_ENV=production && npm run start:prod || npm run start:dev",
+    "start:prod": "node server.js",
+    "start:dev": "nodemon --ignore 'client' & npm run client",
+    "client": "cd client && npm run start",
+    "install": "cd client && npm install",
+    "build": "cd client && npm run build",
+    "heroku-postbuild": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MarciaAdler/Project3-Viral2.0.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MarciaAdler/Project3-Viral2.0/issues"
+  },
+  "homepage": "https://github.com/MarciaAdler/Project3-Viral2.0#readme",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "express": "^4.17.1",
+    "if-env": "^1.0.4",
+    "sequelize": "^5.21.5"
+  }
+}
