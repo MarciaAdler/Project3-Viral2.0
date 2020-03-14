@@ -7,7 +7,7 @@ div#root{
     height:100%!important;
 }
 
-.home-hero {
+.login-hero {
     background-image: url('../img/the-viral.jpg');
     background-attachment: fixed;
     background-position: center;
@@ -17,11 +17,11 @@ div#root{
     color: #FFFFFF;
 }
 
-.home-hero .row {
+.login-hero .row {
     background-color: rgba(0, 0, 0, 0.6);;
 }
 
-.home-hero a {
+.login-hero a {
     font-weight: bold;
 }
 
