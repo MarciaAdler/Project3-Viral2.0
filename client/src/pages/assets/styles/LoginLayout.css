@@ -18,5 +18,18 @@ div#root{
 }
 
 .home-hero .row {
-    background-color: rgba(0, 0, 0, 0.4);;
+    background-color: rgba(0, 0, 0, 0.6);;
+}
+
+.home-hero a {
+    font-weight: bold;
+}
+
+/* Styles for viewports xs and sm in bootstrap */
+@media (max-width:767px){
+
+    form.border-left{
+        border-left:none!important;
+    }
+
 }

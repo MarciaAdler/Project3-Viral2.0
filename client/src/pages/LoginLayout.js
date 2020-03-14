@@ -8,12 +8,12 @@ function LoginLayout(props) {
       <div className="h-100 w-100">
           <Container fluid className="h-100 w-100 home-hero">
                 <Row className="h-100 justify-content-center">
-                    <Col md={4} lg={3} className="my-auto text-md-right">
+                    <Col md={"auto"} className="mt-5 my-md-auto text-center text-md-right">
                         <h1>The Viral 2.0</h1>
                         Tagline
                     </Col>
-                    <Col md={5} lg={4} className="my-auto">
-                    <Form className="border-left ml-3 pl-5 py-3 text-center">
+                    <Col xs={"auto"} className="mt-3 my-md-auto">
+                    <Form className="border-left ml-md-3 pl-md-5 py-3 text-center">
                         <h3 className="mb-4">Login to your account</h3>
                         <Form.Group className="mb-3" controlId="formUsername">
                             <Form.Control type="email" placeholder="Username" />
@@ -25,6 +25,7 @@ function LoginLayout(props) {
                         <Button variant="outline-light" size="lg" className="mx-auto d-block mt-3" type="submit">
                             Submit
                         </Button>
+                        <p className="mt-4 mb-0">Don't have an account? <a href="#">Sign up</a></p>
                         </Form>
                     </Col>
                 </Row>
