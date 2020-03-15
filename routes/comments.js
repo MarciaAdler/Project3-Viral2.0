@@ -1,9 +1,9 @@
 const router = require("express").Router();
-const commentsController = require("../../controllers/commentsController");
+const commentsController = require("../controllers/commentsController");
 
 // Matches with "/api/books"
 router
-  .route("/")
+  .route("/api/")
   .get(commentsController.findAll)
   .post(commentsController.create);
 

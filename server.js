@@ -4,6 +4,7 @@ const PORT = process.env.PORT || 3001;
 const app = express();
 const Sequelize = require("sequelize");
 var db = require("./models");
+const routes = require("./routes/comments");
 
 // Define middleware here
 app.use(express.urlencoded({ extended: true }));
