@@ -1,6 +1,7 @@
 import React from "react";
+import { Form, Button } from "react-bootstrap";
 
-export default function Comment() {
+export default function CommentsForm(props) {
   return (
     <div>
       <Form>
