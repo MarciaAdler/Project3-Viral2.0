@@ -5,6 +5,7 @@ import Markets from '../components/Markets';
 import CovidInfo from '../components/CovidInfo';
 import Labor from '../components/Labor';
 import Comments from '../components/Comments';
+import Footer from '../components/Footer';
 
 function Home(props) {
   
@@ -16,6 +17,7 @@ function Home(props) {
       <Labor />
       <CovidInfo />
       <Comments />
+      <Footer />
     </div>
     );
 }
