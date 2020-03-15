@@ -25,7 +25,7 @@ function LoginLayout(props) {
                         <Button variant="outline-light" size="lg" className="mx-auto d-block mt-3" type="submit">
                             Submit
                         </Button>
-                        <p className="mt-4 mb-0">Don't have an account? <a href="#">Sign up</a></p>
+                        <p className="mt-4 mb-0">Don't have an account? <a href="#signup">Sign up</a></p>
                         </Form>
                     </Col>
                 </Row>
@@ -34,32 +34,32 @@ function LoginLayout(props) {
       <Container className="py-md-5 px-4">
             <Row className="py-5 border-bottom">
               <Col md={"auto"} className="ml-md-4 ml-lg-5">
-                <img src="https://via.placeholder.com/150x150?text=Image" />
+                <img src="https://via.placeholder.com/150x150?text=Image" alt="" />
               </Col>
               <Col className="mr-md-4 mr-lg-5">
                <h3>Headline</h3>
                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ut velit felis. Fusce consequat viverra placerat. Ut finibus metus ut sem rhoncus volutpat. Quisque mauris odio, fermentum in purus et, iaculis laoreet felis.</p>
-               <p className="mb-0"><a href="#">Sign up for an account</a></p>
+               <p className="mb-0"><a href="#signup">Sign up for an account</a></p>
               </Col>
             </Row>
             <Row className="py-5 border-bottom">
                 <Col className="ml-md-4 ml-lg-5 order-last order-md-first">
                 <h3>Headline</h3>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ut velit felis. Fusce consequat viverra placerat. Ut finibus metus ut sem rhoncus volutpat. Quisque mauris odio, fermentum in purus et, iaculis laoreet felis.</p>
-                <p className="mb-0"><a href="#">Sign up for an account</a></p>
+                <p className="mb-0"><a href="#signup">Sign up for an account</a></p>
                 </Col>
                 <Col md={"auto"} className="mr-md-4 mr-lg-5 order-first order-md-last">
-                    <img src="https://via.placeholder.com/150x150?text=Image" />
+                    <img src="https://via.placeholder.com/150x150?text=Image" alt="" />
                 </Col>
             </Row>
             <Row className="py-5">
                 <Col md={"auto"} className="ml-md-4 ml-lg-5">
-                    <img src="https://via.placeholder.com/150x150?text=Image" />
+                    <img src="https://via.placeholder.com/150x150?text=Image" alt="" />
                 </Col>
                 <Col className="mr-md-4 mr-lg-5">
                 <h3>Headline</h3>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ut velit felis. Fusce consequat viverra placerat. Ut finibus metus ut sem rhoncus volutpat. Quisque mauris odio, fermentum in purus et, iaculis laoreet felis.</p>
-                <p className="mb-0"><a href="#">Sign up for an account</a></p>
+                <p className="mb-0"><a href="#signup">Sign up for an account</a></p>
                 </Col>
             </Row>
       </Container>
