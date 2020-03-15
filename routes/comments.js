@@ -3,7 +3,7 @@ const commentsController = require("../controllers/commentsController");
 
 // Matches with "/api/books"
 router
-  .route("/api/")
+  .route("/api/comments/")
   .get(commentsController.findAll)
   .post(commentsController.create);
 
