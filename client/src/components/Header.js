@@ -1,11 +1,12 @@
 import React from "react";
 import { Navbar, Nav, NavDropdown } from 'react-bootstrap';
-import "./assets/styles/Header.css";
+// import "./assets/styles/Header.css";
 
 function Header(props) {
   
   return (
     <div>
+      {/* <Navbar  fixed="top"  bg="light" expand="md"> */}
       <Navbar  fixed="top"  bg="light" expand="md">
         <Navbar.Brand href="#home">The Viral 2.0</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
