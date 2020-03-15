@@ -1,5 +1,6 @@
 import React from "react";
 import { Container, Row, Col, Form, Button } from 'react-bootstrap';
+import Footer from '../components/Footer';
 import './assets/styles/LoginLayout.css';
 
 function LoginLayout(props) {
@@ -63,6 +64,7 @@ function LoginLayout(props) {
                 </Col>
             </Row>
       </Container>
+      <Footer />
       </div>
   );
 }
