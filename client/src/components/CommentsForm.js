@@ -7,13 +7,24 @@ export default function CommentsForm(props) {
       <Form>
         <Form.Group controlId="commentForm.ControlInput1">
           <Form.Label>Username</Form.Label>
-          <Form.Control type="email" placeholder="Username" />
+          <Form.Control
+            type="text"
+            name="username"
+            placeholder="Username"
+            onChange={props.handleInputChange}
+          />
         </Form.Group>
         <Form.Group controlId="commentForm.ControlTextarea1">
-          <Form.Label>Comment textarea</Form.Label>
-          <Form.Control as="textarea" rows="5" />
+          <Form.Label>Write Comment Here</Form.Label>
+          <Form.Control
+            as="textarea"
+            name="comment"
+            placeholder="Type Comment"
+            rows="5"
+            onChange={props.handleInputChange}
+          />
         </Form.Group>
-        <Button variant="primary" type="submit">
+        <Button variant="primary" type="submit" onClick={props.saveComment}>
           Submit
         </Button>
       </Form>

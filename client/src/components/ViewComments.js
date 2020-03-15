@@ -6,9 +6,9 @@ export default function ViewComments(props) {
     <Container>
       <Row>
         <Col>
-          <h4>props.username</h4>
-          <p>props.date</p>
-          <p>props.comment</p>
+          <h4>{props.username}</h4>
+          <p>{props.date}</p>
+          <p>{props.comment}</p>
         </Col>
       </Row>
     </Container>
