@@ -1,0 +1,8003 @@
+[
+ {
+   "industry_code": 0,
+   "naics_code": "-",
+   "publishing_status": "B",
+   "industry_name": "Total nonfarm",
+   "display_level": 0,
+   "selectable": "T",
+   "sort_sequence": 1
+ },
+ {
+   "industry_code": 5000000,
+   "naics_code": "-",
+   "publishing_status": "A",
+   "industry_name": "Total private",
+   "display_level": 1,
+   "selectable": "T",
+   "sort_sequence": 2
+ },
+ {
+   "industry_code": 6000000,
+   "naics_code": "-",
+   "publishing_status": "A",
+   "industry_name": "Goods-producing",
+   "display_level": 1,
+   "selectable": "T",
+   "sort_sequence": 3
+ },
+ {
+   "industry_code": 7000000,
+   "naics_code": "-",
+   "publishing_status": "B",
+   "industry_name": "Service-providing",
+   "display_level": 1,
+   "selectable": "T",
+   "sort_sequence": 4
+ },
+ {
+   "industry_code": 8000000,
+   "naics_code": "-",
+   "publishing_status": "A",
+   "industry_name": "Private service-providing",
+   "display_level": 1,
+   "selectable": "T",
+   "sort_sequence": 5
+ },
+ {
+   "industry_code": 10000000,
+   "naics_code": "-",
+   "publishing_status": "A",
+   "industry_name": "Mining and logging",
+   "display_level": 2,
+   "selectable": "T",
+   "sort_sequence": 6
+ },
+ {
+   "industry_code": 10113300,
+   "naics_code": "1133",
+   "publishing_status": "A",
+   "industry_name": "Logging",
+   "display_level": 5,
+   "selectable": "T",
+   "sort_sequence": 7
+ },
+ {
+   "industry_code": 10210000,
+   "naics_code": "21",
+   "publishing_status": "A",
+   "industry_name": "Mining",
+   "display_level": 3,
+   "selectable": "T",
+   "sort_sequence": 8
+ },
+ {
+   "industry_code": 10211000,
+   "naics_code": "211",
+   "publishing_status": "A",
+   "industry_name": "Oil and gas extraction",
+   "display_level": 4,
+   "selectable": "T",
+   "sort_sequence": 9
+ },
+ {
+   "industry_code": 10212000,
+   "naics_code": "212",
+   "publishing_status": "A",
+   "industry_name": "Mining, except oil and gas",
+   "display_level": 4,
+   "selectable": "T",
+   "sort_sequence": 10
+ },
+ {
+   "industry_code": 10212100,
+   "naics_code": "2121",
+   "publishing_status": "E",
+   "industry_name": "Coal mining",
+   "display_level": 5,
+   "selectable": "T",
+   "sort_sequence": 11
+ },
+ {
+   "industry_code": 10212111,
+   "naics_code": "212111",
+   "publishing_status": "C",
+   "industry_name": "Bituminous coal and lignite surface mining",
+   "display_level": 7,
+   "selectable": "T",
+   "sort_sequence": 12
+ },
+ {
+   "industry_code": 10212113,
+   "naics_code": "212112,3",
+   "publishing_status": "C",
+   "industry_name": "Bituminous coal underground mining and anthracite mining",
+   "display_level": 7,
+   "selectable": "T",
+   "sort_sequence": 13
+ },
+ {
+   "industry_code": 10212200,
+   "naics_code": "2122",
+   "publishing_status": "E",
+   "industry_name": "Metal ore mining",
+   "display_level": 5,
+   "selectable": "T",
+   "sort_sequence": 14
+ },
+ {
+   "industry_code": 10212300,
+   "naics_code": "2123",
+   "publishing_status": "E",
+   "industry_name": "Nonmetallic mineral mining and quarrying",
+   "display_level": 5,
+   "selectable": "T",
+   "sort_sequence": 15
+ },
+ {
+   "industry_code": 10212310,
+   "naics_code": "21231",
+   "publishing_status": "A",
+   "industry_name": "Stone mining and quarrying",
+   "display_level": 6,
+   "selectable": "T",
+   "sort_sequence": 16
+ },
+ {
+   "industry_code": 10212312,
+   "naics_code": "212312",
+   "publishing_status": "A",
+   "industry_name": "Crushed and broken limestone mining",
+   "display_level": 7,
+   "selectable": "T",
+   "sort_sequence": 17
+ },
+ {
+   "industry_code": 10212319,
+   "naics_code": "212311,3,9",
+   "publishing_status": "A",
+   "industry_name": "Other stone mining and quarrying",
+   "display_level": 7,
+   "selectable": "T",
+   "sort_sequence": 18
+ },
+ {
+   "industry_code": 10212320,
+   "naics_code": "21232",
+   "publishing_status": "C",
+   "industry_name": "Sand, gravel, clay, and refractory mining",
+   "display_level": 6,
+   "selectable": "T",
+   "sort_sequence": 19
+ },
+ {
+   "industry_code": 10212321,
+   "naics_code": "212321",
+   "publishing_status": "B",
+   "industry_name": "Construction sand and gravel mining",
+   "display_level": 7,
+   "selectable": "T",
+   "sort_sequence": 20
+ },
+ {
+   "industry_code": 10212390,
+   "naics_code": "21239",
+   "publishing_status": "C",
+   "industry_name": "Other nonmetallic mineral mining",
+   "display_level": 6,
+   "selectable": "T",
+   "sort_sequence": 21
+ },
+ {
+   "industry_code": 10213000,
+   "naics_code": "213",
+   "publishing_status": "A",
+   "industry_name": "Support activities for mining",
+   "display_level": 4,
+   "selectable": "T",
+   "sort_sequence": 22
+ },
+ {
+   "industry_code": 10213112,
+   "naics_code": "213112",
+   "publishing_status": "A",
+   "industry_name": "Support activities for oil and gas operations",
+   "display_level": 7,
+   "selectable": "T",
+   "sort_sequence": 23
+ },
+ {
+   "industry_code": 20000000,
+   "naics_code": "23",
+   "publishing_status": "A",
+   "industry_name": "Construction",
+   "display_level": 2,
+   "selectable": "T",
+   "sort_sequence": 24
+ },
+ {
+   "industry_code": 20236000,
+   "naics_code": "236",
+   "publishing_status": "A",
+   "industry_name": "Construction of buildings",
+   "display_level": 4,
+   "selectable": "T",
+   "sort_sequence": 25
+ },
+ {
+   "industry_code": 20236100,
+   "naics_code": "2361",
+   "publishing_status": "A",
+   "industry_name": "Residential building",
+   "display_level": 5,
+   "selectable": "T",
+   "sort_sequence": 26
+ },
+ {
+   "industry_code": 20236115,
+   "naics_code": "236115",
+   "publishing_status": "A",
+   "industry_name": "New single-family general contractors",
+   "display_level": 7,
+   "selectable": "T",
+   "sort_sequence": 27
+ },
+ {
+   "industry_code": 20236116,
+   "naics_code": "236116",
+   "publishing_status": "B",
+   "industry_name": "New multifamily general contractors",
+   "display_level": 7,
+   "selectable": "T",
+   "sort_sequence": 28
+ },
+ {
+   "industry_code": 20236117,
+   "naics_code": "236117",
+   "publishing_status": "B",
+   "industry_name": "New housing operative builders",
+   "display_level": 7,
+   "selectable": "T",
+   "sort_sequence": 29
+ },
+ {
+   "industry_code": 20236118,
+   "naics_code": "236118",
+   "publishing_status": "A",
+   "industry_name": "Residential remodelers",
+   "display_level": 7,
+   "selectable": "T",
+   "sort_sequence": 30
+ },
+ {
+   "industry_code": 20236200,
+   "naics_code": "2362",
+   "publishing_status": "A",
+   "industry_name": "Nonresidential building",
+   "display_level": 5,
+   "selectable": "T",
+   "sort_sequence": 31
+ },
+ {
+   "industry_code": 20236210,
+   "naics_code": "23621",
+   "publishing_status": "A",
+   "industry_name": "Industrial building",
+   "display_level": 6,
+   "selectable": "T",
+   "sort_sequence": 32
+ },
+ {
+   "industry_code": 20236220,
+   "naics_code": "23622",
+   "publishing_status": "A",
+   "industry_name": "Commercial building",
+   "display_level": 6,
+   "selectable": "T",
+   "sort_sequence": 33
+ },
+ {
+   "industry_code": 20237000,
+   "naics_code": "237",
+   "publishing_status": "A",
+   "industry_name": "Heavy and civil engineering construction",
+   "display_level": 4,
+   "selectable": "T",
+   "sort_sequence": 34
+ },
+ {
+   "industry_code": 20237100,
+   "naics_code": "2371",
+   "publishing_status": "A",
+   "industry_name": "Utility system construction",
+   "display_level": 5,
+   "selectable": "T",
+   "sort_sequence": 35
+ },
+ {
+   "industry_code": 20237110,
+   "naics_code": "23711",
+   "publishing_status": "A",
+   "industry_name": "Water and sewer system construction",
+   "display_level": 6,
+   "selectable": "T",
+   "sort_sequence": 36
+ },
+ {
+   "industry_code": 20237120,
+   "naics_code": "23712",
+   "publishing_status": "A",
+   "industry_name": "Oil and gas pipeline construction",
+   "display_level": 6,
+   "selectable": "T",
+   "sort_sequence": 37
+ },
+ {
+   "industry_code": 20237130,
+   "naics_code": "23713",
+   "publishing_status": "A",
+   "industry_name": "Power and communication system construction",
+   "display_level": 6,
+   "selectable": "T",
+   "sort_sequence": 38
+ },
+ {
+   "industry_code": 20237200,
+   "naics_code": "2372",
+   "publishing_status": "E",
+   "industry_name": "Land subdivision",
+   "display_level": 5,
+   "selectable": "T",
+   "sort_sequence": 39
+ },
+ {
+   "industry_code": 20237300,
+   "naics_code": "2373",
+   "publishing_status": "A",
+   "industry_name": "Highway, street, and bridge construction",
+   "display_level": 5,
+   "selectable": "T",
+   "sort_sequence": 40
+ },
+ {
+   "industry_code": 20237900,
+   "naics_code": "2379",
+   "publishing_status": "E",
+   "industry_name": "Other heavy construction",
+   "display_level": 5,
+   "selectable": "T",
+   "sort_sequence": 41
+ },
+ {
+   "industry_code": 20238000,
+   "naics_code": "238",
+   "publishing_status": "A",
+   "industry_name": "Specialty trade contractors",
+   "display_level": 4,
+   "selectable": "T",
+   "sort_sequence": 42
+ },
+ {
+   "industry_code": 20238001,
+   "naics_code": "part 238",
+   "publishing_status": "C",
+   "industry_name": "Residential specialty trade contractors",
+   "display_level": 4,
+   "selectable": "T",
+   "sort_sequence": 43
+ },
+ {
+   "industry_code": 20238002,
+   "naics_code": "part 238",
+   "publishing_status": "C",
+   "industry_name": "Nonresidential specialty trade contractors",
+   "display_level": 4,
+   "selectable": "T",
+   "sort_sequence": 44
+ },
+ {
+   "industry_code": 20238100,
+   "naics_code": "2381",
+   "publishing_status": "A",
+   "industry_name": "Building foundation and exterior contractors",
+   "display_level": 5,
+   "selectable": "T",
+   "sort_sequence": 45
+ },
+ {
+   "industry_code": 20238101,
+   "naics_code": "part 2381",
+   "publishing_status": "C",
+   "industry_name": "Residential building foundation and exterior contractors",
+   "display_level": 5,
+   "selectable": "T",
+   "sort_sequence": 46
+ },
+ {
+   "industry_code": 20238102,
+   "naics_code": "part 2381",
+   "publishing_status": "C",
+   "industry_name": "Nonresidential building foundation and exterior contractors",
+   "display_level": 5,
+   "selectable": "T",
+   "sort_sequence": 47
+ },
+ {
+   "industry_code": 20238110,
+   "naics_code": "23811",
+   "publishing_status": "A",
+   "industry_name": "Poured concrete structure contractors",
+   "display_level": 6,
+   "selectable": "T",
+   "sort_sequence": 48
+ },
+ {
+   "industry_code": 20238120,
+   "naics_code": "23812",
+   "publishing_status": "A",
+   "industry_name": "Steel and precast concrete contractors",
+   "display_level": 6,
+   "selectable": "T",
+   "sort_sequence": 49
+ },
+ {
+   "industry_code": 20238130,
+   "naics_code": "23813",
+   "publishing_status": "A",
+   "industry_name": "Framing contractors",
+   "display_level": 6,
+   "selectable": "T",
+   "sort_sequence": 50
+ },
+ {
+   "industry_code": 20238140,
+   "naics_code": "23814",
+   "publishing_status": "A",
+   "industry_name": "Masonry contractors",
+   "display_level": 6,
+   "selectable": "T",
+   "sort_sequence": 51
+ },
+ {
+   "industry_code": 20238150,
+   "naics_code": "23815",
+   "publishing_status": "A",
+   "industry_name": "Glass and glazing contractors",
+   "display_level": 6,
+   "selectable": "T",
+   "sort_sequence": 52
+ },
+ {
+   "industry_code": 20238160,
+   "naics_code": "23816",
+   "publishing_status": "A",
+   "industry_name": "Roofing contractors",
+   "display_level": 6,
+   "selectable": "T",
+   "sort_sequence": 53
+ },
+ {
+   "industry_code": 20238170,
+   "naics_code": "23817",
+   "publishing_status": "A",
+   "industry_name": "Siding contractors",
+   "display_level": 6,
+   "selectable": "T",
+   "sort_sequence": 54
+ },
+ {
+   "industry_code": 20238190,
+   "naics_code": "23819",
+   "publishing_status": "A",
+   "industry_name": "Other building exterior contractors",
+   "display_level": 6,
+   "selectable": "T",
+   "sort_sequence": 55
+ },
+ {
+   "industry_code": 20238200,
+   "naics_code": "2382",
+   "publishing_status": "A",
+   "industry_name": "Building equipment contractors",
+   "display_level": 5,
+   "selectable": "T",
+   "sort_sequence": 56
+ },
+ {
+   "industry_code": 20238201,
+   "naics_code": "part 2382",
+   "publishing_status": "C",
+   "industry_name": "Residential building equipment contractors",
+   "display_level": 5,
+   "selectable": "T",
+   "sort_sequence": 57
+ },
+ {
+   "industry_code": 20238202,
+   "naics_code": "part 2382",
+   "publishing_status": "C",
+   "industry_name": "Nonresidential building equipment contractors",
+   "display_level": 5,
+   "selectable": "T",
+   "sort_sequence": 58
+ },
+ {
+   "industry_code": 20238210,
+   "naics_code": "23821",
+   "publishing_status": "A",
+   "industry_name": "Electrical contractors",
+   "display_level": 6,
+   "selectable": "T",
+   "sort_sequence": 59
+ },
+ {
+   "industry_code": 20238220,
+   "naics_code": "23822",
+   "publishing_status": "A",
+   "industry_name": "Plumbing and HVAC contractors",
+   "display_level": 6,
+   "selectable": "T",
+   "sort_sequence": 60
+ },
+ {
+   "industry_code": 20238290,
+   "naics_code": "23829",
+   "publishing_status": "A",
+   "industry_name": "Other building equipment contractors",
+   "display_level": 6,
+   "selectable": "T",
+   "sort_sequence": 61
+ },
+ {
+   "industry_code": 20238300,
+   "naics_code": "2383",
+   "publishing_status": "A",
+   "industry_name": "Building finishing contractors",
+   "display_level": 5,
+   "selectable": "T",
+   "sort_sequence": 62
+ },
+ {
+   "industry_code": 20238301,
+   "naics_code": "part 2383",
+   "publishing_status": "C",
+   "industry_name": "Residential building finishing contractors",
+   "display_level": 5,
+   "selectable": "T",
+   "sort_sequence": 63
+ },
+ {
+   "industry_code": 20238302,
+   "naics_code": "part 2383",
+   "publishing_status": "C",
+   "industry_name": "Nonresidential building finishing contractors",
+   "display_level": 5,
+   "selectable": "T",
+   "sort_sequence": 64
+ },
+ {
+   "industry_code": 20238310,
+   "naics_code": "23831",
+   "publishing_status": "A",
+   "industry_name": "Drywall and insulation contractors",
+   "display_level": 6,
+   "selectable": "T",
+   "sort_sequence": 65
+ },
+ {
+   "industry_code": 20238320,
+   "naics_code": "23832",
+   "publishing_status": "A",
+   "industry_name": "Painting and wall covering contractors",
+   "display_level": 6,
+   "selectable": "T",
+   "sort_sequence": 66
+ },
+ {
+   "industry_code": 20238330,
+   "naics_code": "23833",
+   "publishing_status": "A",
+   "industry_name": "Flooring contractors",
+   "display_level": 6,
+   "selectable": "T",
+   "sort_sequence": 67
+ },
+ {
+   "industry_code": 20238340,
+   "naics_code": "23834",
+   "publishing_status": "A",
+   "industry_name": "Tile and terrazzo contractors",
+   "display_level": 6,
+   "selectable": "T",
+   "sort_sequence": 68
+ },
+ {
+   "industry_code": 20238350,
+   "naics_code": "23835",
+   "publishing_status": "A",
+   "industry_name": "Finish carpentry contractors",
+   "display_level": 6,
+   "selectable": "T",
+   "sort_sequence": 69
+ },
+ {
+   "industry_code": 20238390,
+   "naics_code": "23839",
+   "publishing_status": "A",
+   "industry_name": "Other building finishing contractors",
+   "display_level": 6,
+   "selectable": "T",
+   "sort_sequence": 70
+ },
+ {
+   "industry_code": 20238900,
+   "naics_code": "2389",
+   "publishing_status": "A",
+   "industry_name": "Other specialty trade contractors",
+   "display_level": 5,
+   "selectable": "T",
+   "sort_sequence": 71
+ },
+ {
+   "industry_code": 20238901,
+   "naics_code": "part 2389",
+   "publishing_status": "C",
+   "industry_name": "Other residential trade contractors",
+   "display_level": 5,
+   "selectable": "T",
+   "sort_sequence": 72
+ },
+ {
+   "industry_code": 20238902,
+   "naics_code": "part 2389",
+   "publishing_status": "C",
+   "industry_name": "Other nonresidential trade contractors",
+   "display_level": 5,
+   "selectable": "T",
+   "sort_sequence": 73
+ },
+ {
+   "industry_code": 20238910,
+   "naics_code": "23891",
+   "publishing_status": "A",
+   "industry_name": "Site preparation contractors",
+   "display_level": 6,
+   "selectable": "T",
+   "sort_sequence": 74
+ },
+ {
+   "industry_code": 20238990,
+   "naics_code": "23899",
+   "publishing_status": "A",
+   "industry_name": "All other specialty trade contractors",
+   "display_level": 6,
+   "selectable": "T",
+   "sort_sequence": 75
+ },
+ {
+   "industry_code": 30000000,
+   "naics_code": "-",
+   "publishing_status": "AO",
+   "industry_name": "Manufacturing",
+   "display_level": 2,
+   "selectable": "T",
+   "sort_sequence": 76
+ },
+ {
+   "industry_code": 31000000,
+   "naics_code": "-",
+   "publishing_status": "AO",
+   "industry_name": "Durable goods",
+   "display_level": 3,
+   "selectable": "T",
+   "sort_sequence": 77
+ },
+ {
+   "industry_code": 31321000,
+   "naics_code": "321",
+   "publishing_status": "AO",
+   "industry_name": "Wood products",
+   "display_level": 4,
+   "selectable": "T",
+   "sort_sequence": 78
+ },
+ {
+   "industry_code": 31321100,
+   "naics_code": "3211",
+   "publishing_status": "AO",
+   "industry_name": "Sawmills and wood preservation",
+   "display_level": 5,
+   "selectable": "T",
+   "sort_sequence": 79
+ },
+ {
+   "industry_code": 31321200,
+   "naics_code": "3212",
+   "publishing_status": "AO",
+   "industry_name": "Plywood and engineered wood products",
+   "display_level": 5,
+   "selectable": "T",
+   "sort_sequence": 80
+ },
+ {
+   "industry_code": 31321900,
+   "naics_code": "3219",
+   "publishing_status": "AO",
+   "industry_name": "Other wood products",
+   "display_level": 5,
+   "selectable": "T",
+   "sort_sequence": 81
+ },
+ {
+   "industry_code": 31321910,
+   "naics_code": "32191",
+   "publishing_status": "AO",
+   "industry_name": "Millwork",
+   "display_level": 6,
+   "selectable": "T",
+   "sort_sequence": 82
+ },
+ {
+   "industry_code": 31321911,
+   "naics_code": "321911",
+   "publishing_status": "AT",
+   "industry_name": "Wood windows and doors",
+   "display_level": 7,
+   "selectable": "T",
+   "sort_sequence": 83
+ },
+ {
+   "industry_code": 31321918,
+   "naics_code": "321912,8",
+   "publishing_status": "AT",
+   "industry_name": "Cut stock, resawing lumber, planing, and other millwork, including flooring",
+   "display_level": 7,
+   "selectable": "T",
+   "sort_sequence": 84
+ },
+ {
+   "industry_code": 31321920,
+   "naics_code": "32192",
+   "publishing_status": "ET",
+   "industry_name": "Wood containers and pallets",
+   "display_level": 6,
+   "selectable": "T",
+   "sort_sequence": 85
+ },
+ {
+   "industry_code": 31321990,
+   "naics_code": "32199",
+   "publishing_status": "ET",
+   "industry_name": "All other wood products",
+   "display_level": 6,
+   "selectable": "T",
+   "sort_sequence": 86
+ },
+ {
+   "industry_code": 31327000,
+   "naics_code": "327",
+   "publishing_status": "AO",
+   "industry_name": "Nonmetallic mineral products",
+   "display_level": 4,
+   "selectable": "T",
+   "sort_sequence": 87
+ },
+ {
+   "industry_code": 31327100,
+   "naics_code": "3271",
+   "publishing_status": "C",
+   "industry_name": "Clay products and refractories",
+   "display_level": 5,
+   "selectable": "T",
+   "sort_sequence": 88
+ },
+ {
+   "industry_code": 31327200,
+   "naics_code": "3272",
+   "publishing_status": "B",
+   "industry_name": "Glass and glass products",
+   "display_level": 5,
+   "selectable": "T",
+   "sort_sequence": 89
+ },
+ {
+   "industry_code": 31327212,
+   "naics_code": "327211,2",
+   "publishing_status": "C",
+   "industry_name": "Flat glass and other pressed and blown glass and glassware",
+   "display_level": 7,
+   "selectable": "T",
+   "sort_sequence": 90
+ },
+ {
+   "industry_code": 31327215,
+   "naics_code": "327213,5",
+   "publishing_status": "C",
+   "industry_name": "Glass containers and products made of purchased glass",
+   "display_level": 7,
+   "selectable": "T",
+   "sort_sequence": 91
+ },
+ {
+   "industry_code": 31327300,
+   "naics_code": "3273",
+   "publishing_status": "AO",
+   "industry_name": "Cement and concrete products",
+   "display_level": 5,
+   "selectable": "T",
+   "sort_sequence": 92
+ },
+ {
+   "industry_code": 31327320,
+   "naics_code": "32732",
+   "publishing_status": "AO",
+   "industry_name": "Ready-mix concrete",
+   "display_level": 6,
+   "selectable": "T",
+   "sort_sequence": 93
+ },
+ {
+   "industry_code": 31327390,
+   "naics_code": "32731,3,9",
+   "publishing_status": "AO",
+   "industry_name": "Other cement and concrete products",
+   "display_level": 6,
+   "selectable": "T",
+   "sort_sequence": 94
+ },
+ {
+   "industry_code": 31327900,
+   "naics_code": "3274,9",
+   "publishing_status": "GT",
+   "industry_name": "Lime, gypsum, and other nonmetallic mineral products",
+   "display_level": 5,
+   "selectable": "T",
+   "sort_sequence": 95
+ },
+ {
+   "industry_code": 31331000,
+   "naics_code": "331",
+   "publishing_status": "AO",
+   "industry_name": "Primary metals",
+   "display_level": 4,
+   "selectable": "T",
+   "sort_sequence": 96
+ },
+ {
+   "industry_code": 31331100,
+   "naics_code": "3311",
+   "publishing_status": "C",
+   "industry_name": "Iron and steel mills and ferroalloy production",
+   "display_level": 5,
+   "selectable": "T",
+   "sort_sequence": 97
+ },
+ {
+   "industry_code": 31331200,
+   "naics_code": "3312",
+   "publishing_status": "C",
+   "industry_name": "Steel products from purchased steel",
+   "display_level": 5,
+   "selectable": "T",
+   "sort_sequence": 98
+ },
+ {
+   "industry_code": 31331300,
+   "naics_code": "3313",
+   "publishing_status": "C",
+   "industry_name": "Alumina and aluminum production",
+   "display_level": 5,
+   "selectable": "T",
+   "sort_sequence": 99
+ },
+ {
+   "industry_code": 31331400,
+   "naics_code": "3314",
+   "publishing_status": "C",
+   "industry_name": "Other nonferrous metal production",
+   "display_level": 5,
+   "selectable": "T",
+   "sort_sequence": 100
+ },
+ {
+   "industry_code": 31331500,
+   "naics_code": "3315",
+   "publishing_status": "AO",
+   "industry_name": "Foundries",
+   "display_level": 5,
+   "selectable": "T",
+   "sort_sequence": 101
+ },
+ {
+   "industry_code": 31331510,
+   "naics_code": "33151",
+   "publishing_status": "C",
+   "industry_name": "Ferrous metal foundries",
+   "display_level": 6,
+   "selectable": "T",
+   "sort_sequence": 102
+ },
+ {
+   "industry_code": 31331520,
+   "naics_code": "33152",
+   "publishing_status": "C",
+   "industry_name": "Nonferrous metal foundries",
+   "display_level": 6,
+   "selectable": "T",
+   "sort_sequence": 103
+ },
+ {
+   "industry_code": 31332000,
+   "naics_code": "332",
+   "publishing_status": "AO",
+   "industry_name": "Fabricated metal products",
+   "display_level": 4,
+   "selectable": "T",
+   "sort_sequence": 104
+ },
+ {
+   "industry_code": 31332100,
+   "naics_code": "3321",
+   "publishing_status": "AO",
+   "industry_name": "Forging and stamping",
+   "display_level": 5,
+   "selectable": "T",
+   "sort_sequence": 105
+ },
+ {
+   "industry_code": 31332200,
+   "naics_code": "3322",
+   "publishing_status": "C",
+   "industry_name": "Cutlery and hand tools",
+   "display_level": 5,
+   "selectable": "T",
+   "sort_sequence": 106
+ },
+ {
+   "industry_code": 31332300,
+   "naics_code": "3323",
+   "publishing_status": "AO",
+   "industry_name": "Architectural and structural metals",
+   "display_level": 5,
+   "selectable": "T",
+   "sort_sequence": 107
+ },
+ {
+   "industry_code": 31332310,
+   "naics_code": "33231",
+   "publishing_status": "AO",
+   "industry_name": "Plate work and fabricated structural products",
+   "display_level": 6,
+   "selectable": "T",
+   "sort_sequence": 108
+ },
+ {
+   "industry_code": 31332312,
+   "naics_code": "332312",
+   "publishing_status": "AO",
+   "industry_name": "Fabricated structural metal products",
+   "display_level": 7,
+   "selectable": "T",
+   "sort_sequence": 109
+ },
+ {
+   "industry_code": 31332313,
+   "naics_code": "332311,3",
+   "publishing_status": "C",
+   "industry_name": "Prefabricated metal buildings, components, and plate work",
+   "display_level": 7,
+   "selectable": "T",
+   "sort_sequence": 110
+ },
+ {
+   "industry_code": 31332320,
+   "naics_code": "33232",
+   "publishing_status": "AO",
+   "industry_name": "Ornamental and architectural metal products",
+   "display_level": 6,
+   "selectable": "T",
+   "sort_sequence": 111
+ },
+ {
+   "industry_code": 31332321,
+   "naics_code": "332321",
+   "publishing_status": "C",
+   "industry_name": "Metal windows and doors",
+   "display_level": 7,
+   "selectable": "T",
+   "sort_sequence": 112
+ },
+ {
+   "industry_code": 31332322,
+   "naics_code": "332322",
+   "publishing_status": "AO",
+   "industry_name": "Sheet metal work",
+   "display_level": 7,
+   "selectable": "T",
+   "sort_sequence": 113
+ },
+ {
+   "industry_code": 31332323,
+   "naics_code": "332323",
+   "publishing_status": "C",
+   "industry_name": "Ornamental and architectural metal work",
+   "display_level": 7,
+   "selectable": "T",
+   "sort_sequence": 114
+ },
+ {
+   "industry_code": 31332400,
+   "naics_code": "3324",
+   "publishing_status": "AO",
+   "industry_name": "Boilers, tanks, and shipping containers",
+   "display_level": 5,
+   "selectable": "T",
+   "sort_sequence": 115
+ },
+ {
+   "industry_code": 31332600,
+   "naics_code": "3325,6",
+   "publishing_status": "C",
+   "industry_name": "Hardware, spring, and wire products",
+   "display_level": 5,
+   "selectable": "T",
+   "sort_sequence": 116
+ },
+ {
+   "industry_code": 31332700,
+   "naics_code": "3327",
+   "publishing_status": "AO",
+   "industry_name": "Machine shops and threaded products",
+   "display_level": 5,
+   "selectable": "T",
+   "sort_sequence": 117
+ },
+ {
+   "industry_code": 31332710,
+   "naics_code": "33271",
+   "publishing_status": "AO",
+   "industry_name": "Machine shops",
+   "display_level": 6,
+   "selectable": "T",
+   "sort_sequence": 118
+ },
+ {
+   "industry_code": 31332720,
+   "naics_code": "33272",
+   "publishing_status": "AO",
+   "industry_name": "Turned products and screws, nuts, and bolts",
+   "display_level": 6,
+   "selectable": "T",
+   "sort_sequence": 119
+ },
+ {
+   "industry_code": 31332721,
+   "naics_code": "332721",
+   "publishing_status": "C",
+   "industry_name": "Precision turned products",
+   "display_level": 7,
+   "selectable": "T",
+   "sort_sequence": 120
+ },
+ {
+   "industry_code": 31332722,
+   "naics_code": "332722",
+   "publishing_status": "C",
+   "industry_name": "Bolts, nuts, screws, rivets, and washers",
+   "display_level": 7,
+   "selectable": "T",
+   "sort_sequence": 121
+ },
+ {
+   "industry_code": 31332800,
+   "naics_code": "3328",
+   "publishing_status": "AO",
+   "industry_name": "Coating, engraving, and heat treating metals",
+   "display_level": 5,
+   "selectable": "T",
+   "sort_sequence": 122
+ },
+ {
+   "industry_code": 31332812,
+   "naics_code": "332811,2",
+   "publishing_status": "AO",
+   "industry_name": "Metal heat treating and coating and nonprecious engraving",
+   "display_level": 7,
+   "selectable": "T",
+   "sort_sequence": 123
+ },
+ {
+   "industry_code": 31332813,
+   "naics_code": "332813",
+   "publishing_status": "AO",
+   "industry_name": "Electroplating, anodizing, and coloring metals",
+   "display_level": 7,
+   "selectable": "T",
+   "sort_sequence": 124
+ },
+ {
+   "industry_code": 31332900,
+   "naics_code": "3329",
+   "publishing_status": "AO",
+   "industry_name": "Other fabricated metal products",
+   "display_level": 5,
+   "selectable": "T",
+   "sort_sequence": 125
+ },
+ {
+   "industry_code": 31332910,
+   "naics_code": "33291",
+   "publishing_status": "AO",
+   "industry_name": "Metal valves",
+   "display_level": 6,
+   "selectable": "T",
+   "sort_sequence": 126
+ },
+ {
+   "industry_code": 31332912,
+   "naics_code": "332912",
+   "publishing_status": "C",
+   "industry_name": "Fluid power valves and hose fittings",
+   "display_level": 7,
+   "selectable": "T",
+   "sort_sequence": 127
+ },
+ {
+   "industry_code": 31332919,
+   "naics_code": "332911,3,9",
+   "publishing_status": "C",
+   "industry_name": "All other metal valves",
+   "display_level": 7,
+   "selectable": "T",
+   "sort_sequence": 128
+ },
+ {
+   "industry_code": 31332990,
+   "naics_code": "33299",
+   "publishing_status": "AO",
+   "industry_name": "All other fabricated metal products",
+   "display_level": 6,
+   "selectable": "T",
+   "sort_sequence": 129
+ },
+ {
+   "industry_code": 31332994,
+   "naics_code": "332992,3,4",
+   "publishing_status": "C",
+   "industry_name": "Small arms, ammunition, and other ordnance and accessories",
+   "display_level": 7,
+   "selectable": "T",
+   "sort_sequence": 130
+ },
+ {
+   "industry_code": 31332999,
+   "naics_code": "332991,6,9",
+   "publishing_status": "C",
+   "industry_name": "Miscellaneous fabricated metal products and ball and roller bearings",
+   "display_level": 7,
+   "selectable": "T",
+   "sort_sequence": 131
+ },
+ {
+   "industry_code": 31333000,
+   "naics_code": "333",
+   "publishing_status": "AO",
+   "industry_name": "Machinery",
+   "display_level": 4,
+   "selectable": "T",
+   "sort_sequence": 132
+ },
+ {
+   "industry_code": 31333100,
+   "naics_code": "3331",
+   "publishing_status": "AO",
+   "industry_name": "Agricultural, construction, and mining machinery",
+   "display_level": 5,
+   "selectable": "T",
+   "sort_sequence": 133
+ },
+ {
+   "industry_code": 31333110,
+   "naics_code": "33311",
+   "publishing_status": "C",
+   "industry_name": "Agricultural implements",
+   "display_level": 6,
+   "selectable": "T",
+   "sort_sequence": 134
+ },
+ {
+   "industry_code": 31333120,
+   "naics_code": "33312",
+   "publishing_status": "C",
+   "industry_name": "Construction machinery",
+   "display_level": 6,
+   "selectable": "T",
+   "sort_sequence": 135
+ },
+ {
+   "industry_code": 31333130,
+   "naics_code": "33313",
+   "publishing_status": "C",
+   "industry_name": "Mining and oil and gas field machinery",
+   "display_level": 6,
+   "selectable": "T",
+   "sort_sequence": 136
+ },
+ {
+   "industry_code": 31333200,
+   "naics_code": "3332",
+   "publishing_status": "AO",
+   "industry_name": "Industrial machinery",
+   "display_level": 5,
+   "selectable": "T",
+   "sort_sequence": 137
+ },
+ {
+   "industry_code": 31333300,
+   "naics_code": "3333",
+   "publishing_status": "AT",
+   "industry_name": "Commercial and service industry machinery",
+   "display_level": 5,
+   "selectable": "T",
+   "sort_sequence": 138
+ },
+ {
+   "industry_code": 31333400,
+   "naics_code": "3334",
+   "publishing_status": "AO",
+   "industry_name": "HVAC and commercial refrigeration equipment",
+   "display_level": 5,
+   "selectable": "T",
+   "sort_sequence": 139
+ },
+ {
+   "industry_code": 31333415,
+   "naics_code": "333415",
+   "publishing_status": "C",
+   "industry_name": "AC, refrigeration, and forced air heating",
+   "display_level": 7,
+   "selectable": "T",
+   "sort_sequence": 140
+ },
+ {
+   "industry_code": 31333500,
+   "naics_code": "3335",
+   "publishing_status": "AO",
+   "industry_name": "Metalworking machinery",
+   "display_level": 5,
+   "selectable": "T",
+   "sort_sequence": 141
+ },
+ {
+   "industry_code": 31333511,
+   "naics_code": "333511",
+   "publishing_status": "C",
+   "industry_name": "Industrial molds",
+   "display_level": 7,
+   "selectable": "T",
+   "sort_sequence": 142
+ },
+ {
+   "industry_code": 31333514,
+   "naics_code": "333514",
+   "publishing_status": "AO",
+   "industry_name": "Special tools, dies, jigs, and fixtures",
+   "display_level": 7,
+   "selectable": "T",
+   "sort_sequence": 143
+ },
+ {
+   "industry_code": 31333517,
+   "naics_code": "333517",
+   "publishing_status": "B",
+   "industry_name": "Machine tool manufacturing",
+   "display_level": 7,
+   "selectable": "T",
+   "sort_sequence": 144
+ },
+ {
+   "industry_code": 31333519,
+   "naics_code": "333515,9",
+   "publishing_status": "C",
+   "industry_name": "Miscellaneous metalworking machinery",
+   "display_level": 7,
+   "selectable": "T",
+   "sort_sequence": 145
+ },
+ {
+   "industry_code": 31333600,
+   "naics_code": "3336",
+   "publishing_status": "AO",
+   "industry_name": "Turbine and power transmission equipment",
+   "display_level": 5,
+   "selectable": "T",
+   "sort_sequence": 146
+ },
+ {
+   "industry_code": 31333900,
+   "naics_code": "3339",
+   "publishing_status": "AT",
+   "industry_name": "Other general purpose machinery",
+   "display_level": 5,
+   "selectable": "T",
+   "sort_sequence": 147
+ },
+ {
+   "industry_code": 31333910,
+   "naics_code": "33391",
+   "publishing_status": "B",
+   "industry_name": "Pumps and compressors",
+   "display_level": 6,
+   "selectable": "T",
+   "sort_sequence": 148
+ },
+ {
+   "industry_code": 31333920,
+   "naics_code": "33392",
+   "publishing_status": "ET",
+   "industry_name": "Material handling equipment",
+   "display_level": 6,
+   "selectable": "T",
+   "sort_sequence": 149
+ },
+ {
+   "industry_code": 31333990,
+   "naics_code": "33399",
+   "publishing_status": "B",
+   "industry_name": "All other general purpose machinery",
+   "display_level": 6,
+   "selectable": "T",
+   "sort_sequence": 150
+ },
+ {
+   "industry_code": 31334000,
+   "naics_code": "334",
+   "publishing_status": "AO",
+   "industry_name": "Computer and electronic products",
+   "display_level": 4,
+   "selectable": "T",
+   "sort_sequence": 151
+ },
+ {
+   "industry_code": 31334100,
+   "naics_code": "3341",
+   "publishing_status": "C",
+   "industry_name": "Computer and peripheral equipment",
+   "display_level": 5,
+   "selectable": "T",
+   "sort_sequence": 152
+ },
+ {
+   "industry_code": 31334200,
+   "naics_code": "3342",
+   "publishing_status": "A",
+   "industry_name": "Communications equipment",
+   "display_level": 5,
+   "selectable": "T",
+   "sort_sequence": 153
+ },
+ {
+   "industry_code": 31334220,
+   "naics_code": "33422",
+   "publishing_status": "C",
+   "industry_name": "Broadcast and wireless communications equipment",
+   "display_level": 6,
+   "selectable": "T",
+   "sort_sequence": 154
+ },
+ {
+   "industry_code": 31334400,
+   "naics_code": "3344",
+   "publishing_status": "AO",
+   "industry_name": "Semiconductors and electronic components",
+   "display_level": 5,
+   "selectable": "T",
+   "sort_sequence": 155
+ },
+ {
+   "industry_code": 31334412,
+   "naics_code": "334412",
+   "publishing_status": "C",
+   "industry_name": "Bare printed circuit boards",
+   "display_level": 7,
+   "selectable": "T",
+   "sort_sequence": 156
+ },
+ {
+   "industry_code": 31334413,
+   "naics_code": "334413",
+   "publishing_status": "E",
+   "industry_name": "Semiconductors and related devices",
+   "display_level": 7,
+   "selectable": "T",
+   "sort_sequence": 157
+ },
+ {
+   "industry_code": 31334418,
+   "naics_code": "334418",
+   "publishing_status": "C",
+   "industry_name": "Printed circuit assemblies",
+   "display_level": 7,
+   "selectable": "T",
+   "sort_sequence": 158
+ },
+ {
+   "industry_code": 31334419,
+   "naics_code": "334416,7,9",
+   "publishing_status": "AO",
+   "industry_name": "Electronic connectors and misc. electronic components",
+   "display_level": 7,
+   "selectable": "T",
+   "sort_sequence": 159
+ },
+ {
+   "industry_code": 31334500,
+   "naics_code": "3345",
+   "publishing_status": "AO",
+   "industry_name": "Electronic instruments",
+   "display_level": 5,
+   "selectable": "T",
+   "sort_sequence": 160
+ },
+ {
+   "industry_code": 31334510,
+   "naics_code": "334510",
+   "publishing_status": "C",
+   "industry_name": "Electromedical apparatus",
+   "display_level": 7,
+   "selectable": "T",
+   "sort_sequence": 161
+ },
+ {
+   "industry_code": 31334511,
+   "naics_code": "334511",
+   "publishing_status": "C",
+   "industry_name": "Search, detection, and navigation instruments",
+   "display_level": 7,
+   "selectable": "T",
+   "sort_sequence": 162
+ },
+ {
+   "industry_code": 31334513,
+   "naics_code": "334513",
+   "publishing_status": "E",
+   "industry_name": "Industrial process variable instruments",
+   "display_level": 7,
+   "selectable": "T",
+   "sort_sequence": 163
+ },
+ {
+   "industry_code": 31334515,
+   "naics_code": "334515",
+   "publishing_status": "C",
+   "industry_name": "Electricity and signal testing instruments",
+   "display_level": 7,
+   "selectable": "T",
+   "sort_sequence": 164
+ },
+ {
+   "industry_code": 31334519,
+   "naics_code": "334512,4,6-9",
+   "publishing_status": "C",
+   "industry_name": "Miscellaneous electronic instruments",
+   "display_level": 7,
+   "selectable": "T",
+   "sort_sequence": 165
+ },
+ {
+   "industry_code": 31334600,
+   "naics_code": "3343,6",
+   "publishing_status": "C",
+   "industry_name": "Miscellaneous computer and electronic products",
+   "display_level": 5,
+   "selectable": "T",
+   "sort_sequence": 166
+ },
+ {
+   "industry_code": 31335000,
+   "naics_code": "335",
+   "publishing_status": "AO",
+   "industry_name": "Electrical equipment and appliances",
+   "display_level": 4,
+   "selectable": "T",
+   "sort_sequence": 167
+ },
+ {
+   "industry_code": 31335100,
+   "naics_code": "3351",
+   "publishing_status": "C",
+   "industry_name": "Electric lighting equipment",
+   "display_level": 5,
+   "selectable": "T",
+   "sort_sequence": 168
+ },
+ {
+   "industry_code": 31335200,
+   "naics_code": "3352",
+   "publishing_status": "C",
+   "industry_name": "Household appliances",
+   "display_level": 5,
+   "selectable": "T",
+   "sort_sequence": 169
+ },
+ {
+   "industry_code": 31335300,
+   "naics_code": "3353",
+   "publishing_status": "AO",
+   "industry_name": "Electrical equipment",
+   "display_level": 5,
+   "selectable": "T",
+   "sort_sequence": 170
+ },
+ {
+   "industry_code": 31335311,
+   "naics_code": "335311",
+   "publishing_status": "C",
+   "industry_name": "Electric power and specialty transformers",
+   "display_level": 7,
+   "selectable": "T",
+   "sort_sequence": 171
+ },
+ {
+   "industry_code": 31335314,
+   "naics_code": "335312,3,4",
+   "publishing_status": "C",
+   "industry_name": "Motors and generators, switchgears and switchboard apparatus, and relay and industrial controls",
+   "display_level": 7,
+   "selectable": "T",
+   "sort_sequence": 172
+ },
+ {
+   "industry_code": 31335900,
+   "naics_code": "3359",
+   "publishing_status": "AO",
+   "industry_name": "Other electrical equipment and components",
+   "display_level": 5,
+   "selectable": "T",
+   "sort_sequence": 173
+ },
+ {
+   "industry_code": 31335910,
+   "naics_code": "33591",
+   "publishing_status": "C",
+   "industry_name": "Batteries",
+   "display_level": 6,
+   "selectable": "T",
+   "sort_sequence": 174
+ },
+ {
+   "industry_code": 31335930,
+   "naics_code": "33593",
+   "publishing_status": "C",
+   "industry_name": "Wiring devices",
+   "display_level": 6,
+   "selectable": "T",
+   "sort_sequence": 175
+ },
+ {
+   "industry_code": 31335990,
+   "naics_code": "33592,9",
+   "publishing_status": "C",
+   "industry_name": "All other electrical equipment and components",
+   "display_level": 6,
+   "selectable": "T",
+   "sort_sequence": 176
+ },
+ {
+   "industry_code": 31336000,
+   "naics_code": "336",
+   "publishing_status": "AO",
+   "industry_name": "Transportation equipment",
+   "display_level": 4,
+   "selectable": "T",
+   "sort_sequence": 177
+ },
+ {
+   "industry_code": 31336001,
+   "naics_code": "3361,2,3",
+   "publishing_status": "AO",
+   "industry_name": "Motor vehicles and parts",
+   "display_level": 5,
+   "selectable": "T",
+   "sort_sequence": 178
+ },
+ {
+   "industry_code": 31336100,
+   "naics_code": "3361",
+   "publishing_status": "AO",
+   "industry_name": "Motor vehicles",
+   "display_level": 5,
+   "selectable": "T",
+   "sort_sequence": 179
+ },
+ {
+   "industry_code": 31336111,
+   "naics_code": "336111",
+   "publishing_status": "C",
+   "industry_name": "Automobiles",
+   "display_level": 7,
+   "selectable": "T",
+   "sort_sequence": 180
+ },
+ {
+   "industry_code": 31336200,
+   "naics_code": "3362",
+   "publishing_status": "AO",
+   "industry_name": "Motor vehicle bodies and trailers",
+   "display_level": 5,
+   "selectable": "T",
+   "sort_sequence": 181
+ },
+ {
+   "industry_code": 31336211,
+   "naics_code": "336211",
+   "publishing_status": "ET",
+   "industry_name": "Motor vehicle bodies",
+   "display_level": 7,
+   "selectable": "T",
+   "sort_sequence": 182
+ },
+ {
+   "industry_code": 31336214,
+   "naics_code": "336212,3,4",
+   "publishing_status": "C",
+   "industry_name": "Truck trailers, motor homes, travel trailers, and campers",
+   "display_level": 7,
+   "selectable": "T",
+   "sort_sequence": 183
+ },
+ {
+   "industry_code": 31336300,
+   "naics_code": "3363",
+   "publishing_status": "AO",
+   "industry_name": "Motor vehicle parts",
+   "display_level": 5,
+   "selectable": "T",
+   "sort_sequence": 184
+ },
+ {
+   "industry_code": 31336310,
+   "naics_code": "33631",
+   "publishing_status": "AP",
+   "industry_name": "Motor vehicle gasoline engine and parts",
+   "display_level": 6,
+   "selectable": "T",
+   "sort_sequence": 185
+ },
+ {
+   "industry_code": 31336320,
+   "naics_code": "33632",
+   "publishing_status": "ET",
+   "industry_name": "Motor vehicle electric equipment",
+   "display_level": 6,
+   "selectable": "T",
+   "sort_sequence": 186
+ },
+ {
+   "industry_code": 31336330,
+   "naics_code": "33633",
+   "publishing_status": "C",
+   "industry_name": "Motor vehicle steering and suspension parts",
+   "display_level": 6,
+   "selectable": "T",
+   "sort_sequence": 187
+ },
+ {
+   "industry_code": 31336350,
+   "naics_code": "33635",
+   "publishing_status": "HP",
+   "industry_name": "Motor vehicle power train components",
+   "display_level": 6,
+   "selectable": "T",
+   "sort_sequence": 188
+ },
+ {
+   "industry_code": 31336360,
+   "naics_code": "33636",
+   "publishing_status": "C",
+   "industry_name": "Motor vehicle seating and interior trim",
+   "display_level": 6,
+   "selectable": "T",
+   "sort_sequence": 189
+ },
+ {
+   "industry_code": 31336370,
+   "naics_code": "33637",
+   "publishing_status": "G",
+   "industry_name": "Motor vehicle metal stamping",
+   "display_level": 6,
+   "selectable": "T",
+   "sort_sequence": 190
+ },
+ {
+   "industry_code": 31336390,
+   "naics_code": "33634,9",
+   "publishing_status": "C",
+   "industry_name": "All other motor vehicle parts",
+   "display_level": 6,
+   "selectable": "T",
+   "sort_sequence": 191
+ },
+ {
+   "industry_code": 31336400,
+   "naics_code": "3364",
+   "publishing_status": "AO",
+   "industry_name": "Aerospace products and parts",
+   "display_level": 5,
+   "selectable": "T",
+   "sort_sequence": 192
+ },
+ {
+   "industry_code": 31336411,
+   "naics_code": "336411",
+   "publishing_status": "D",
+   "industry_name": "Aircraft",
+   "display_level": 7,
+   "selectable": "T",
+   "sort_sequence": 193
+ },
+ {
+   "industry_code": 31336412,
+   "naics_code": "336412",
+   "publishing_status": "C",
+   "industry_name": "Aircraft engines and engine parts",
+   "display_level": 7,
+   "selectable": "T",
+   "sort_sequence": 194
+ },
+ {
+   "industry_code": 31336413,
+   "naics_code": "336413",
+   "publishing_status": "C",
+   "industry_name": "Other aircraft parts and equipment",
+   "display_level": 7,
+   "selectable": "T",
+   "sort_sequence": 195
+ },
+ {
+   "industry_code": 31336419,
+   "naics_code": "336414,5,9",
+   "publishing_status": "C",
+   "industry_name": "Guided missiles, space vehicles, and parts",
+   "display_level": 7,
+   "selectable": "T",
+   "sort_sequence": 196
+ },
+ {
+   "industry_code": 31336600,
+   "naics_code": "3366",
+   "publishing_status": "C",
+   "industry_name": "Ship and boat building",
+   "display_level": 5,
+   "selectable": "T",
+   "sort_sequence": 197
+ },
+ {
+   "industry_code": 31336611,
+   "naics_code": "336611",
+   "publishing_status": "C",
+   "industry_name": "Ship building and repairing",
+   "display_level": 7,
+   "selectable": "T",
+   "sort_sequence": 198
+ },
+ {
+   "industry_code": 31336612,
+   "naics_code": "336612",
+   "publishing_status": "C",
+   "industry_name": "Boat building",
+   "display_level": 7,
+   "selectable": "T",
+   "sort_sequence": 199
+ },
+ {
+   "industry_code": 31336900,
+   "naics_code": "3365,9",
+   "publishing_status": "C",
+   "industry_name": "Railroad rolling stock and other transportation equipment",
+   "display_level": 5,
+   "selectable": "T",
+   "sort_sequence": 200
+ },
+ {
+   "industry_code": 31337000,
+   "naics_code": "337",
+   "publishing_status": "AO",
+   "industry_name": "Furniture and related products",
+   "display_level": 4,
+   "selectable": "T",
+   "sort_sequence": 201
+ },
+ {
+   "industry_code": 31337100,
+   "naics_code": "3371",
+   "publishing_status": "AO",
+   "industry_name": "Household and institutional furniture",
+   "display_level": 5,
+   "selectable": "T",
+   "sort_sequence": 202
+ },
+ {
+   "industry_code": 31337110,
+   "naics_code": "33711",
+   "publishing_status": "AO",
+   "industry_name": "Wood kitchen cabinets and countertops",
+   "display_level": 6,
+   "selectable": "T",
+   "sort_sequence": 203
+ },
+ {
+   "industry_code": 31337120,
+   "naics_code": "33712",
+   "publishing_status": "AO",
+   "industry_name": "Other household and institutional furniture",
+   "display_level": 6,
+   "selectable": "T",
+   "sort_sequence": 204
+ },
+ {
+   "industry_code": 31337121,
+   "naics_code": "337121",
+   "publishing_status": "AT",
+   "industry_name": "Upholstered household furniture",
+   "display_level": 7,
+   "selectable": "T",
+   "sort_sequence": 205
+ },
+ {
+   "industry_code": 31337122,
+   "naics_code": "337122",
+   "publishing_status": "C",
+   "industry_name": "Nonupholstered wood household furniture",
+   "display_level": 7,
+   "selectable": "T",
+   "sort_sequence": 206
+ },
+ {
+   "industry_code": 31337127,
+   "naics_code": "337124,5,7",
+   "publishing_status": "C",
+   "industry_name": "Miscellaneous household and institutional furniture",
+   "display_level": 7,
+   "selectable": "T",
+   "sort_sequence": 207
+ },
+ {
+   "industry_code": 31337200,
+   "naics_code": "3372",
+   "publishing_status": "C",
+   "industry_name": "Office furniture and fixtures",
+   "display_level": 5,
+   "selectable": "T",
+   "sort_sequence": 208
+ },
+ {
+   "industry_code": 31337214,
+   "naics_code": "337211,2,4",
+   "publishing_status": "C",
+   "industry_name": "Office furniture and custom architectural woodwork and millwork",
+   "display_level": 7,
+   "selectable": "T",
+   "sort_sequence": 209
+ },
+ {
+   "industry_code": 31337215,
+   "naics_code": "337215",
+   "publishing_status": "C",
+   "industry_name": "Showcases, partitions, shelving, and lockers",
+   "display_level": 7,
+   "selectable": "T",
+   "sort_sequence": 210
+ },
+ {
+   "industry_code": 31337900,
+   "naics_code": "3379",
+   "publishing_status": "C",
+   "industry_name": "Other furniture-related products",
+   "display_level": 5,
+   "selectable": "T",
+   "sort_sequence": 211
+ },
+ {
+   "industry_code": 31339000,
+   "naics_code": "339",
+   "publishing_status": "AO",
+   "industry_name": "Miscellaneous durable goods manufacturing",
+   "display_level": 4,
+   "selectable": "T",
+   "sort_sequence": 212
+ },
+ {
+   "industry_code": 31339100,
+   "naics_code": "3391",
+   "publishing_status": "AO",
+   "industry_name": "Medical equipment and supplies",
+   "display_level": 5,
+   "selectable": "T",
+   "sort_sequence": 213
+ },
+ {
+   "industry_code": 31339112,
+   "naics_code": "339112",
+   "publishing_status": "C",
+   "industry_name": "Surgical and medical instruments",
+   "display_level": 7,
+   "selectable": "T",
+   "sort_sequence": 214
+ },
+ {
+   "industry_code": 31339113,
+   "naics_code": "339113",
+   "publishing_status": "AT",
+   "industry_name": "Surgical appliances and supplies",
+   "display_level": 7,
+   "selectable": "T",
+   "sort_sequence": 215
+ },
+ {
+   "industry_code": 31339116,
+   "naics_code": "339116",
+   "publishing_status": "A",
+   "industry_name": "Dental laboratories",
+   "display_level": 7,
+   "selectable": "T",
+   "sort_sequence": 216
+ },
+ {
+   "industry_code": 31339900,
+   "naics_code": "3399",
+   "publishing_status": "AO",
+   "industry_name": "Other miscellaneous durable goods manufacturing",
+   "display_level": 5,
+   "selectable": "T",
+   "sort_sequence": 217
+ },
+ {
+   "industry_code": 31339910,
+   "naics_code": "33991",
+   "publishing_status": "C",
+   "industry_name": "Jewelry and silverware",
+   "display_level": 6,
+   "selectable": "T",
+   "sort_sequence": 218
+ },
+ {
+   "industry_code": 31339920,
+   "naics_code": "33992",
+   "publishing_status": "C",
+   "industry_name": "Sporting and athletic goods",
+   "display_level": 6,
+   "selectable": "T",
+   "sort_sequence": 219
+ },
+ {
+   "industry_code": 31339950,
+   "naics_code": "33995",
+   "publishing_status": "AO",
+   "industry_name": "Signs",
+   "display_level": 6,
+   "selectable": "T",
+   "sort_sequence": 220
+ },
+ {
+   "industry_code": 31339990,
+   "naics_code": "33993,4,9",
+   "publishing_status": "AO",
+   "industry_name": "All other miscellaneous durable goods manufacturing",
+   "display_level": 6,
+   "selectable": "T",
+   "sort_sequence": 221
+ },
+ {
+   "industry_code": 32000000,
+   "naics_code": "-",
+   "publishing_status": "AO",
+   "industry_name": "Nondurable goods",
+   "display_level": 3,
+   "selectable": "T",
+   "sort_sequence": 222
+ },
+ {
+   "industry_code": 32311000,
+   "naics_code": "311",
+   "publishing_status": "AO",
+   "industry_name": "Food manufacturing",
+   "display_level": 4,
+   "selectable": "T",
+   "sort_sequence": 223
+ },
+ {
+   "industry_code": 32311100,
+   "naics_code": "3111",
+   "publishing_status": "C",
+   "industry_name": "Animal food",
+   "display_level": 5,
+   "selectable": "T",
+   "sort_sequence": 224
+ },
+ {
+   "industry_code": 32311200,
+   "naics_code": "3112",
+   "publishing_status": "C",
+   "industry_name": "Grain and oilseed milling",
+   "display_level": 5,
+   "selectable": "T",
+   "sort_sequence": 225
+ },
+ {
+   "industry_code": 32311220,
+   "naics_code": "31121,2",
+   "publishing_status": "C",
+   "industry_name": "Flour milling, malt, starch, and vegetable oil",
+   "display_level": 6,
+   "selectable": "T",
+   "sort_sequence": 226
+ },
+ {
+   "industry_code": 32311230,
+   "naics_code": "31123",
+   "publishing_status": "C",
+   "industry_name": "Breakfast cereal",
+   "display_level": 6,
+   "selectable": "T",
+   "sort_sequence": 227
+ },
+ {
+   "industry_code": 32311300,
+   "naics_code": "3113",
+   "publishing_status": "AT",
+   "industry_name": "Sugar and confectionery products",
+   "display_level": 5,
+   "selectable": "T",
+   "sort_sequence": 228
+ },
+ {
+   "industry_code": 32311350,
+   "naics_code": "31135",
+   "publishing_status": "C",
+   "industry_name": "Chocolate and confectionery manufacturing",
+   "display_level": 6,
+   "selectable": "T",
+   "sort_sequence": 229
+ },
+ {
+   "industry_code": 32311400,
+   "naics_code": "3114",
+   "publishing_status": "AO",
+   "industry_name": "Fruit and vegetable preserving and specialty",
+   "display_level": 5,
+   "selectable": "T",
+   "sort_sequence": 230
+ },
+ {
+   "industry_code": 32311410,
+   "naics_code": "31141",
+   "publishing_status": "ET",
+   "industry_name": "Frozen food",
+   "display_level": 6,
+   "selectable": "T",
+   "sort_sequence": 231
+ },
+ {
+   "industry_code": 32311411,
+   "naics_code": "311411",
+   "publishing_status": "C",
+   "industry_name": "Frozen fruits and vegetables",
+   "display_level": 7,
+   "selectable": "T",
+   "sort_sequence": 232
+ },
+ {
+   "industry_code": 32311412,
+   "naics_code": "311412",
+   "publishing_status": "C",
+   "industry_name": "Frozen specialty food",
+   "display_level": 7,
+   "selectable": "T",
+   "sort_sequence": 233
+ },
+ {
+   "industry_code": 32311420,
+   "naics_code": "31142",
+   "publishing_status": "ET",
+   "industry_name": "Fruit and vegetable canning and drying",
+   "display_level": 6,
+   "selectable": "T",
+   "sort_sequence": 234
+ },
+ {
+   "industry_code": 32311500,
+   "naics_code": "3115",
+   "publishing_status": "AO",
+   "industry_name": "Dairy products",
+   "display_level": 5,
+   "selectable": "T",
+   "sort_sequence": 235
+ },
+ {
+   "industry_code": 32311511,
+   "naics_code": "311511",
+   "publishing_status": "C",
+   "industry_name": "Fluid milk",
+   "display_level": 7,
+   "selectable": "T",
+   "sort_sequence": 236
+ },
+ {
+   "industry_code": 32311600,
+   "naics_code": "3116",
+   "publishing_status": "AO",
+   "industry_name": "Animal slaughtering and processing",
+   "display_level": 5,
+   "selectable": "T",
+   "sort_sequence": 237
+ },
+ {
+   "industry_code": 32311611,
+   "naics_code": "311611",
+   "publishing_status": "B",
+   "industry_name": "Animal, except poultry, slaughtering",
+   "display_level": 7,
+   "selectable": "T",
+   "sort_sequence": 238
+ },
+ {
+   "industry_code": 32311613,
+   "naics_code": "311612,3",
+   "publishing_status": "B",
+   "industry_name": "Meat processed from carcasses, and rendering and meat byproduct processing",
+   "display_level": 7,
+   "selectable": "T",
+   "sort_sequence": 239
+ },
+ {
+   "industry_code": 32311615,
+   "naics_code": "311615",
+   "publishing_status": "AO",
+   "industry_name": "Poultry processing",
+   "display_level": 7,
+   "selectable": "T",
+   "sort_sequence": 240
+ },
+ {
+   "industry_code": 32311700,
+   "naics_code": "3117",
+   "publishing_status": "ET",
+   "industry_name": "Seafood product preparation and packaging",
+   "display_level": 5,
+   "selectable": "T",
+   "sort_sequence": 241
+ },
+ {
+   "industry_code": 32311800,
+   "naics_code": "3118",
+   "publishing_status": "AO",
+   "industry_name": "Bakeries and tortilla manufacturing",
+   "display_level": 5,
+   "selectable": "T",
+   "sort_sequence": 242
+ },
+ {
+   "industry_code": 32311810,
+   "naics_code": "31181",
+   "publishing_status": "E",
+   "industry_name": "Bread and bakery products",
+   "display_level": 6,
+   "selectable": "T",
+   "sort_sequence": 243
+ },
+ {
+   "industry_code": 32311811,
+   "naics_code": "311811",
+   "publishing_status": "E",
+   "industry_name": "Retail bakeries",
+   "display_level": 7,
+   "selectable": "T",
+   "sort_sequence": 244
+ },
+ {
+   "industry_code": 32311813,
+   "naics_code": "311812,3",
+   "publishing_status": "E",
+   "industry_name": "Commercial bakeries and frozen cakes and other pastry products",
+   "display_level": 7,
+   "selectable": "T",
+   "sort_sequence": 245
+ },
+ {
+   "industry_code": 32311830,
+   "naics_code": "31182,3",
+   "publishing_status": "E",
+   "industry_name": "Cookies, crackers, pasta, and tortillas",
+   "display_level": 6,
+   "selectable": "T",
+   "sort_sequence": 246
+ },
+ {
+   "industry_code": 32311900,
+   "naics_code": "3119",
+   "publishing_status": "ET",
+   "industry_name": "Other food products",
+   "display_level": 5,
+   "selectable": "T",
+   "sort_sequence": 247
+ },
+ {
+   "industry_code": 32311910,
+   "naics_code": "31191",
+   "publishing_status": "C",
+   "industry_name": "Snack food",
+   "display_level": 6,
+   "selectable": "T",
+   "sort_sequence": 248
+ },
+ {
+   "industry_code": 32311990,
+   "naics_code": "31192,3,4,9",
+   "publishing_status": "C",
+   "industry_name": "Miscellaneous food products",
+   "display_level": 6,
+   "selectable": "T",
+   "sort_sequence": 249
+ },
+ {
+   "industry_code": 32313000,
+   "naics_code": "313",
+   "publishing_status": "AO",
+   "industry_name": "Textile mills",
+   "display_level": 4,
+   "selectable": "T",
+   "sort_sequence": 250
+ },
+ {
+   "industry_code": 32313200,
+   "naics_code": "3132",
+   "publishing_status": "B",
+   "industry_name": "Fabric mills",
+   "display_level": 5,
+   "selectable": "T",
+   "sort_sequence": 251
+ },
+ {
+   "industry_code": 32314000,
+   "naics_code": "314",
+   "publishing_status": "AO",
+   "industry_name": "Textile product mills",
+   "display_level": 4,
+   "selectable": "T",
+   "sort_sequence": 252
+ },
+ {
+   "industry_code": 32314100,
+   "naics_code": "3141",
+   "publishing_status": "B",
+   "industry_name": "Textile furnishings mills",
+   "display_level": 5,
+   "selectable": "T",
+   "sort_sequence": 253
+ },
+ {
+   "industry_code": 32314900,
+   "naics_code": "3149",
+   "publishing_status": "B",
+   "industry_name": "Other textile product mills",
+   "display_level": 5,
+   "selectable": "T",
+   "sort_sequence": 254
+ },
+ {
+   "industry_code": 32314910,
+   "naics_code": "31491",
+   "publishing_status": "C",
+   "industry_name": "Textile bag and canvas mills",
+   "display_level": 6,
+   "selectable": "T",
+   "sort_sequence": 255
+ },
+ {
+   "industry_code": 32314990,
+   "naics_code": "31499",
+   "publishing_status": "C",
+   "industry_name": "All other textile product mills",
+   "display_level": 6,
+   "selectable": "T",
+   "sort_sequence": 256
+ },
+ {
+   "industry_code": 32315000,
+   "naics_code": "315",
+   "publishing_status": "AO",
+   "industry_name": "Apparel",
+   "display_level": 4,
+   "selectable": "T",
+   "sort_sequence": 257
+ },
+ {
+   "industry_code": 32315200,
+   "naics_code": "3152",
+   "publishing_status": "C",
+   "industry_name": "Cut and sew apparel",
+   "display_level": 5,
+   "selectable": "T",
+   "sort_sequence": 258
+ },
+ {
+   "industry_code": 32315210,
+   "naics_code": "31521",
+   "publishing_status": "C",
+   "industry_name": "Cut and sew apparel contractors",
+   "display_level": 6,
+   "selectable": "T",
+   "sort_sequence": 259
+ },
+ {
+   "industry_code": 32315280,
+   "naics_code": "31522,4,8",
+   "publishing_status": "C",
+   "industry_name": "Cut and sew apparel, except contractors",
+   "display_level": 6,
+   "selectable": "T",
+   "sort_sequence": 260
+ },
+ {
+   "industry_code": 32315900,
+   "naics_code": "3151,9",
+   "publishing_status": "C",
+   "industry_name": "All other apparel manufacturing",
+   "display_level": 5,
+   "selectable": "T",
+   "sort_sequence": 261
+ },
+ {
+   "industry_code": 32322000,
+   "naics_code": "322",
+   "publishing_status": "AO",
+   "industry_name": "Paper and paper products",
+   "display_level": 4,
+   "selectable": "T",
+   "sort_sequence": 262
+ },
+ {
+   "industry_code": 32322100,
+   "naics_code": "3221",
+   "publishing_status": "E",
+   "industry_name": "Pulp, paper, and paperboard mills",
+   "display_level": 5,
+   "selectable": "T",
+   "sort_sequence": 263
+ },
+ {
+   "industry_code": 32322120,
+   "naics_code": "32211,2",
+   "publishing_status": "C",
+   "industry_name": "Pulp mills and paper mills",
+   "display_level": 6,
+   "selectable": "T",
+   "sort_sequence": 264
+ },
+ {
+   "industry_code": 32322130,
+   "naics_code": "32213",
+   "publishing_status": "C",
+   "industry_name": "Paperboard mills",
+   "display_level": 6,
+   "selectable": "T",
+   "sort_sequence": 265
+ },
+ {
+   "industry_code": 32322200,
+   "naics_code": "3222",
+   "publishing_status": "E",
+   "industry_name": "Converted paper products",
+   "display_level": 5,
+   "selectable": "T",
+   "sort_sequence": 266
+ },
+ {
+   "industry_code": 32322210,
+   "naics_code": "32221",
+   "publishing_status": "AO",
+   "industry_name": "Paperboard containers",
+   "display_level": 6,
+   "selectable": "T",
+   "sort_sequence": 267
+ },
+ {
+   "industry_code": 32322211,
+   "naics_code": "322211",
+   "publishing_status": "AO",
+   "industry_name": "Corrugated and solid fiber boxes",
+   "display_level": 7,
+   "selectable": "T",
+   "sort_sequence": 268
+ },
+ {
+   "industry_code": 32322219,
+   "naics_code": "322212,9",
+   "publishing_status": "C",
+   "industry_name": "Folding boxes and miscellaneous paperboard containers",
+   "display_level": 7,
+   "selectable": "T",
+   "sort_sequence": 269
+ },
+ {
+   "industry_code": 32322220,
+   "naics_code": "32222",
+   "publishing_status": "C",
+   "industry_name": "Paper bags and coated and treated paper",
+   "display_level": 6,
+   "selectable": "T",
+   "sort_sequence": 270
+ },
+ {
+   "industry_code": 32322290,
+   "naics_code": "32223,9",
+   "publishing_status": "C",
+   "industry_name": "Stationery and other converted paper products",
+   "display_level": 6,
+   "selectable": "T",
+   "sort_sequence": 271
+ },
+ {
+   "industry_code": 32323000,
+   "naics_code": "323",
+   "publishing_status": "AO",
+   "industry_name": "Printing and related support activities",
+   "display_level": 4,
+   "selectable": "T",
+   "sort_sequence": 272
+ },
+ {
+   "industry_code": 32323117,
+   "naics_code": "323111,7",
+   "publishing_status": "C",
+   "industry_name": "Commercial printing, except screen",
+   "display_level": 7,
+   "selectable": "T",
+   "sort_sequence": 273
+ },
+ {
+   "industry_code": 32324000,
+   "naics_code": "324",
+   "publishing_status": "AO",
+   "industry_name": "Petroleum and coal products",
+   "display_level": 4,
+   "selectable": "T",
+   "sort_sequence": 274
+ },
+ {
+   "industry_code": 32324110,
+   "naics_code": "32411",
+   "publishing_status": "B",
+   "industry_name": "Petroleum refineries",
+   "display_level": 6,
+   "selectable": "T",
+   "sort_sequence": 275
+ },
+ {
+   "industry_code": 32324190,
+   "naics_code": "32412,9",
+   "publishing_status": "B",
+   "industry_name": "Asphalt paving and roofing materials and other petroleum and coal products",
+   "display_level": 6,
+   "selectable": "T",
+   "sort_sequence": 276
+ },
+ {
+   "industry_code": 32325000,
+   "naics_code": "325",
+   "publishing_status": "AO",
+   "industry_name": "Chemicals",
+   "display_level": 4,
+   "selectable": "T",
+   "sort_sequence": 277
+ },
+ {
+   "industry_code": 32325100,
+   "naics_code": "3251",
+   "publishing_status": "AO",
+   "industry_name": "Basic chemicals",
+   "display_level": 5,
+   "selectable": "T",
+   "sort_sequence": 278
+ },
+ {
+   "industry_code": 32325130,
+   "naics_code": "32511,2,3",
+   "publishing_status": "C",
+   "industry_name": "Petrochemicals, industrial gases, synthetic dyes, and pigments",
+   "display_level": 6,
+   "selectable": "T",
+   "sort_sequence": 279
+ },
+ {
+   "industry_code": 32325180,
+   "naics_code": "32518",
+   "publishing_status": "C",
+   "industry_name": "Other basic inorganic chemicals",
+   "display_level": 6,
+   "selectable": "T",
+   "sort_sequence": 280
+ },
+ {
+   "industry_code": 32325190,
+   "naics_code": "32519",
+   "publishing_status": "C",
+   "industry_name": "Other basic organic chemicals",
+   "display_level": 6,
+   "selectable": "T",
+   "sort_sequence": 281
+ },
+ {
+   "industry_code": 32325200,
+   "naics_code": "3252",
+   "publishing_status": "E",
+   "industry_name": "Resin, rubber, and artificial fibers",
+   "display_level": 5,
+   "selectable": "T",
+   "sort_sequence": 282
+ },
+ {
+   "industry_code": 32325211,
+   "naics_code": "325211",
+   "publishing_status": "C",
+   "industry_name": "Plastics material and resin",
+   "display_level": 7,
+   "selectable": "T",
+   "sort_sequence": 283
+ },
+ {
+   "industry_code": 32325300,
+   "naics_code": "3253",
+   "publishing_status": "C",
+   "industry_name": "Agricultural chemicals",
+   "display_level": 5,
+   "selectable": "T",
+   "sort_sequence": 284
+ },
+ {
+   "industry_code": 32325400,
+   "naics_code": "3254",
+   "publishing_status": "AO",
+   "industry_name": "Pharmaceuticals and medicines",
+   "display_level": 5,
+   "selectable": "T",
+   "sort_sequence": 285
+ },
+ {
+   "industry_code": 32325412,
+   "naics_code": "325412",
+   "publishing_status": "C",
+   "industry_name": "Pharmaceutical preparations",
+   "display_level": 7,
+   "selectable": "T",
+   "sort_sequence": 286
+ },
+ {
+   "industry_code": 32325414,
+   "naics_code": "325411,3,4",
+   "publishing_status": "C",
+   "industry_name": "Miscellaneous medicinal and biological products",
+   "display_level": 7,
+   "selectable": "T",
+   "sort_sequence": 287
+ },
+ {
+   "industry_code": 32325500,
+   "naics_code": "3255",
+   "publishing_status": "C",
+   "industry_name": "Paints, coatings, and adhesives",
+   "display_level": 5,
+   "selectable": "T",
+   "sort_sequence": 288
+ },
+ {
+   "industry_code": 32325600,
+   "naics_code": "3256",
+   "publishing_status": "AO",
+   "industry_name": "Soaps, cleaning compounds, and toiletries",
+   "display_level": 5,
+   "selectable": "T",
+   "sort_sequence": 289
+ },
+ {
+   "industry_code": 32325610,
+   "naics_code": "32561",
+   "publishing_status": "C",
+   "industry_name": "Soaps and cleaning compounds",
+   "display_level": 6,
+   "selectable": "T",
+   "sort_sequence": 290
+ },
+ {
+   "industry_code": 32325620,
+   "naics_code": "32562",
+   "publishing_status": "C",
+   "industry_name": "Toilet preparations",
+   "display_level": 6,
+   "selectable": "T",
+   "sort_sequence": 291
+ },
+ {
+   "industry_code": 32325900,
+   "naics_code": "3259",
+   "publishing_status": "ET",
+   "industry_name": "Other chemical products and preparations",
+   "display_level": 5,
+   "selectable": "T",
+   "sort_sequence": 292
+ },
+ {
+   "industry_code": 32326000,
+   "naics_code": "326",
+   "publishing_status": "AO",
+   "industry_name": "Plastics and rubber products",
+   "display_level": 4,
+   "selectable": "T",
+   "sort_sequence": 293
+ },
+ {
+   "industry_code": 32326100,
+   "naics_code": "3261",
+   "publishing_status": "AO",
+   "industry_name": "Plastics products",
+   "display_level": 5,
+   "selectable": "T",
+   "sort_sequence": 294
+ },
+ {
+   "industry_code": 32326110,
+   "naics_code": "32611",
+   "publishing_status": "AO",
+   "industry_name": "Plastics packaging materials, film, and sheet",
+   "display_level": 6,
+   "selectable": "T",
+   "sort_sequence": 295
+ },
+ {
+   "industry_code": 32326113,
+   "naics_code": "326113",
+   "publishing_status": "C",
+   "industry_name": "Nonpackaging plastics film and sheet",
+   "display_level": 7,
+   "selectable": "T",
+   "sort_sequence": 296
+ },
+ {
+   "industry_code": 32326120,
+   "naics_code": "32612",
+   "publishing_status": "C",
+   "industry_name": "Plastics pipe, fittings, and profile shapes",
+   "display_level": 6,
+   "selectable": "T",
+   "sort_sequence": 297
+ },
+ {
+   "industry_code": 32326150,
+   "naics_code": "32614,5",
+   "publishing_status": "AO",
+   "industry_name": "Foam products",
+   "display_level": 6,
+   "selectable": "T",
+   "sort_sequence": 298
+ },
+ {
+   "industry_code": 32326160,
+   "naics_code": "32613,6",
+   "publishing_status": "C",
+   "industry_name": "Plastics bottles and laminated plastics plate, sheet, and shapes",
+   "display_level": 6,
+   "selectable": "T",
+   "sort_sequence": 299
+ },
+ {
+   "industry_code": 32326190,
+   "naics_code": "32619",
+   "publishing_status": "AO",
+   "industry_name": "Other plastics products",
+   "display_level": 6,
+   "selectable": "T",
+   "sort_sequence": 300
+ },
+ {
+   "industry_code": 32326200,
+   "naics_code": "3262",
+   "publishing_status": "AO",
+   "industry_name": "Rubber products",
+   "display_level": 5,
+   "selectable": "T",
+   "sort_sequence": 301
+ },
+ {
+   "industry_code": 32326210,
+   "naics_code": "32621",
+   "publishing_status": "C",
+   "industry_name": "Tires",
+   "display_level": 6,
+   "selectable": "T",
+   "sort_sequence": 302
+ },
+ {
+   "industry_code": 32326290,
+   "naics_code": "32622,9",
+   "publishing_status": "C",
+   "industry_name": "All other rubber products",
+   "display_level": 6,
+   "selectable": "T",
+   "sort_sequence": 303
+ },
+ {
+   "industry_code": 32329000,
+   "naics_code": "312,6",
+   "publishing_status": "AO",
+   "industry_name": "Miscellaneous nondurable goods manufacturing",
+   "display_level": 4,
+   "selectable": "T",
+   "sort_sequence": 304
+ },
+ {
+   "industry_code": 32329100,
+   "naics_code": "3121",
+   "publishing_status": "C",
+   "industry_name": "Beverages",
+   "display_level": 5,
+   "selectable": "T",
+   "sort_sequence": 305
+ },
+ {
+   "industry_code": 32329110,
+   "naics_code": "31211",
+   "publishing_status": "C",
+   "industry_name": "Soft drinks and ice",
+   "display_level": 6,
+   "selectable": "T",
+   "sort_sequence": 306
+ },
+ {
+   "industry_code": 32329111,
+   "naics_code": "312111",
+   "publishing_status": "C",
+   "industry_name": "Soft drinks",
+   "display_level": 7,
+   "selectable": "T",
+   "sort_sequence": 307
+ },
+ {
+   "industry_code": 32329140,
+   "naics_code": "31212,3,4",
+   "publishing_status": "C",
+   "industry_name": "Breweries, wineries, and distilleries",
+   "display_level": 6,
+   "selectable": "T",
+   "sort_sequence": 308
+ },
+ {
+   "industry_code": 32329900,
+   "naics_code": "3122,60",
+   "publishing_status": "C",
+   "industry_name": "Other miscellaneous nondurable goods manufacturing",
+   "display_level": 5,
+   "selectable": "T",
+   "sort_sequence": 309
+ },
+ {
+   "industry_code": 40000000,
+   "naics_code": "-",
+   "publishing_status": "A",
+   "industry_name": "Trade, transportation, and utilities",
+   "display_level": 2,
+   "selectable": "T",
+   "sort_sequence": 310
+ },
+ {
+   "industry_code": 41420000,
+   "naics_code": "42",
+   "publishing_status": "A",
+   "industry_name": "Wholesale trade",
+   "display_level": 3,
+   "selectable": "T",
+   "sort_sequence": 311
+ },
+ {
+   "industry_code": 41423000,
+   "naics_code": "423",
+   "publishing_status": "A",
+   "industry_name": "Durable goods",
+   "display_level": 4,
+   "selectable": "T",
+   "sort_sequence": 312
+ },
+ {
+   "industry_code": 41423100,
+   "naics_code": "4231",
+   "publishing_status": "A",
+   "industry_name": "Motor vehicles and parts",
+   "display_level": 5,
+   "selectable": "T",
+   "sort_sequence": 313
+ },
+ {
+   "industry_code": 41423110,
+   "naics_code": "42311",
+   "publishing_status": "A",
+   "industry_name": "Motor vehicles",
+   "display_level": 6,
+   "selectable": "T",
+   "sort_sequence": 314
+ },
+ {
+   "industry_code": 41423120,
+   "naics_code": "42312",
+   "publishing_status": "A",
+   "industry_name": "New motor vehicle parts",
+   "display_level": 6,
+   "selectable": "T",
+   "sort_sequence": 315
+ },
+ {
+   "industry_code": 41423200,
+   "naics_code": "4232",
+   "publishing_status": "A",
+   "industry_name": "Furniture and furnishings",
+   "display_level": 5,
+   "selectable": "T",
+   "sort_sequence": 316
+ },
+ {
+   "industry_code": 41423210,
+   "naics_code": "42321",
+   "publishing_status": "C",
+   "industry_name": "Furniture",
+   "display_level": 6,
+   "selectable": "T",
+   "sort_sequence": 317
+ },
+ {
+   "industry_code": 41423220,
+   "naics_code": "42322",
+   "publishing_status": "C",
+   "industry_name": "Home furnishings",
+   "display_level": 6,
+   "selectable": "T",
+   "sort_sequence": 318
+ },
+ {
+   "industry_code": 41423300,
+   "naics_code": "4233",
+   "publishing_status": "A",
+   "industry_name": "Lumber and construction supplies",
+   "display_level": 5,
+   "selectable": "T",
+   "sort_sequence": 319
+ },
+ {
+   "industry_code": 41423310,
+   "naics_code": "42331",
+   "publishing_status": "A",
+   "industry_name": "Lumber and wood",
+   "display_level": 6,
+   "selectable": "T",
+   "sort_sequence": 320
+ },
+ {
+   "industry_code": 41423320,
+   "naics_code": "42332",
+   "publishing_status": "E",
+   "industry_name": "Masonry materials",
+   "display_level": 6,
+   "selectable": "T",
+   "sort_sequence": 321
+ },
+ {
+   "industry_code": 41423390,
+   "naics_code": "42333,9",
+   "publishing_status": "E",
+   "industry_name": "Roofing, siding, and other construction materials",
+   "display_level": 6,
+   "selectable": "T",
+   "sort_sequence": 322
+ },
+ {
+   "industry_code": 41423400,
+   "naics_code": "4234",
+   "publishing_status": "A",
+   "industry_name": "Commercial equipment",
+   "display_level": 5,
+   "selectable": "T",
+   "sort_sequence": 323
+ },
+ {
+   "industry_code": 41423420,
+   "naics_code": "42342",
+   "publishing_status": "A",
+   "industry_name": "Office equipment",
+   "display_level": 6,
+   "selectable": "T",
+   "sort_sequence": 324
+ },
+ {
+   "industry_code": 41423430,
+   "naics_code": "42343",
+   "publishing_status": "A",
+   "industry_name": "Computer and software",
+   "display_level": 6,
+   "selectable": "T",
+   "sort_sequence": 325
+ },
+ {
+   "industry_code": 41423450,
+   "naics_code": "42345",
+   "publishing_status": "A",
+   "industry_name": "Medical equipment",
+   "display_level": 6,
+   "selectable": "T",
+   "sort_sequence": 326
+ },
+ {
+   "industry_code": 41423490,
+   "naics_code": "42341,4,6,9",
+   "publishing_status": "A",
+   "industry_name": "Miscellaneous professional and commercial equipment",
+   "display_level": 6,
+   "selectable": "T",
+   "sort_sequence": 327
+ },
+ {
+   "industry_code": 41423500,
+   "naics_code": "4235",
+   "publishing_status": "A",
+   "industry_name": "Metals and minerals",
+   "display_level": 5,
+   "selectable": "T",
+   "sort_sequence": 328
+ },
+ {
+   "industry_code": 41423600,
+   "naics_code": "4236",
+   "publishing_status": "A",
+   "industry_name": "Electric goods",
+   "display_level": 5,
+   "selectable": "T",
+   "sort_sequence": 329
+ },
+ {
+   "industry_code": 41423610,
+   "naics_code": "42361",
+   "publishing_status": "A",
+   "industry_name": "Electrical equipment and wiring",
+   "display_level": 6,
+   "selectable": "T",
+   "sort_sequence": 330
+ },
+ {
+   "industry_code": 41423690,
+   "naics_code": "42362,9",
+   "publishing_status": "A",
+   "industry_name": "Electric appliances and other electronic parts",
+   "display_level": 6,
+   "selectable": "T",
+   "sort_sequence": 331
+ },
+ {
+   "industry_code": 41423700,
+   "naics_code": "4237",
+   "publishing_status": "A",
+   "industry_name": "Hardware and plumbing",
+   "display_level": 5,
+   "selectable": "T",
+   "sort_sequence": 332
+ },
+ {
+   "industry_code": 41423710,
+   "naics_code": "42371",
+   "publishing_status": "A",
+   "industry_name": "Hardware",
+   "display_level": 6,
+   "selectable": "T",
+   "sort_sequence": 333
+ },
+ {
+   "industry_code": 41423720,
+   "naics_code": "42372",
+   "publishing_status": "A",
+   "industry_name": "Plumbing equipment",
+   "display_level": 6,
+   "selectable": "T",
+   "sort_sequence": 334
+ },
+ {
+   "industry_code": 41423740,
+   "naics_code": "42373,4",
+   "publishing_status": "A",
+   "industry_name": "HVAC and refrigeration equipment",
+   "display_level": 6,
+   "selectable": "T",
+   "sort_sequence": 335
+ },
+ {
+   "industry_code": 41423800,
+   "naics_code": "4238",
+   "publishing_status": "A",
+   "industry_name": "Machinery and supplies",
+   "display_level": 5,
+   "selectable": "T",
+   "sort_sequence": 336
+ },
+ {
+   "industry_code": 41423810,
+   "naics_code": "42381",
+   "publishing_status": "A",
+   "industry_name": "Construction equipment",
+   "display_level": 6,
+   "selectable": "T",
+   "sort_sequence": 337
+ },
+ {
+   "industry_code": 41423820,
+   "naics_code": "42382",
+   "publishing_status": "A",
+   "industry_name": "Farm and garden equipment",
+   "display_level": 6,
+   "selectable": "T",
+   "sort_sequence": 338
+ },
+ {
+   "industry_code": 41423830,
+   "naics_code": "42383",
+   "publishing_status": "A",
+   "industry_name": "Industrial machinery",
+   "display_level": 6,
+   "selectable": "T",
+   "sort_sequence": 339
+ },
+ {
+   "industry_code": 41423840,
+   "naics_code": "42384",
+   "publishing_status": "A",
+   "industry_name": "Industrial supplies",
+   "display_level": 6,
+   "selectable": "T",
+   "sort_sequence": 340
+ },
+ {
+   "industry_code": 41423850,
+   "naics_code": "42385",
+   "publishing_status": "G",
+   "industry_name": "Service establishment equipment",
+   "display_level": 6,
+   "selectable": "T",
+   "sort_sequence": 341
+ },
+ {
+   "industry_code": 41423860,
+   "naics_code": "42386",
+   "publishing_status": "G",
+   "industry_name": "Other transportation goods",
+   "display_level": 6,
+   "selectable": "T",
+   "sort_sequence": 342
+ },
+ {
+   "industry_code": 41423900,
+   "naics_code": "4239",
+   "publishing_status": "A",
+   "industry_name": "Miscellaneous durable goods",
+   "display_level": 5,
+   "selectable": "T",
+   "sort_sequence": 343
+ },
+ {
+   "industry_code": 41423910,
+   "naics_code": "42391",
+   "publishing_status": "A",
+   "industry_name": "Sporting goods",
+   "display_level": 6,
+   "selectable": "T",
+   "sort_sequence": 344
+ },
+ {
+   "industry_code": 41423930,
+   "naics_code": "42393",
+   "publishing_status": "A",
+   "industry_name": "Recyclable materials",
+   "display_level": 6,
+   "selectable": "T",
+   "sort_sequence": 345
+ },
+ {
+   "industry_code": 41423940,
+   "naics_code": "42394",
+   "publishing_status": "E",
+   "industry_name": "Jewelry",
+   "display_level": 6,
+   "selectable": "T",
+   "sort_sequence": 346
+ },
+ {
+   "industry_code": 41423990,
+   "naics_code": "42392,9",
+   "publishing_status": "E",
+   "industry_name": "Toy, hobby, and other durable goods",
+   "display_level": 6,
+   "selectable": "T",
+   "sort_sequence": 347
+ },
+ {
+   "industry_code": 41424000,
+   "naics_code": "424",
+   "publishing_status": "A",
+   "industry_name": "Nondurable goods",
+   "display_level": 4,
+   "selectable": "T",
+   "sort_sequence": 348
+ },
+ {
+   "industry_code": 41424100,
+   "naics_code": "4241",
+   "publishing_status": "A",
+   "industry_name": "Paper and paper products",
+   "display_level": 5,
+   "selectable": "T",
+   "sort_sequence": 349
+ },
+ {
+   "industry_code": 41424120,
+   "naics_code": "42411,2",
+   "publishing_status": "B",
+   "industry_name": "Printing and writing paper and office supplies",
+   "display_level": 6,
+   "selectable": "T",
+   "sort_sequence": 350
+ },
+ {
+   "industry_code": 41424130,
+   "naics_code": "42413",
+   "publishing_status": "B",
+   "industry_name": "Industrial paper",
+   "display_level": 6,
+   "selectable": "T",
+   "sort_sequence": 351
+ },
+ {
+   "industry_code": 41424200,
+   "naics_code": "4242",
+   "publishing_status": "A",
+   "industry_name": "Druggists' goods",
+   "display_level": 5,
+   "selectable": "T",
+   "sort_sequence": 352
+ },
+ {
+   "industry_code": 41424300,
+   "naics_code": "4243",
+   "publishing_status": "A",
+   "industry_name": "Apparel and piece goods",
+   "display_level": 5,
+   "selectable": "T",
+   "sort_sequence": 353
+ },
+ {
+   "industry_code": 41424330,
+   "naics_code": "42433",
+   "publishing_status": "C",
+   "industry_name": "Women's and children's clothing",
+   "display_level": 6,
+   "selectable": "T",
+   "sort_sequence": 354
+ },
+ {
+   "industry_code": 41424400,
+   "naics_code": "4244",
+   "publishing_status": "A",
+   "industry_name": "Grocery and related products",
+   "display_level": 5,
+   "selectable": "T",
+   "sort_sequence": 355
+ },
+ {
+   "industry_code": 41424410,
+   "naics_code": "42441",
+   "publishing_status": "A",
+   "industry_name": "General line grocery",
+   "display_level": 6,
+   "selectable": "T",
+   "sort_sequence": 356
+ },
+ {
+   "industry_code": 41424480,
+   "naics_code": "42448",
+   "publishing_status": "A",
+   "industry_name": "Fruits and vegetables",
+   "display_level": 6,
+   "selectable": "T",
+   "sort_sequence": 357
+ },
+ {
+   "industry_code": 41424500,
+   "naics_code": "4245",
+   "publishing_status": "A",
+   "industry_name": "Farm product raw materials",
+   "display_level": 5,
+   "selectable": "T",
+   "sort_sequence": 358
+ },
+ {
+   "industry_code": 41424510,
+   "naics_code": "42451",
+   "publishing_status": "E",
+   "industry_name": "Grains and field beans",
+   "display_level": 6,
+   "selectable": "T",
+   "sort_sequence": 359
+ },
+ {
+   "industry_code": 41424600,
+   "naics_code": "4246",
+   "publishing_status": "A",
+   "industry_name": "Chemicals",
+   "display_level": 5,
+   "selectable": "T",
+   "sort_sequence": 360
+ },
+ {
+   "industry_code": 41424700,
+   "naics_code": "4247",
+   "publishing_status": "A",
+   "industry_name": "Petroleum",
+   "display_level": 5,
+   "selectable": "T",
+   "sort_sequence": 361
+ },
+ {
+   "industry_code": 41424800,
+   "naics_code": "4248",
+   "publishing_status": "A",
+   "industry_name": "Alcoholic beverages",
+   "display_level": 5,
+   "selectable": "T",
+   "sort_sequence": 362
+ },
+ {
+   "industry_code": 41424810,
+   "naics_code": "42481",
+   "publishing_status": "C",
+   "industry_name": "Beer and ale",
+   "display_level": 6,
+   "selectable": "T",
+   "sort_sequence": 363
+ },
+ {
+   "industry_code": 41424820,
+   "naics_code": "42482",
+   "publishing_status": "C",
+   "industry_name": "Wine and spirits",
+   "display_level": 6,
+   "selectable": "T",
+   "sort_sequence": 364
+ },
+ {
+   "industry_code": 41424900,
+   "naics_code": "4249",
+   "publishing_status": "A",
+   "industry_name": "Misc. nondurable goods",
+   "display_level": 5,
+   "selectable": "T",
+   "sort_sequence": 365
+ },
+ {
+   "industry_code": 41424910,
+   "naics_code": "42491",
+   "publishing_status": "A",
+   "industry_name": "Farm supplies",
+   "display_level": 6,
+   "selectable": "T",
+   "sort_sequence": 366
+ },
+ {
+   "industry_code": 41424920,
+   "naics_code": "42492",
+   "publishing_status": "C",
+   "industry_name": "Books and periodicals",
+   "display_level": 6,
+   "selectable": "T",
+   "sort_sequence": 367
+ },
+ {
+   "industry_code": 41424930,
+   "naics_code": "42493",
+   "publishing_status": "A",
+   "industry_name": "Nursery stock and florists' supplies",
+   "display_level": 6,
+   "selectable": "T",
+   "sort_sequence": 368
+ },
+ {
+   "industry_code": 41424990,
+   "naics_code": "42494,5,9",
+   "publishing_status": "C",
+   "industry_name": "All other nondurable goods wholesalers",
+   "display_level": 6,
+   "selectable": "T",
+   "sort_sequence": 369
+ },
+ {
+   "industry_code": 41425000,
+   "naics_code": "425",
+   "publishing_status": "A",
+   "industry_name": "Electronic markets and agents and brokers",
+   "display_level": 4,
+   "selectable": "T",
+   "sort_sequence": 370
+ },
+ {
+   "industry_code": 41425110,
+   "naics_code": "42511",
+   "publishing_status": "E",
+   "industry_name": "Business to business electronic markets",
+   "display_level": 6,
+   "selectable": "T",
+   "sort_sequence": 371
+ },
+ {
+   "industry_code": 41425120,
+   "naics_code": "42512",
+   "publishing_status": "E",
+   "industry_name": "Wholesale trade agents and brokers",
+   "display_level": 6,
+   "selectable": "T",
+   "sort_sequence": 372
+ },
+ {
+   "industry_code": 42000000,
+   "naics_code": "-",
+   "publishing_status": "A",
+   "industry_name": "Retail trade",
+   "display_level": 3,
+   "selectable": "T",
+   "sort_sequence": 373
+ },
+ {
+   "industry_code": 42441000,
+   "naics_code": "441",
+   "publishing_status": "A",
+   "industry_name": "Motor vehicle and parts dealers",
+   "display_level": 4,
+   "selectable": "T",
+   "sort_sequence": 374
+ },
+ {
+   "industry_code": 42441100,
+   "naics_code": "4411",
+   "publishing_status": "A",
+   "industry_name": "Automobile dealers",
+   "display_level": 5,
+   "selectable": "T",
+   "sort_sequence": 375
+ },
+ {
+   "industry_code": 42441110,
+   "naics_code": "44111",
+   "publishing_status": "A",
+   "industry_name": "New car dealers",
+   "display_level": 6,
+   "selectable": "T",
+   "sort_sequence": 376
+ },
+ {
+   "industry_code": 42441120,
+   "naics_code": "44112",
+   "publishing_status": "A",
+   "industry_name": "Used car dealers",
+   "display_level": 6,
+   "selectable": "T",
+   "sort_sequence": 377
+ },
+ {
+   "industry_code": 42441200,
+   "naics_code": "4412",
+   "publishing_status": "A",
+   "industry_name": "Other motor vehicle dealers",
+   "display_level": 5,
+   "selectable": "T",
+   "sort_sequence": 378
+ },
+ {
+   "industry_code": 42441210,
+   "naics_code": "44121",
+   "publishing_status": "C",
+   "industry_name": "Recreational vehicle dealers",
+   "display_level": 6,
+   "selectable": "T",
+   "sort_sequence": 379
+ },
+ {
+   "industry_code": 42441220,
+   "naics_code": "44122",
+   "publishing_status": "C",
+   "industry_name": "Motorcycle, boat, and other vehicle dealers",
+   "display_level": 6,
+   "selectable": "T",
+   "sort_sequence": 380
+ },
+ {
+   "industry_code": 42441300,
+   "naics_code": "4413",
+   "publishing_status": "A",
+   "industry_name": "Auto parts, accessories, and tire stores",
+   "display_level": 5,
+   "selectable": "T",
+   "sort_sequence": 381
+ },
+ {
+   "industry_code": 42441310,
+   "naics_code": "44131",
+   "publishing_status": "A",
+   "industry_name": "Automotive parts and accessories stores",
+   "display_level": 6,
+   "selectable": "T",
+   "sort_sequence": 382
+ },
+ {
+   "industry_code": 42441320,
+   "naics_code": "44132",
+   "publishing_status": "A",
+   "industry_name": "Tire dealers",
+   "display_level": 6,
+   "selectable": "T",
+   "sort_sequence": 383
+ },
+ {
+   "industry_code": 42442000,
+   "naics_code": "442",
+   "publishing_status": "A",
+   "industry_name": "Furniture and home furnishings stores",
+   "display_level": 4,
+   "selectable": "T",
+   "sort_sequence": 384
+ },
+ {
+   "industry_code": 42442100,
+   "naics_code": "4421",
+   "publishing_status": "A",
+   "industry_name": "Furniture stores",
+   "display_level": 5,
+   "selectable": "T",
+   "sort_sequence": 385
+ },
+ {
+   "industry_code": 42442200,
+   "naics_code": "4422",
+   "publishing_status": "A",
+   "industry_name": "Home furnishings stores",
+   "display_level": 5,
+   "selectable": "T",
+   "sort_sequence": 386
+ },
+ {
+   "industry_code": 42442210,
+   "naics_code": "44221",
+   "publishing_status": "A",
+   "industry_name": "Floor covering stores",
+   "display_level": 6,
+   "selectable": "T",
+   "sort_sequence": 387
+ },
+ {
+   "industry_code": 42442290,
+   "naics_code": "44229",
+   "publishing_status": "A",
+   "industry_name": "Other home furnishings stores",
+   "display_level": 6,
+   "selectable": "T",
+   "sort_sequence": 388
+ },
+ {
+   "industry_code": 42443000,
+   "naics_code": "443",
+   "publishing_status": "A",
+   "industry_name": "Electronics and appliance stores",
+   "display_level": 4,
+   "selectable": "T",
+   "sort_sequence": 389
+ },
+ {
+   "industry_code": 42443141,
+   "naics_code": "443141",
+   "publishing_status": "A",
+   "industry_name": "Household appliance stores",
+   "display_level": 7,
+   "selectable": "T",
+   "sort_sequence": 390
+ },
+ {
+   "industry_code": 42443142,
+   "naics_code": "443142",
+   "publishing_status": "A",
+   "industry_name": "Electronics stores",
+   "display_level": 7,
+   "selectable": "T",
+   "sort_sequence": 391
+ },
+ {
+   "industry_code": 42444000,
+   "naics_code": "444",
+   "publishing_status": "A",
+   "industry_name": "Building material and garden supply stores",
+   "display_level": 4,
+   "selectable": "T",
+   "sort_sequence": 392
+ },
+ {
+   "industry_code": 42444100,
+   "naics_code": "4441",
+   "publishing_status": "A",
+   "industry_name": "Building material and supplies dealers",
+   "display_level": 5,
+   "selectable": "T",
+   "sort_sequence": 393
+ },
+ {
+   "industry_code": 42444110,
+   "naics_code": "44411",
+   "publishing_status": "G",
+   "industry_name": "Home centers",
+   "display_level": 6,
+   "selectable": "T",
+   "sort_sequence": 394
+ },
+ {
+   "industry_code": 42444120,
+   "naics_code": "44412",
+   "publishing_status": "C",
+   "industry_name": "Paint and wallpaper stores",
+   "display_level": 6,
+   "selectable": "T",
+   "sort_sequence": 395
+ },
+ {
+   "industry_code": 42444130,
+   "naics_code": "44413",
+   "publishing_status": "A",
+   "industry_name": "Hardware stores",
+   "display_level": 6,
+   "selectable": "T",
+   "sort_sequence": 396
+ },
+ {
+   "industry_code": 42444190,
+   "naics_code": "44419",
+   "publishing_status": "C",
+   "industry_name": "Other building material dealers",
+   "display_level": 6,
+   "selectable": "T",
+   "sort_sequence": 397
+ },
+ {
+   "industry_code": 42444200,
+   "naics_code": "4442",
+   "publishing_status": "A",
+   "industry_name": "Lawn and garden equipment and supplies stores",
+   "display_level": 5,
+   "selectable": "T",
+   "sort_sequence": 398
+ },
+ {
+   "industry_code": 42444210,
+   "naics_code": "44421",
+   "publishing_status": "E",
+   "industry_name": "Outdoor power equipment stores",
+   "display_level": 6,
+   "selectable": "T",
+   "sort_sequence": 399
+ },
+ {
+   "industry_code": 42444220,
+   "naics_code": "44422",
+   "publishing_status": "E",
+   "industry_name": "Nursery, garden, and farm supply stores",
+   "display_level": 6,
+   "selectable": "T",
+   "sort_sequence": 400
+ },
+ {
+   "industry_code": 42445000,
+   "naics_code": "445",
+   "publishing_status": "A",
+   "industry_name": "Food and beverage stores",
+   "display_level": 4,
+   "selectable": "T",
+   "sort_sequence": 401
+ },
+ {
+   "industry_code": 42445100,
+   "naics_code": "4451",
+   "publishing_status": "A",
+   "industry_name": "Grocery stores",
+   "display_level": 5,
+   "selectable": "T",
+   "sort_sequence": 402
+ },
+ {
+   "industry_code": 42445110,
+   "naics_code": "44511",
+   "publishing_status": "A",
+   "industry_name": "Supermarkets and other grocery stores",
+   "display_level": 6,
+   "selectable": "T",
+   "sort_sequence": 403
+ },
+ {
+   "industry_code": 42445120,
+   "naics_code": "44512",
+   "publishing_status": "A",
+   "industry_name": "Convenience stores",
+   "display_level": 6,
+   "selectable": "T",
+   "sort_sequence": 404
+ },
+ {
+   "industry_code": 42445200,
+   "naics_code": "4452",
+   "publishing_status": "A",
+   "industry_name": "Specialty food stores",
+   "display_level": 5,
+   "selectable": "T",
+   "sort_sequence": 405
+ },
+ {
+   "industry_code": 42445220,
+   "naics_code": "44521,2",
+   "publishing_status": "A",
+   "industry_name": "Meat markets and fish and seafood markets",
+   "display_level": 6,
+   "selectable": "T",
+   "sort_sequence": 406
+ },
+ {
+   "industry_code": 42445230,
+   "naics_code": "44523",
+   "publishing_status": "C",
+   "industry_name": "Fruit and vegetable markets",
+   "display_level": 6,
+   "selectable": "T",
+   "sort_sequence": 407
+ },
+ {
+   "industry_code": 42445290,
+   "naics_code": "44529",
+   "publishing_status": "C",
+   "industry_name": "Other specialty food stores",
+   "display_level": 6,
+   "selectable": "T",
+   "sort_sequence": 408
+ },
+ {
+   "industry_code": 42445300,
+   "naics_code": "4453",
+   "publishing_status": "A",
+   "industry_name": "Beer, wine, and liquor stores",
+   "display_level": 5,
+   "selectable": "T",
+   "sort_sequence": 409
+ },
+ {
+   "industry_code": 42446000,
+   "naics_code": "446",
+   "publishing_status": "A",
+   "industry_name": "Health and personal care stores",
+   "display_level": 4,
+   "selectable": "T",
+   "sort_sequence": 410
+ },
+ {
+   "industry_code": 42446110,
+   "naics_code": "44611",
+   "publishing_status": "A",
+   "industry_name": "Pharmacies and drug stores",
+   "display_level": 6,
+   "selectable": "T",
+   "sort_sequence": 411
+ },
+ {
+   "industry_code": 42446120,
+   "naics_code": "44612",
+   "publishing_status": "A",
+   "industry_name": "Cosmetic and beauty supply stores",
+   "display_level": 6,
+   "selectable": "T",
+   "sort_sequence": 412
+ },
+ {
+   "industry_code": 42446130,
+   "naics_code": "44613",
+   "publishing_status": "A",
+   "industry_name": "Optical goods stores",
+   "display_level": 6,
+   "selectable": "T",
+   "sort_sequence": 413
+ },
+ {
+   "industry_code": 42446190,
+   "naics_code": "44619",
+   "publishing_status": "A",
+   "industry_name": "Other health and personal care stores",
+   "display_level": 6,
+   "selectable": "T",
+   "sort_sequence": 414
+ },
+ {
+   "industry_code": 42446191,
+   "naics_code": "446191",
+   "publishing_status": "C",
+   "industry_name": "Food (health) supplement stores",
+   "display_level": 7,
+   "selectable": "T",
+   "sort_sequence": 415
+ },
+ {
+   "industry_code": 42446199,
+   "naics_code": "446199",
+   "publishing_status": "C",
+   "industry_name": "All other health and personal care stores",
+   "display_level": 7,
+   "selectable": "T",
+   "sort_sequence": 416
+ },
+ {
+   "industry_code": 42447000,
+   "naics_code": "447",
+   "publishing_status": "A",
+   "industry_name": "Gasoline stations",
+   "display_level": 4,
+   "selectable": "T",
+   "sort_sequence": 417
+ },
+ {
+   "industry_code": 42447110,
+   "naics_code": "44711",
+   "publishing_status": "A",
+   "industry_name": "Gasoline stations with convenience stores",
+   "display_level": 6,
+   "selectable": "T",
+   "sort_sequence": 418
+ },
+ {
+   "industry_code": 42447190,
+   "naics_code": "44719",
+   "publishing_status": "A",
+   "industry_name": "Other gasoline stations",
+   "display_level": 6,
+   "selectable": "T",
+   "sort_sequence": 419
+ },
+ {
+   "industry_code": 42448000,
+   "naics_code": "448",
+   "publishing_status": "A",
+   "industry_name": "Clothing and clothing accessories stores",
+   "display_level": 4,
+   "selectable": "T",
+   "sort_sequence": 420
+ },
+ {
+   "industry_code": 42448100,
+   "naics_code": "4481",
+   "publishing_status": "A",
+   "industry_name": "Clothing stores",
+   "display_level": 5,
+   "selectable": "T",
+   "sort_sequence": 421
+ },
+ {
+   "industry_code": 42448110,
+   "naics_code": "44811",
+   "publishing_status": "E",
+   "industry_name": "Men's clothing stores",
+   "display_level": 6,
+   "selectable": "T",
+   "sort_sequence": 422
+ },
+ {
+   "industry_code": 42448120,
+   "naics_code": "44812",
+   "publishing_status": "A",
+   "industry_name": "Women's clothing stores",
+   "display_level": 6,
+   "selectable": "T",
+   "sort_sequence": 423
+ },
+ {
+   "industry_code": 42448130,
+   "naics_code": "44813",
+   "publishing_status": "C",
+   "industry_name": "Children's and infants' clothing stores",
+   "display_level": 6,
+   "selectable": "T",
+   "sort_sequence": 424
+ },
+ {
+   "industry_code": 42448140,
+   "naics_code": "44814",
+   "publishing_status": "A",
+   "industry_name": "Family clothing stores",
+   "display_level": 6,
+   "selectable": "T",
+   "sort_sequence": 425
+ },
+ {
+   "industry_code": 42448150,
+   "naics_code": "44815",
+   "publishing_status": "E",
+   "industry_name": "Clothing accessories stores",
+   "display_level": 6,
+   "selectable": "T",
+   "sort_sequence": 426
+ },
+ {
+   "industry_code": 42448190,
+   "naics_code": "44819",
+   "publishing_status": "C",
+   "industry_name": "Other clothing stores",
+   "display_level": 6,
+   "selectable": "T",
+   "sort_sequence": 427
+ },
+ {
+   "industry_code": 42448200,
+   "naics_code": "4482",
+   "publishing_status": "A",
+   "industry_name": "Shoe stores",
+   "display_level": 5,
+   "selectable": "T",
+   "sort_sequence": 428
+ },
+ {
+   "industry_code": 42448300,
+   "naics_code": "4483",
+   "publishing_status": "A",
+   "industry_name": "Jewelry, luggage, and leather goods stores",
+   "display_level": 5,
+   "selectable": "T",
+   "sort_sequence": 429
+ },
+ {
+   "industry_code": 42451000,
+   "naics_code": "451",
+   "publishing_status": "A",
+   "industry_name": "Sporting goods, hobby, book, and music stores",
+   "display_level": 4,
+   "selectable": "T",
+   "sort_sequence": 430
+ },
+ {
+   "industry_code": 42451100,
+   "naics_code": "4511",
+   "publishing_status": "A",
+   "industry_name": "Sporting goods and musical instrument stores",
+   "display_level": 5,
+   "selectable": "T",
+   "sort_sequence": 431
+ },
+ {
+   "industry_code": 42451110,
+   "naics_code": "45111",
+   "publishing_status": "A",
+   "industry_name": "Sporting goods stores",
+   "display_level": 6,
+   "selectable": "T",
+   "sort_sequence": 432
+ },
+ {
+   "industry_code": 42451120,
+   "naics_code": "45112",
+   "publishing_status": "E",
+   "industry_name": "Hobby, toy, and game stores",
+   "display_level": 6,
+   "selectable": "T",
+   "sort_sequence": 433
+ },
+ {
+   "industry_code": 42451130,
+   "naics_code": "45113",
+   "publishing_status": "C",
+   "industry_name": "Sewing, needlework, and piece goods stores",
+   "display_level": 6,
+   "selectable": "T",
+   "sort_sequence": 434
+ },
+ {
+   "industry_code": 42451140,
+   "naics_code": "45114",
+   "publishing_status": "C",
+   "industry_name": "Musical instrument and supplies stores",
+   "display_level": 6,
+   "selectable": "T",
+   "sort_sequence": 435
+ },
+ {
+   "industry_code": 42451200,
+   "naics_code": "4512",
+   "publishing_status": "A",
+   "industry_name": "Book stores and news dealers",
+   "display_level": 5,
+   "selectable": "T",
+   "sort_sequence": 436
+ },
+ {
+   "industry_code": 42452000,
+   "naics_code": "452",
+   "publishing_status": "A",
+   "industry_name": "General merchandise stores",
+   "display_level": 4,
+   "selectable": "T",
+   "sort_sequence": 437
+ },
+ {
+   "industry_code": 42452200,
+   "naics_code": "4522",
+   "publishing_status": "C",
+   "industry_name": "Department stores",
+   "display_level": 5,
+   "selectable": "T",
+   "sort_sequence": 438
+ },
+ {
+   "industry_code": 42452300,
+   "naics_code": "4523",
+   "publishing_status": "C",
+   "industry_name": "General merchandise stores, including warehouse clubs and supercenters",
+   "display_level": 5,
+   "selectable": "T",
+   "sort_sequence": 439
+ },
+ {
+   "industry_code": 42452311,
+   "naics_code": "452311",
+   "publishing_status": "C",
+   "industry_name": "Warehouse clubs and supercenters",
+   "display_level": 7,
+   "selectable": "T",
+   "sort_sequence": 440
+ },
+ {
+   "industry_code": 42452319,
+   "naics_code": "452319",
+   "publishing_status": "C",
+   "industry_name": "All other general merchandise stores",
+   "display_level": 7,
+   "selectable": "T",
+   "sort_sequence": 441
+ },
+ {
+   "industry_code": 42453000,
+   "naics_code": "453",
+   "publishing_status": "A",
+   "industry_name": "Miscellaneous store retailers",
+   "display_level": 4,
+   "selectable": "T",
+   "sort_sequence": 442
+ },
+ {
+   "industry_code": 42453100,
+   "naics_code": "4531",
+   "publishing_status": "A",
+   "industry_name": "Florists",
+   "display_level": 5,
+   "selectable": "T",
+   "sort_sequence": 443
+ },
+ {
+   "industry_code": 42453200,
+   "naics_code": "4532",
+   "publishing_status": "A",
+   "industry_name": "Office supplies, stationery, and gift stores",
+   "display_level": 5,
+   "selectable": "T",
+   "sort_sequence": 444
+ },
+ {
+   "industry_code": 42453210,
+   "naics_code": "45321",
+   "publishing_status": "A",
+   "industry_name": "Office supplies and stationery stores",
+   "display_level": 6,
+   "selectable": "T",
+   "sort_sequence": 445
+ },
+ {
+   "industry_code": 42453220,
+   "naics_code": "45322",
+   "publishing_status": "A",
+   "industry_name": "Gift, novelty, and souvenir stores",
+   "display_level": 6,
+   "selectable": "T",
+   "sort_sequence": 446
+ },
+ {
+   "industry_code": 42453300,
+   "naics_code": "4533",
+   "publishing_status": "A",
+   "industry_name": "Used merchandise stores",
+   "display_level": 5,
+   "selectable": "T",
+   "sort_sequence": 447
+ },
+ {
+   "industry_code": 42453900,
+   "naics_code": "4539",
+   "publishing_status": "A",
+   "industry_name": "Other miscellaneous store retailers",
+   "display_level": 5,
+   "selectable": "T",
+   "sort_sequence": 448
+ },
+ {
+   "industry_code": 42453910,
+   "naics_code": "45391",
+   "publishing_status": "A",
+   "industry_name": "Pet and pet supplies stores",
+   "display_level": 6,
+   "selectable": "T",
+   "sort_sequence": 449
+ },
+ {
+   "industry_code": 42453920,
+   "naics_code": "45392",
+   "publishing_status": "C",
+   "industry_name": "Art dealers",
+   "display_level": 6,
+   "selectable": "T",
+   "sort_sequence": 450
+ },
+ {
+   "industry_code": 42453990,
+   "naics_code": "45393,9",
+   "publishing_status": "C",
+   "industry_name": "All other miscellaneous store retailers",
+   "display_level": 6,
+   "selectable": "T",
+   "sort_sequence": 451
+ },
+ {
+   "industry_code": 42454000,
+   "naics_code": "454",
+   "publishing_status": "A",
+   "industry_name": "Nonstore retailers",
+   "display_level": 4,
+   "selectable": "T",
+   "sort_sequence": 452
+ },
+ {
+   "industry_code": 42454100,
+   "naics_code": "4541",
+   "publishing_status": "A",
+   "industry_name": "Electronic shopping and mail-order houses",
+   "display_level": 5,
+   "selectable": "T",
+   "sort_sequence": 453
+ },
+ {
+   "industry_code": 42454200,
+   "naics_code": "4542",
+   "publishing_status": "B",
+   "industry_name": "Vending machine operators",
+   "display_level": 5,
+   "selectable": "T",
+   "sort_sequence": 454
+ },
+ {
+   "industry_code": 42454300,
+   "naics_code": "4543",
+   "publishing_status": "B",
+   "industry_name": "Direct selling establishments",
+   "display_level": 5,
+   "selectable": "T",
+   "sort_sequence": 455
+ },
+ {
+   "industry_code": 42454310,
+   "naics_code": "45431",
+   "publishing_status": "B",
+   "industry_name": "Fuel dealers",
+   "display_level": 6,
+   "selectable": "T",
+   "sort_sequence": 456
+ },
+ {
+   "industry_code": 42454390,
+   "naics_code": "45439",
+   "publishing_status": "B",
+   "industry_name": "Other direct selling establishments",
+   "display_level": 6,
+   "selectable": "T",
+   "sort_sequence": 457
+ },
+ {
+   "industry_code": 43000000,
+   "naics_code": "-",
+   "publishing_status": "A",
+   "industry_name": "Transportation and warehousing",
+   "display_level": 3,
+   "selectable": "T",
+   "sort_sequence": 458
+ },
+ {
+   "industry_code": 43481000,
+   "naics_code": "481",
+   "publishing_status": "A",
+   "industry_name": "Air transportation",
+   "display_level": 4,
+   "selectable": "T",
+   "sort_sequence": 459
+ },
+ {
+   "industry_code": 43481100,
+   "naics_code": "4811",
+   "publishing_status": "C",
+   "industry_name": "Scheduled air transportation",
+   "display_level": 5,
+   "selectable": "T",
+   "sort_sequence": 460
+ },
+ {
+   "industry_code": 43481200,
+   "naics_code": "4812",
+   "publishing_status": "C",
+   "industry_name": "Nonscheduled air transportation",
+   "display_level": 5,
+   "selectable": "T",
+   "sort_sequence": 461
+ },
+ {
+   "industry_code": 43482000,
+   "naics_code": "482",
+   "publishing_status": "C",
+   "industry_name": "Rail transportation",
+   "display_level": 4,
+   "selectable": "T",
+   "sort_sequence": 462
+ },
+ {
+   "industry_code": 43483000,
+   "naics_code": "483",
+   "publishing_status": "B",
+   "industry_name": "Water transportation",
+   "display_level": 4,
+   "selectable": "T",
+   "sort_sequence": 463
+ },
+ {
+   "industry_code": 43484000,
+   "naics_code": "484",
+   "publishing_status": "A",
+   "industry_name": "Truck transportation",
+   "display_level": 4,
+   "selectable": "T",
+   "sort_sequence": 464
+ },
+ {
+   "industry_code": 43484100,
+   "naics_code": "4841",
+   "publishing_status": "A",
+   "industry_name": "General freight trucking",
+   "display_level": 5,
+   "selectable": "T",
+   "sort_sequence": 465
+ },
+ {
+   "industry_code": 43484110,
+   "naics_code": "48411",
+   "publishing_status": "A",
+   "industry_name": "General freight trucking, local",
+   "display_level": 6,
+   "selectable": "T",
+   "sort_sequence": 466
+ },
+ {
+   "industry_code": 43484120,
+   "naics_code": "48412",
+   "publishing_status": "A",
+   "industry_name": "General freight trucking, long-distance",
+   "display_level": 6,
+   "selectable": "T",
+   "sort_sequence": 467
+ },
+ {
+   "industry_code": 43484121,
+   "naics_code": "484121",
+   "publishing_status": "A",
+   "industry_name": "General freight trucking, long-distance TL",
+   "display_level": 7,
+   "selectable": "T",
+   "sort_sequence": 468
+ },
+ {
+   "industry_code": 43484122,
+   "naics_code": "484122",
+   "publishing_status": "A",
+   "industry_name": "General freight trucking, long-distance LTL",
+   "display_level": 7,
+   "selectable": "T",
+   "sort_sequence": 469
+ },
+ {
+   "industry_code": 43484200,
+   "naics_code": "4842",
+   "publishing_status": "A",
+   "industry_name": "Specialized freight trucking",
+   "display_level": 5,
+   "selectable": "T",
+   "sort_sequence": 470
+ },
+ {
+   "industry_code": 43484210,
+   "naics_code": "48421",
+   "publishing_status": "A",
+   "industry_name": "Used household and office goods moving",
+   "display_level": 6,
+   "selectable": "T",
+   "sort_sequence": 471
+ },
+ {
+   "industry_code": 43484220,
+   "naics_code": "48422",
+   "publishing_status": "A",
+   "industry_name": "Other specialized trucking, local",
+   "display_level": 6,
+   "selectable": "T",
+   "sort_sequence": 472
+ },
+ {
+   "industry_code": 43484230,
+   "naics_code": "48423",
+   "publishing_status": "A",
+   "industry_name": "Other specialized trucking, long-distance",
+   "display_level": 6,
+   "selectable": "T",
+   "sort_sequence": 473
+ },
+ {
+   "industry_code": 43485000,
+   "naics_code": "485",
+   "publishing_status": "A",
+   "industry_name": "Transit and ground passenger transportation",
+   "display_level": 4,
+   "selectable": "T",
+   "sort_sequence": 474
+ },
+ {
+   "industry_code": 43485300,
+   "naics_code": "4853",
+   "publishing_status": "B",
+   "industry_name": "Taxi and limousine service",
+   "display_level": 5,
+   "selectable": "T",
+   "sort_sequence": 475
+ },
+ {
+   "industry_code": 43485310,
+   "naics_code": "48531",
+   "publishing_status": "C",
+   "industry_name": "Taxi service",
+   "display_level": 6,
+   "selectable": "T",
+   "sort_sequence": 476
+ },
+ {
+   "industry_code": 43485320,
+   "naics_code": "48532",
+   "publishing_status": "C",
+   "industry_name": "Limousine service",
+   "display_level": 6,
+   "selectable": "T",
+   "sort_sequence": 477
+ },
+ {
+   "industry_code": 43485400,
+   "naics_code": "4854",
+   "publishing_status": "A",
+   "industry_name": "School and employee bus transportation",
+   "display_level": 5,
+   "selectable": "T",
+   "sort_sequence": 478
+ },
+ {
+   "industry_code": 43485500,
+   "naics_code": "4851,2,5",
+   "publishing_status": "C",
+   "industry_name": "Urban, interurban, rural, and charter bus transportation",
+   "display_level": 5,
+   "selectable": "T",
+   "sort_sequence": 479
+ },
+ {
+   "industry_code": 43485900,
+   "naics_code": "4859",
+   "publishing_status": "A",
+   "industry_name": "Other ground passenger transportation",
+   "display_level": 5,
+   "selectable": "T",
+   "sort_sequence": 480
+ },
+ {
+   "industry_code": 43486000,
+   "naics_code": "486",
+   "publishing_status": "B",
+   "industry_name": "Pipeline transportation",
+   "display_level": 4,
+   "selectable": "T",
+   "sort_sequence": 481
+ },
+ {
+   "industry_code": 43487000,
+   "naics_code": "487",
+   "publishing_status": "B",
+   "industry_name": "Scenic and sightseeing transportation",
+   "display_level": 4,
+   "selectable": "T",
+   "sort_sequence": 482
+ },
+ {
+   "industry_code": 43488000,
+   "naics_code": "488",
+   "publishing_status": "A",
+   "industry_name": "Support activities for transportation",
+   "display_level": 4,
+   "selectable": "T",
+   "sort_sequence": 483
+ },
+ {
+   "industry_code": 43488100,
+   "naics_code": "4881",
+   "publishing_status": "A",
+   "industry_name": "Support activities for air transportation",
+   "display_level": 5,
+   "selectable": "T",
+   "sort_sequence": 484
+ },
+ {
+   "industry_code": 43488110,
+   "naics_code": "48811",
+   "publishing_status": "A",
+   "industry_name": "Airport operations",
+   "display_level": 6,
+   "selectable": "T",
+   "sort_sequence": 485
+ },
+ {
+   "industry_code": 43488300,
+   "naics_code": "4883",
+   "publishing_status": "A",
+   "industry_name": "Support activities for water transportation",
+   "display_level": 5,
+   "selectable": "T",
+   "sort_sequence": 486
+ },
+ {
+   "industry_code": 43488320,
+   "naics_code": "48832",
+   "publishing_status": "C",
+   "industry_name": "Marine cargo handling",
+   "display_level": 6,
+   "selectable": "T",
+   "sort_sequence": 487
+ },
+ {
+   "industry_code": 43488390,
+   "naics_code": "48831,3,9",
+   "publishing_status": "C",
+   "industry_name": "Support activities for water transportation, except marine cargo",
+   "display_level": 6,
+   "selectable": "T",
+   "sort_sequence": 488
+ },
+ {
+   "industry_code": 43488400,
+   "naics_code": "4884",
+   "publishing_status": "A",
+   "industry_name": "Support activities for road transportation",
+   "display_level": 5,
+   "selectable": "T",
+   "sort_sequence": 489
+ },
+ {
+   "industry_code": 43488500,
+   "naics_code": "4885",
+   "publishing_status": "A",
+   "industry_name": "Freight transportation arrangement",
+   "display_level": 5,
+   "selectable": "T",
+   "sort_sequence": 490
+ },
+ {
+   "industry_code": 43488900,
+   "naics_code": "4882,9",
+   "publishing_status": "A",
+   "industry_name": "Support activities for other transportation, including rail",
+   "display_level": 5,
+   "selectable": "T",
+   "sort_sequence": 491
+ },
+ {
+   "industry_code": 43492000,
+   "naics_code": "492",
+   "publishing_status": "A",
+   "industry_name": "Couriers and messengers",
+   "display_level": 4,
+   "selectable": "T",
+   "sort_sequence": 492
+ },
+ {
+   "industry_code": 43492100,
+   "naics_code": "4921",
+   "publishing_status": "C",
+   "industry_name": "Couriers and express delivery services",
+   "display_level": 5,
+   "selectable": "T",
+   "sort_sequence": 493
+ },
+ {
+   "industry_code": 43492200,
+   "naics_code": "49111,221",
+   "publishing_status": "C",
+   "industry_name": "Local messengers and delivery and private postal service",
+   "display_level": 6,
+   "selectable": "T",
+   "sort_sequence": 494
+ },
+ {
+   "industry_code": 43493000,
+   "naics_code": "493",
+   "publishing_status": "A",
+   "industry_name": "Warehousing and storage",
+   "display_level": 4,
+   "selectable": "T",
+   "sort_sequence": 495
+ },
+ {
+   "industry_code": 43493110,
+   "naics_code": "49311",
+   "publishing_status": "A",
+   "industry_name": "General warehousing and storage",
+   "display_level": 6,
+   "selectable": "T",
+   "sort_sequence": 496
+ },
+ {
+   "industry_code": 43493120,
+   "naics_code": "49312",
+   "publishing_status": "E",
+   "industry_name": "Refrigerated warehousing and storage",
+   "display_level": 6,
+   "selectable": "T",
+   "sort_sequence": 497
+ },
+ {
+   "industry_code": 43493190,
+   "naics_code": "49313,9",
+   "publishing_status": "E",
+   "industry_name": "Miscellaneous warehousing and storage",
+   "display_level": 6,
+   "selectable": "T",
+   "sort_sequence": 498
+ },
+ {
+   "industry_code": 44220000,
+   "naics_code": "22",
+   "publishing_status": "A",
+   "industry_name": "Utilities",
+   "display_level": 3,
+   "selectable": "T",
+   "sort_sequence": 499
+ },
+ {
+   "industry_code": 44221100,
+   "naics_code": "2211",
+   "publishing_status": "A",
+   "industry_name": "Power generation and supply",
+   "display_level": 5,
+   "selectable": "T",
+   "sort_sequence": 500
+ },
+ {
+   "industry_code": 44221110,
+   "naics_code": "22111",
+   "publishing_status": "A",
+   "industry_name": "Electric power generation",
+   "display_level": 6,
+   "selectable": "T",
+   "sort_sequence": 501
+ },
+ {
+   "industry_code": 44221112,
+   "naics_code": "221112",
+   "publishing_status": "A",
+   "industry_name": "Fossil fuel electric power generation",
+   "display_level": 7,
+   "selectable": "T",
+   "sort_sequence": 502
+ },
+ {
+   "industry_code": 44221118,
+   "naics_code": "221111,3-8",
+   "publishing_status": "C",
+   "industry_name": "Nuclear and other electric power generation",
+   "display_level": 7,
+   "selectable": "T",
+   "sort_sequence": 503
+ },
+ {
+   "industry_code": 44221120,
+   "naics_code": "22112",
+   "publishing_status": "A",
+   "industry_name": "Electric power transmission and distribution",
+   "display_level": 6,
+   "selectable": "T",
+   "sort_sequence": 504
+ },
+ {
+   "industry_code": 44221121,
+   "naics_code": "221121",
+   "publishing_status": "C",
+   "industry_name": "Electric bulk power transmission and control",
+   "display_level": 7,
+   "selectable": "T",
+   "sort_sequence": 505
+ },
+ {
+   "industry_code": 44221122,
+   "naics_code": "221122",
+   "publishing_status": "C",
+   "industry_name": "Electric power distribution",
+   "display_level": 7,
+   "selectable": "T",
+   "sort_sequence": 506
+ },
+ {
+   "industry_code": 44221200,
+   "naics_code": "2212",
+   "publishing_status": "A",
+   "industry_name": "Natural gas distribution",
+   "display_level": 5,
+   "selectable": "T",
+   "sort_sequence": 507
+ },
+ {
+   "industry_code": 44221300,
+   "naics_code": "2213",
+   "publishing_status": "A",
+   "industry_name": "Water, sewage and other systems",
+   "display_level": 5,
+   "selectable": "T",
+   "sort_sequence": 508
+ },
+ {
+   "industry_code": 50000000,
+   "naics_code": "51",
+   "publishing_status": "A",
+   "industry_name": "Information",
+   "display_level": 2,
+   "selectable": "T",
+   "sort_sequence": 509
+ },
+ {
+   "industry_code": 50511000,
+   "naics_code": "511",
+   "publishing_status": "A",
+   "industry_name": "Publishing industries, except Internet",
+   "display_level": 4,
+   "selectable": "T",
+   "sort_sequence": 510
+ },
+ {
+   "industry_code": 50511100,
+   "naics_code": "5111",
+   "publishing_status": "A",
+   "industry_name": "Newspaper, book, and directory publishers",
+   "display_level": 5,
+   "selectable": "T",
+   "sort_sequence": 511
+ },
+ {
+   "industry_code": 50511110,
+   "naics_code": "51111",
+   "publishing_status": "A",
+   "industry_name": "Newspaper publishers",
+   "display_level": 6,
+   "selectable": "T",
+   "sort_sequence": 512
+ },
+ {
+   "industry_code": 50511120,
+   "naics_code": "51112",
+   "publishing_status": "A",
+   "industry_name": "Periodical publishers",
+   "display_level": 6,
+   "selectable": "T",
+   "sort_sequence": 513
+ },
+ {
+   "industry_code": 50511130,
+   "naics_code": "51113",
+   "publishing_status": "E",
+   "industry_name": "Book publishers",
+   "display_level": 6,
+   "selectable": "T",
+   "sort_sequence": 514
+ },
+ {
+   "industry_code": 50511190,
+   "naics_code": "51114,9",
+   "publishing_status": "C",
+   "industry_name": "Directory, mailing list, and other publishers",
+   "display_level": 6,
+   "selectable": "T",
+   "sort_sequence": 515
+ },
+ {
+   "industry_code": 50511200,
+   "naics_code": "5112",
+   "publishing_status": "A",
+   "industry_name": "Software publishers",
+   "display_level": 5,
+   "selectable": "T",
+   "sort_sequence": 516
+ },
+ {
+   "industry_code": 50512000,
+   "naics_code": "512",
+   "publishing_status": "A",
+   "industry_name": "Motion picture and sound recording industries",
+   "display_level": 4,
+   "selectable": "T",
+   "sort_sequence": 517
+ },
+ {
+   "industry_code": 50512110,
+   "naics_code": "51211",
+   "publishing_status": "C",
+   "industry_name": "Motion picture and video production",
+   "display_level": 6,
+   "selectable": "T",
+   "sort_sequence": 518
+ },
+ {
+   "industry_code": 50512130,
+   "naics_code": "51213",
+   "publishing_status": "C",
+   "industry_name": "Motion picture and video exhibition",
+   "display_level": 6,
+   "selectable": "T",
+   "sort_sequence": 519
+ },
+ {
+   "industry_code": 50515000,
+   "naics_code": "515",
+   "publishing_status": "A",
+   "industry_name": "Broadcasting, except Internet",
+   "display_level": 4,
+   "selectable": "T",
+   "sort_sequence": 520
+ },
+ {
+   "industry_code": 50515100,
+   "naics_code": "5151",
+   "publishing_status": "C",
+   "industry_name": "Radio and television broadcasting",
+   "display_level": 5,
+   "selectable": "T",
+   "sort_sequence": 521
+ },
+ {
+   "industry_code": 50515110,
+   "naics_code": "51511",
+   "publishing_status": "A",
+   "industry_name": "Radio broadcasting",
+   "display_level": 6,
+   "selectable": "T",
+   "sort_sequence": 522
+ },
+ {
+   "industry_code": 50515120,
+   "naics_code": "51512",
+   "publishing_status": "C",
+   "industry_name": "Television broadcasting",
+   "display_level": 6,
+   "selectable": "T",
+   "sort_sequence": 523
+ },
+ {
+   "industry_code": 50515200,
+   "naics_code": "5152",
+   "publishing_status": "C",
+   "industry_name": "Cable and other subscription programming",
+   "display_level": 5,
+   "selectable": "T",
+   "sort_sequence": 524
+ },
+ {
+   "industry_code": 50517000,
+   "naics_code": "517",
+   "publishing_status": "A",
+   "industry_name": "Telecommunications",
+   "display_level": 4,
+   "selectable": "T",
+   "sort_sequence": 525
+ },
+ {
+   "industry_code": 50517300,
+   "naics_code": "5173",
+   "publishing_status": "A",
+   "industry_name": "Wired and wireless telecommunications carriers",
+   "display_level": 5,
+   "selectable": "T",
+   "sort_sequence": 526
+ },
+ {
+   "industry_code": 50517311,
+   "naics_code": "517311",
+   "publishing_status": "E",
+   "industry_name": "Wired telecommunications carriers",
+   "display_level": 7,
+   "selectable": "T",
+   "sort_sequence": 527
+ },
+ {
+   "industry_code": 50517312,
+   "naics_code": "517312",
+   "publishing_status": "E",
+   "industry_name": "Wireless telecommunications carriers, except satellite",
+   "display_level": 7,
+   "selectable": "T",
+   "sort_sequence": 528
+ },
+ {
+   "industry_code": 50517900,
+   "naics_code": "5174,9",
+   "publishing_status": "E",
+   "industry_name": "Other telecommunications",
+   "display_level": 5,
+   "selectable": "T",
+   "sort_sequence": 529
+ },
+ {
+   "industry_code": 50517911,
+   "naics_code": "517911",
+   "publishing_status": "E",
+   "industry_name": "Telecommunications resellers",
+   "display_level": 7,
+   "selectable": "T",
+   "sort_sequence": 530
+ },
+ {
+   "industry_code": 50518000,
+   "naics_code": "518",
+   "publishing_status": "A",
+   "industry_name": "Data processing, hosting and related services",
+   "display_level": 4,
+   "selectable": "T",
+   "sort_sequence": 531
+ },
+ {
+   "industry_code": 50519000,
+   "naics_code": "519",
+   "publishing_status": "A",
+   "industry_name": "Other information services",
+   "display_level": 4,
+   "selectable": "T",
+   "sort_sequence": 532
+ },
+ {
+   "industry_code": 50519130,
+   "naics_code": "51913",
+   "publishing_status": "C",
+   "industry_name": "Internet publishing and broadcasting and web search portals",
+   "display_level": 6,
+   "selectable": "T",
+   "sort_sequence": 533
+ },
+ {
+   "industry_code": 50519190,
+   "naics_code": "51911,2,9",
+   "publishing_status": "C",
+   "industry_name": "All other information services",
+   "display_level": 6,
+   "selectable": "T",
+   "sort_sequence": 534
+ },
+ {
+   "industry_code": 55000000,
+   "naics_code": "-",
+   "publishing_status": "A",
+   "industry_name": "Financial activities",
+   "display_level": 2,
+   "selectable": "T",
+   "sort_sequence": 535
+ },
+ {
+   "industry_code": 55520000,
+   "naics_code": "52",
+   "publishing_status": "C",
+   "industry_name": "Finance and insurance",
+   "display_level": 3,
+   "selectable": "T",
+   "sort_sequence": 536
+ },
+ {
+   "industry_code": 55521000,
+   "naics_code": "521",
+   "publishing_status": "C",
+   "industry_name": "Monetary authorities - central bank",
+   "display_level": 4,
+   "selectable": "T",
+   "sort_sequence": 537
+ },
+ {
+   "industry_code": 55522000,
+   "naics_code": "522",
+   "publishing_status": "A",
+   "industry_name": "Credit intermediation and related activities",
+   "display_level": 4,
+   "selectable": "T",
+   "sort_sequence": 538
+ },
+ {
+   "industry_code": 55522100,
+   "naics_code": "5221",
+   "publishing_status": "A",
+   "industry_name": "Depository credit intermediation",
+   "display_level": 5,
+   "selectable": "T",
+   "sort_sequence": 539
+ },
+ {
+   "industry_code": 55522110,
+   "naics_code": "52211",
+   "publishing_status": "A",
+   "industry_name": "Commercial banking",
+   "display_level": 6,
+   "selectable": "T",
+   "sort_sequence": 540
+ },
+ {
+   "industry_code": 55522120,
+   "naics_code": "52212",
+   "publishing_status": "A",
+   "industry_name": "Savings institutions",
+   "display_level": 6,
+   "selectable": "T",
+   "sort_sequence": 541
+ },
+ {
+   "industry_code": 55522190,
+   "naics_code": "52213,9",
+   "publishing_status": "A",
+   "industry_name": "Credit unions and other depository credit intermediation",
+   "display_level": 6,
+   "selectable": "T",
+   "sort_sequence": 542
+ },
+ {
+   "industry_code": 55522200,
+   "naics_code": "5222",
+   "publishing_status": "A",
+   "industry_name": "Nondepository credit intermediation",
+   "display_level": 5,
+   "selectable": "T",
+   "sort_sequence": 543
+ },
+ {
+   "industry_code": 55522210,
+   "naics_code": "52221",
+   "publishing_status": "B",
+   "industry_name": "Credit card issuing",
+   "display_level": 6,
+   "selectable": "T",
+   "sort_sequence": 544
+ },
+ {
+   "industry_code": 55522220,
+   "naics_code": "52222",
+   "publishing_status": "B",
+   "industry_name": "Sales financing",
+   "display_level": 6,
+   "selectable": "T",
+   "sort_sequence": 545
+ },
+ {
+   "industry_code": 55522290,
+   "naics_code": "52229",
+   "publishing_status": "E",
+   "industry_name": "Other nondepository credit intermediation",
+   "display_level": 6,
+   "selectable": "T",
+   "sort_sequence": 546
+ },
+ {
+   "industry_code": 55522291,
+   "naics_code": "522291",
+   "publishing_status": "A",
+   "industry_name": "Consumer lending",
+   "display_level": 7,
+   "selectable": "T",
+   "sort_sequence": 547
+ },
+ {
+   "industry_code": 55522292,
+   "naics_code": "522292",
+   "publishing_status": "A",
+   "industry_name": "Real estate credit",
+   "display_level": 7,
+   "selectable": "T",
+   "sort_sequence": 548
+ },
+ {
+   "industry_code": 55522298,
+   "naics_code": "522293,4,8",
+   "publishing_status": "E",
+   "industry_name": "Miscellaneous nondepository credit intermediation",
+   "display_level": 7,
+   "selectable": "T",
+   "sort_sequence": 549
+ },
+ {
+   "industry_code": 55522300,
+   "naics_code": "5223",
+   "publishing_status": "A",
+   "industry_name": "Activities related to credit intermediation",
+   "display_level": 5,
+   "selectable": "T",
+   "sort_sequence": 550
+ },
+ {
+   "industry_code": 55522310,
+   "naics_code": "52231",
+   "publishing_status": "E",
+   "industry_name": "Mortgage and nonmortgage loan brokers",
+   "display_level": 6,
+   "selectable": "T",
+   "sort_sequence": 551
+ },
+ {
+   "industry_code": 55522320,
+   "naics_code": "52232",
+   "publishing_status": "E",
+   "industry_name": "Financial transaction processing and clearing",
+   "display_level": 6,
+   "selectable": "T",
+   "sort_sequence": 552
+ },
+ {
+   "industry_code": 55522390,
+   "naics_code": "52239",
+   "publishing_status": "E",
+   "industry_name": "Other credit intermediation activities",
+   "display_level": 6,
+   "selectable": "T",
+   "sort_sequence": 553
+ },
+ {
+   "industry_code": 55523000,
+   "naics_code": "523,5",
+   "publishing_status": "A",
+   "industry_name": "Securities, commodity contracts, investments, and funds and trusts",
+   "display_level": 4,
+   "selectable": "T",
+   "sort_sequence": 554
+ },
+ {
+   "industry_code": 55523120,
+   "naics_code": "52312",
+   "publishing_status": "A",
+   "industry_name": "Securities brokerage",
+   "display_level": 6,
+   "selectable": "T",
+   "sort_sequence": 555
+ },
+ {
+   "industry_code": 55523200,
+   "naics_code": "5231,2",
+   "publishing_status": "A",
+   "industry_name": "Securities and commodity contracts brokerage and exchanges",
+   "display_level": 5,
+   "selectable": "T",
+   "sort_sequence": 556
+ },
+ {
+   "industry_code": 55523900,
+   "naics_code": "5239; 525",
+   "publishing_status": "A",
+   "industry_name": "Other financial investment activities, including funds and trusts",
+   "display_level": 5,
+   "selectable": "T",
+   "sort_sequence": 557
+ },
+ {
+   "industry_code": 55523910,
+   "naics_code": "52391",
+   "publishing_status": "E",
+   "industry_name": "Miscellaneous intermediation",
+   "display_level": 6,
+   "selectable": "T",
+   "sort_sequence": 558
+ },
+ {
+   "industry_code": 55523920,
+   "naics_code": "52392",
+   "publishing_status": "A",
+   "industry_name": "Portfolio management",
+   "display_level": 6,
+   "selectable": "T",
+   "sort_sequence": 559
+ },
+ {
+   "industry_code": 55523930,
+   "naics_code": "52393",
+   "publishing_status": "A",
+   "industry_name": "Investment advice",
+   "display_level": 6,
+   "selectable": "T",
+   "sort_sequence": 560
+ },
+ {
+   "industry_code": 55523990,
+   "naics_code": "52399; 525",
+   "publishing_status": "E",
+   "industry_name": "All other financial investment activities, including funds and trusts",
+   "display_level": 6,
+   "selectable": "T",
+   "sort_sequence": 561
+ },
+ {
+   "industry_code": 55524000,
+   "naics_code": "524",
+   "publishing_status": "A",
+   "industry_name": "Insurance carriers and related activities",
+   "display_level": 4,
+   "selectable": "T",
+   "sort_sequence": 562
+ },
+ {
+   "industry_code": 55524100,
+   "naics_code": "5241",
+   "publishing_status": "A",
+   "industry_name": "Insurance carriers",
+   "display_level": 5,
+   "selectable": "T",
+   "sort_sequence": 563
+ },
+ {
+   "industry_code": 55524110,
+   "naics_code": "52411",
+   "publishing_status": "A",
+   "industry_name": "Direct life and health insurance carriers",
+   "display_level": 6,
+   "selectable": "T",
+   "sort_sequence": 564
+ },
+ {
+   "industry_code": 55524113,
+   "naics_code": "524113",
+   "publishing_status": "C",
+   "industry_name": "Direct life insurance carriers",
+   "display_level": 7,
+   "selectable": "T",
+   "sort_sequence": 565
+ },
+ {
+   "industry_code": 55524114,
+   "naics_code": "524114",
+   "publishing_status": "C",
+   "industry_name": "Direct health and medical insurance carriers",
+   "display_level": 7,
+   "selectable": "T",
+   "sort_sequence": 566
+ },
+ {
+   "industry_code": 55524120,
+   "naics_code": "52412",
+   "publishing_status": "A",
+   "industry_name": "Direct insurers, except life and health",
+   "display_level": 6,
+   "selectable": "T",
+   "sort_sequence": 567
+ },
+ {
+   "industry_code": 55524126,
+   "naics_code": "524126",
+   "publishing_status": "E",
+   "industry_name": "Direct property and casualty insurers",
+   "display_level": 7,
+   "selectable": "T",
+   "sort_sequence": 568
+ },
+ {
+   "industry_code": 55524128,
+   "naics_code": "524127,8",
+   "publishing_status": "E",
+   "industry_name": "Direct title insurance and other direct insurance carriers",
+   "display_level": 7,
+   "selectable": "T",
+   "sort_sequence": 569
+ },
+ {
+   "industry_code": 55524130,
+   "naics_code": "52413",
+   "publishing_status": "A",
+   "industry_name": "Reinsurance carriers",
+   "display_level": 6,
+   "selectable": "T",
+   "sort_sequence": 570
+ },
+ {
+   "industry_code": 55524200,
+   "naics_code": "5242",
+   "publishing_status": "A",
+   "industry_name": "Insurance agencies, brokerages, and related services",
+   "display_level": 5,
+   "selectable": "T",
+   "sort_sequence": 571
+ },
+ {
+   "industry_code": 55524210,
+   "naics_code": "52421",
+   "publishing_status": "A",
+   "industry_name": "Insurance agencies and brokerages",
+   "display_level": 6,
+   "selectable": "T",
+   "sort_sequence": 572
+ },
+ {
+   "industry_code": 55524290,
+   "naics_code": "52429",
+   "publishing_status": "A",
+   "industry_name": "Other insurance-related activities",
+   "display_level": 6,
+   "selectable": "T",
+   "sort_sequence": 573
+ },
+ {
+   "industry_code": 55524291,
+   "naics_code": "524291",
+   "publishing_status": "E",
+   "industry_name": "Claims adjusting",
+   "display_level": 7,
+   "selectable": "T",
+   "sort_sequence": 574
+ },
+ {
+   "industry_code": 55524292,
+   "naics_code": "524292",
+   "publishing_status": "A",
+   "industry_name": "Third-party administration of insurance funds",
+   "display_level": 7,
+   "selectable": "T",
+   "sort_sequence": 575
+ },
+ {
+   "industry_code": 55524298,
+   "naics_code": "524298",
+   "publishing_status": "E",
+   "industry_name": "All other insurance-related activities",
+   "display_level": 7,
+   "selectable": "T",
+   "sort_sequence": 576
+ },
+ {
+   "industry_code": 55530000,
+   "naics_code": "53",
+   "publishing_status": "C",
+   "industry_name": "Real estate and rental and leasing",
+   "display_level": 3,
+   "selectable": "T",
+   "sort_sequence": 577
+ },
+ {
+   "industry_code": 55531000,
+   "naics_code": "531",
+   "publishing_status": "A",
+   "industry_name": "Real estate",
+   "display_level": 4,
+   "selectable": "T",
+   "sort_sequence": 578
+ },
+ {
+   "industry_code": 55531100,
+   "naics_code": "5311",
+   "publishing_status": "A",
+   "industry_name": "Lessors of real estate",
+   "display_level": 5,
+   "selectable": "T",
+   "sort_sequence": 579
+ },
+ {
+   "industry_code": 55531110,
+   "naics_code": "53111",
+   "publishing_status": "A",
+   "industry_name": "Lessors of residential buildings",
+   "display_level": 6,
+   "selectable": "T",
+   "sort_sequence": 580
+ },
+ {
+   "industry_code": 55531120,
+   "naics_code": "53112",
+   "publishing_status": "A",
+   "industry_name": "Lessors of nonresidential buildings",
+   "display_level": 6,
+   "selectable": "T",
+   "sort_sequence": 581
+ },
+ {
+   "industry_code": 55531130,
+   "naics_code": "53113",
+   "publishing_status": "E",
+   "industry_name": "Miniwarehouse and self-storage unit operators",
+   "display_level": 6,
+   "selectable": "T",
+   "sort_sequence": 582
+ },
+ {
+   "industry_code": 55531190,
+   "naics_code": "53119",
+   "publishing_status": "E",
+   "industry_name": "Lessors of other real estate property",
+   "display_level": 6,
+   "selectable": "T",
+   "sort_sequence": 583
+ },
+ {
+   "industry_code": 55531200,
+   "naics_code": "5312",
+   "publishing_status": "A",
+   "industry_name": "Offices of real estate agents and brokers",
+   "display_level": 5,
+   "selectable": "T",
+   "sort_sequence": 584
+ },
+ {
+   "industry_code": 55531300,
+   "naics_code": "5313",
+   "publishing_status": "A",
+   "industry_name": "Activities related to real estate",
+   "display_level": 5,
+   "selectable": "T",
+   "sort_sequence": 585
+ },
+ {
+   "industry_code": 55531310,
+   "naics_code": "53131",
+   "publishing_status": "A",
+   "industry_name": "Real estate property managers",
+   "display_level": 6,
+   "selectable": "T",
+   "sort_sequence": 586
+ },
+ {
+   "industry_code": 55531311,
+   "naics_code": "531311",
+   "publishing_status": "A",
+   "industry_name": "Residential property managers",
+   "display_level": 7,
+   "selectable": "T",
+   "sort_sequence": 587
+ },
+ {
+   "industry_code": 55531312,
+   "naics_code": "531312",
+   "publishing_status": "A",
+   "industry_name": "Nonresidential property managers",
+   "display_level": 7,
+   "selectable": "T",
+   "sort_sequence": 588
+ },
+ {
+   "industry_code": 55531320,
+   "naics_code": "53132",
+   "publishing_status": "E",
+   "industry_name": "Offices of real estate appraisers",
+   "display_level": 6,
+   "selectable": "T",
+   "sort_sequence": 589
+ },
+ {
+   "industry_code": 55531390,
+   "naics_code": "53139",
+   "publishing_status": "E",
+   "industry_name": "Other activities related to real estate",
+   "display_level": 6,
+   "selectable": "T",
+   "sort_sequence": 590
+ },
+ {
+   "industry_code": 55532000,
+   "naics_code": "532",
+   "publishing_status": "A",
+   "industry_name": "Rental and leasing services",
+   "display_level": 4,
+   "selectable": "T",
+   "sort_sequence": 591
+ },
+ {
+   "industry_code": 55532100,
+   "naics_code": "5321",
+   "publishing_status": "E",
+   "industry_name": "Automotive equipment rental and leasing",
+   "display_level": 5,
+   "selectable": "T",
+   "sort_sequence": 592
+ },
+ {
+   "industry_code": 55532110,
+   "naics_code": "53211",
+   "publishing_status": "C",
+   "industry_name": "Passenger car rental and leasing",
+   "display_level": 6,
+   "selectable": "T",
+   "sort_sequence": 593
+ },
+ {
+   "industry_code": 55532120,
+   "naics_code": "53212",
+   "publishing_status": "C",
+   "industry_name": "Truck, trailer, and RV rental and leasing",
+   "display_level": 6,
+   "selectable": "T",
+   "sort_sequence": 594
+ },
+ {
+   "industry_code": 55532200,
+   "naics_code": "5322",
+   "publishing_status": "E",
+   "industry_name": "Consumer goods rental",
+   "display_level": 5,
+   "selectable": "T",
+   "sort_sequence": 595
+ },
+ {
+   "industry_code": 55532283,
+   "naics_code": "532283",
+   "publishing_status": "A",
+   "industry_name": "Home health equipment rental",
+   "display_level": 7,
+   "selectable": "T",
+   "sort_sequence": 596
+ },
+ {
+   "industry_code": 55532300,
+   "naics_code": "5323",
+   "publishing_status": "A",
+   "industry_name": "General rental centers",
+   "display_level": 5,
+   "selectable": "T",
+   "sort_sequence": 597
+ },
+ {
+   "industry_code": 55532400,
+   "naics_code": "5324",
+   "publishing_status": "A",
+   "industry_name": "Machinery and equipment rental and leasing",
+   "display_level": 5,
+   "selectable": "T",
+   "sort_sequence": 598
+ },
+ {
+   "industry_code": 55532410,
+   "naics_code": "53241",
+   "publishing_status": "A",
+   "industry_name": "Heavy machinery rental and leasing",
+   "display_level": 6,
+   "selectable": "T",
+   "sort_sequence": 599
+ },
+ {
+   "industry_code": 55532490,
+   "naics_code": "53242,9",
+   "publishing_status": "A",
+   "industry_name": "Office equipment and other machinery rental and leasing",
+   "display_level": 6,
+   "selectable": "T",
+   "sort_sequence": 600
+ },
+ {
+   "industry_code": 55533000,
+   "naics_code": "533",
+   "publishing_status": "C",
+   "industry_name": "Lessors of nonfinancial intangible assets",
+   "display_level": 4,
+   "selectable": "T",
+   "sort_sequence": 601
+ },
+ {
+   "industry_code": 60000000,
+   "naics_code": "-",
+   "publishing_status": "A",
+   "industry_name": "Professional and business services",
+   "display_level": 2,
+   "selectable": "T",
+   "sort_sequence": 602
+ },
+ {
+   "industry_code": 60540000,
+   "naics_code": "54",
+   "publishing_status": "A",
+   "industry_name": "Professional and technical services",
+   "display_level": 3,
+   "selectable": "T",
+   "sort_sequence": 603
+ },
+ {
+   "industry_code": 60541100,
+   "naics_code": "5411",
+   "publishing_status": "A",
+   "industry_name": "Legal services",
+   "display_level": 5,
+   "selectable": "T",
+   "sort_sequence": 604
+ },
+ {
+   "industry_code": 60541110,
+   "naics_code": "54111",
+   "publishing_status": "A",
+   "industry_name": "Offices of lawyers",
+   "display_level": 6,
+   "selectable": "T",
+   "sort_sequence": 605
+ },
+ {
+   "industry_code": 60541190,
+   "naics_code": "54119",
+   "publishing_status": "A",
+   "industry_name": "Other legal services",
+   "display_level": 6,
+   "selectable": "T",
+   "sort_sequence": 606
+ },
+ {
+   "industry_code": 60541200,
+   "naics_code": "5412",
+   "publishing_status": "A",
+   "industry_name": "Accounting and bookkeeping services",
+   "display_level": 5,
+   "selectable": "T",
+   "sort_sequence": 607
+ },
+ {
+   "industry_code": 60541211,
+   "naics_code": "541211",
+   "publishing_status": "A",
+   "industry_name": "Offices of certified public accountants",
+   "display_level": 7,
+   "selectable": "T",
+   "sort_sequence": 608
+ },
+ {
+   "industry_code": 60541213,
+   "naics_code": "541213",
+   "publishing_status": "C",
+   "industry_name": "Tax preparation services",
+   "display_level": 7,
+   "selectable": "T",
+   "sort_sequence": 609
+ },
+ {
+   "industry_code": 60541214,
+   "naics_code": "541214",
+   "publishing_status": "A",
+   "industry_name": "Payroll services",
+   "display_level": 7,
+   "selectable": "T",
+   "sort_sequence": 610
+ },
+ {
+   "industry_code": 60541219,
+   "naics_code": "541219",
+   "publishing_status": "C",
+   "industry_name": "Other accounting services",
+   "display_level": 7,
+   "selectable": "T",
+   "sort_sequence": 611
+ },
+ {
+   "industry_code": 60541300,
+   "naics_code": "5413",
+   "publishing_status": "A",
+   "industry_name": "Architectural and engineering services",
+   "display_level": 5,
+   "selectable": "T",
+   "sort_sequence": 612
+ },
+ {
+   "industry_code": 60541310,
+   "naics_code": "54131",
+   "publishing_status": "A",
+   "industry_name": "Architectural services",
+   "display_level": 6,
+   "selectable": "T",
+   "sort_sequence": 613
+ },
+ {
+   "industry_code": 60541320,
+   "naics_code": "54132",
+   "publishing_status": "A",
+   "industry_name": "Landscape architectural services",
+   "display_level": 6,
+   "selectable": "T",
+   "sort_sequence": 614
+ },
+ {
+   "industry_code": 60541340,
+   "naics_code": "54133,4",
+   "publishing_status": "A",
+   "industry_name": "Engineering and drafting services",
+   "display_level": 6,
+   "selectable": "T",
+   "sort_sequence": 615
+ },
+ {
+   "industry_code": 60541370,
+   "naics_code": "54135,6,7",
+   "publishing_status": "A",
+   "industry_name": "Building inspection, surveying, and mapping services",
+   "display_level": 6,
+   "selectable": "T",
+   "sort_sequence": 616
+ },
+ {
+   "industry_code": 60541380,
+   "naics_code": "54138",
+   "publishing_status": "A",
+   "industry_name": "Testing laboratories",
+   "display_level": 6,
+   "selectable": "T",
+   "sort_sequence": 617
+ },
+ {
+   "industry_code": 60541400,
+   "naics_code": "5414",
+   "publishing_status": "A",
+   "industry_name": "Specialized design services",
+   "display_level": 5,
+   "selectable": "T",
+   "sort_sequence": 618
+ },
+ {
+   "industry_code": 60541410,
+   "naics_code": "54141",
+   "publishing_status": "E",
+   "industry_name": "Interior design services",
+   "display_level": 6,
+   "selectable": "T",
+   "sort_sequence": 619
+ },
+ {
+   "industry_code": 60541430,
+   "naics_code": "54143",
+   "publishing_status": "A",
+   "industry_name": "Graphic design services",
+   "display_level": 6,
+   "selectable": "T",
+   "sort_sequence": 620
+ },
+ {
+   "industry_code": 60541500,
+   "naics_code": "5415",
+   "publishing_status": "A",
+   "industry_name": "Computer systems design and related services",
+   "display_level": 5,
+   "selectable": "T",
+   "sort_sequence": 621
+ },
+ {
+   "industry_code": 60541511,
+   "naics_code": "541511",
+   "publishing_status": "A",
+   "industry_name": "Custom computer programming services",
+   "display_level": 7,
+   "selectable": "T",
+   "sort_sequence": 622
+ },
+ {
+   "industry_code": 60541512,
+   "naics_code": "541512",
+   "publishing_status": "A",
+   "industry_name": "Computer systems design services",
+   "display_level": 7,
+   "selectable": "T",
+   "sort_sequence": 623
+ },
+ {
+   "industry_code": 60541513,
+   "naics_code": "541513",
+   "publishing_status": "B",
+   "industry_name": "Computer facilities management services",
+   "display_level": 7,
+   "selectable": "T",
+   "sort_sequence": 624
+ },
+ {
+   "industry_code": 60541519,
+   "naics_code": "541519",
+   "publishing_status": "E",
+   "industry_name": "Other computer-related services",
+   "display_level": 7,
+   "selectable": "T",
+   "sort_sequence": 625
+ },
+ {
+   "industry_code": 60541600,
+   "naics_code": "5416",
+   "publishing_status": "A",
+   "industry_name": "Management and technical consulting services",
+   "display_level": 5,
+   "selectable": "T",
+   "sort_sequence": 626
+ },
+ {
+   "industry_code": 60541610,
+   "naics_code": "54161",
+   "publishing_status": "A",
+   "industry_name": "Management consulting services",
+   "display_level": 6,
+   "selectable": "T",
+   "sort_sequence": 627
+ },
+ {
+   "industry_code": 60541611,
+   "naics_code": "541611",
+   "publishing_status": "A",
+   "industry_name": "Administrative management consulting services",
+   "display_level": 7,
+   "selectable": "T",
+   "sort_sequence": 628
+ },
+ {
+   "industry_code": 60541612,
+   "naics_code": "541612",
+   "publishing_status": "C",
+   "industry_name": "Human resource consulting services",
+   "display_level": 7,
+   "selectable": "T",
+   "sort_sequence": 629
+ },
+ {
+   "industry_code": 60541613,
+   "naics_code": "541613",
+   "publishing_status": "A",
+   "industry_name": "Marketing consulting services",
+   "display_level": 7,
+   "selectable": "T",
+   "sort_sequence": 630
+ },
+ {
+   "industry_code": 60541614,
+   "naics_code": "541614",
+   "publishing_status": "A",
+   "industry_name": "Process and logistics consulting services",
+   "display_level": 7,
+   "selectable": "T",
+   "sort_sequence": 631
+ },
+ {
+   "industry_code": 60541618,
+   "naics_code": "541618",
+   "publishing_status": "C",
+   "industry_name": "Other management consulting services",
+   "display_level": 7,
+   "selectable": "T",
+   "sort_sequence": 632
+ },
+ {
+   "industry_code": 60541620,
+   "naics_code": "54162",
+   "publishing_status": "C",
+   "industry_name": "Environmental consulting services",
+   "display_level": 6,
+   "selectable": "T",
+   "sort_sequence": 633
+ },
+ {
+   "industry_code": 60541690,
+   "naics_code": "54169",
+   "publishing_status": "C",
+   "industry_name": "Other technical consulting services",
+   "display_level": 6,
+   "selectable": "T",
+   "sort_sequence": 634
+ },
+ {
+   "industry_code": 60541700,
+   "naics_code": "5417",
+   "publishing_status": "A",
+   "industry_name": "Scientific research and development services",
+   "display_level": 5,
+   "selectable": "T",
+   "sort_sequence": 635
+ },
+ {
+   "industry_code": 60541710,
+   "naics_code": "54171",
+   "publishing_status": "A",
+   "industry_name": "Research and development in the physical, engineering, and life sciences",
+   "display_level": 6,
+   "selectable": "T",
+   "sort_sequence": 636
+ },
+ {
+   "industry_code": 60541713,
+   "naics_code": "541713",
+   "publishing_status": "C",
+   "industry_name": "Research and development in nanotechnology",
+   "display_level": 7,
+   "selectable": "T",
+   "sort_sequence": 637
+ },
+ {
+   "industry_code": 60541714,
+   "naics_code": "541714",
+   "publishing_status": "C",
+   "industry_name": "Research and development in biotechnology, except nanobiotechnology",
+   "display_level": 7,
+   "selectable": "T",
+   "sort_sequence": 638
+ },
+ {
+   "industry_code": 60541715,
+   "naics_code": "541715",
+   "publishing_status": "A",
+   "industry_name": "Research and development in the physical, engineering, and life sciences, except nanotechnology and biotechnology",
+   "display_level": 7,
+   "selectable": "T",
+   "sort_sequence": 639
+ },
+ {
+   "industry_code": 60541720,
+   "naics_code": "54172",
+   "publishing_status": "A",
+   "industry_name": "Social science and humanities research",
+   "display_level": 6,
+   "selectable": "T",
+   "sort_sequence": 640
+ },
+ {
+   "industry_code": 60541800,
+   "naics_code": "5418",
+   "publishing_status": "A",
+   "industry_name": "Advertising and related services",
+   "display_level": 5,
+   "selectable": "T",
+   "sort_sequence": 641
+ },
+ {
+   "industry_code": 60541810,
+   "naics_code": "54181",
+   "publishing_status": "A",
+   "industry_name": "Advertising agencies",
+   "display_level": 6,
+   "selectable": "T",
+   "sort_sequence": 642
+ },
+ {
+   "industry_code": 60541820,
+   "naics_code": "54182",
+   "publishing_status": "A",
+   "industry_name": "Public relations agencies",
+   "display_level": 6,
+   "selectable": "T",
+   "sort_sequence": 643
+ },
+ {
+   "industry_code": 60541840,
+   "naics_code": "54183,4",
+   "publishing_status": "C",
+   "industry_name": "Media buying agencies and media representatives",
+   "display_level": 6,
+   "selectable": "T",
+   "sort_sequence": 644
+ },
+ {
+   "industry_code": 60541850,
+   "naics_code": "54185",
+   "publishing_status": "C",
+   "industry_name": "Display advertising",
+   "display_level": 6,
+   "selectable": "T",
+   "sort_sequence": 645
+ },
+ {
+   "industry_code": 60541860,
+   "naics_code": "54186",
+   "publishing_status": "E",
+   "industry_name": "Direct mail advertising",
+   "display_level": 6,
+   "selectable": "T",
+   "sort_sequence": 646
+ },
+ {
+   "industry_code": 60541890,
+   "naics_code": "54187,9",
+   "publishing_status": "A",
+   "industry_name": "Advertising material distribution and other advertising services",
+   "display_level": 6,
+   "selectable": "T",
+   "sort_sequence": 647
+ },
+ {
+   "industry_code": 60541900,
+   "naics_code": "5419",
+   "publishing_status": "A",
+   "industry_name": "Other professional and technical services",
+   "display_level": 5,
+   "selectable": "T",
+   "sort_sequence": 648
+ },
+ {
+   "industry_code": 60541910,
+   "naics_code": "54191",
+   "publishing_status": "A",
+   "industry_name": "Marketing research and public opinion polling",
+   "display_level": 6,
+   "selectable": "T",
+   "sort_sequence": 649
+ },
+ {
+   "industry_code": 60541920,
+   "naics_code": "54192",
+   "publishing_status": "A",
+   "industry_name": "Photographic services",
+   "display_level": 6,
+   "selectable": "T",
+   "sort_sequence": 650
+ },
+ {
+   "industry_code": 60541940,
+   "naics_code": "54194",
+   "publishing_status": "A",
+   "industry_name": "Veterinary services",
+   "display_level": 6,
+   "selectable": "T",
+   "sort_sequence": 651
+ },
+ {
+   "industry_code": 60541990,
+   "naics_code": "54193,9",
+   "publishing_status": "A",
+   "industry_name": "Miscellaneous professional and technical services",
+   "display_level": 6,
+   "selectable": "T",
+   "sort_sequence": 652
+ },
+ {
+   "industry_code": 60550000,
+   "naics_code": "55",
+   "publishing_status": "A",
+   "industry_name": "Management of companies and enterprises",
+   "display_level": 3,
+   "selectable": "T",
+   "sort_sequence": 653
+ },
+ {
+   "industry_code": 60551112,
+   "naics_code": "551111,2",
+   "publishing_status": "A",
+   "industry_name": "Offices of bank holding companies and of other holding companies",
+   "display_level": 7,
+   "selectable": "T",
+   "sort_sequence": 654
+ },
+ {
+   "industry_code": 60551114,
+   "naics_code": "551114",
+   "publishing_status": "A",
+   "industry_name": "Managing offices",
+   "display_level": 7,
+   "selectable": "T",
+   "sort_sequence": 655
+ },
+ {
+   "industry_code": 60560000,
+   "naics_code": "56",
+   "publishing_status": "A",
+   "industry_name": "Administrative and waste services",
+   "display_level": 3,
+   "selectable": "T",
+   "sort_sequence": 656
+ },
+ {
+   "industry_code": 60561000,
+   "naics_code": "561",
+   "publishing_status": "A",
+   "industry_name": "Administrative and support services",
+   "display_level": 4,
+   "selectable": "T",
+   "sort_sequence": 657
+ },
+ {
+   "industry_code": 60561100,
+   "naics_code": "5611",
+   "publishing_status": "A",
+   "industry_name": "Office administrative services",
+   "display_level": 5,
+   "selectable": "T",
+   "sort_sequence": 658
+ },
+ {
+   "industry_code": 60561200,
+   "naics_code": "5612",
+   "publishing_status": "A",
+   "industry_name": "Facilities support services",
+   "display_level": 5,
+   "selectable": "T",
+   "sort_sequence": 659
+ },
+ {
+   "industry_code": 60561300,
+   "naics_code": "5613",
+   "publishing_status": "A",
+   "industry_name": "Employment services",
+   "display_level": 5,
+   "selectable": "T",
+   "sort_sequence": 660
+ },
+ {
+   "industry_code": 60561310,
+   "naics_code": "56131",
+   "publishing_status": "A",
+   "industry_name": "Employment placement agencies and executive search services",
+   "display_level": 6,
+   "selectable": "T",
+   "sort_sequence": 661
+ },
+ {
+   "industry_code": 60561311,
+   "naics_code": "561311",
+   "publishing_status": "C",
+   "industry_name": "Employment placement agencies",
+   "display_level": 7,
+   "selectable": "T",
+   "sort_sequence": 662
+ },
+ {
+   "industry_code": 60561312,
+   "naics_code": "561312",
+   "publishing_status": "C",
+   "industry_name": "Executive search services",
+   "display_level": 7,
+   "selectable": "T",
+   "sort_sequence": 663
+ },
+ {
+   "industry_code": 60561320,
+   "naics_code": "56132",
+   "publishing_status": "A",
+   "industry_name": "Temporary help services",
+   "display_level": 6,
+   "selectable": "T",
+   "sort_sequence": 664
+ },
+ {
+   "industry_code": 60561330,
+   "naics_code": "56133",
+   "publishing_status": "A",
+   "industry_name": "Professional employer organizations",
+   "display_level": 6,
+   "selectable": "T",
+   "sort_sequence": 665
+ },
+ {
+   "industry_code": 60561400,
+   "naics_code": "5614",
+   "publishing_status": "A",
+   "industry_name": "Business support services",
+   "display_level": 5,
+   "selectable": "T",
+   "sort_sequence": 666
+ },
+ {
+   "industry_code": 60561410,
+   "naics_code": "56141",
+   "publishing_status": "E",
+   "industry_name": "Document preparation services",
+   "display_level": 6,
+   "selectable": "T",
+   "sort_sequence": 667
+ },
+ {
+   "industry_code": 60561420,
+   "naics_code": "56142",
+   "publishing_status": "A",
+   "industry_name": "Telephone call centers",
+   "display_level": 6,
+   "selectable": "T",
+   "sort_sequence": 668
+ },
+ {
+   "industry_code": 60561421,
+   "naics_code": "561421",
+   "publishing_status": "C",
+   "industry_name": "Telephone answering services",
+   "display_level": 7,
+   "selectable": "T",
+   "sort_sequence": 669
+ },
+ {
+   "industry_code": 60561422,
+   "naics_code": "561422",
+   "publishing_status": "C",
+   "industry_name": "Telemarketing bureaus",
+   "display_level": 7,
+   "selectable": "T",
+   "sort_sequence": 670
+ },
+ {
+   "industry_code": 60561430,
+   "naics_code": "56143",
+   "publishing_status": "A",
+   "industry_name": "Business service centers",
+   "display_level": 6,
+   "selectable": "T",
+   "sort_sequence": 671
+ },
+ {
+   "industry_code": 60561440,
+   "naics_code": "56144",
+   "publishing_status": "A",
+   "industry_name": "Collection agencies",
+   "display_level": 6,
+   "selectable": "T",
+   "sort_sequence": 672
+ },
+ {
+   "industry_code": 60561450,
+   "naics_code": "56145",
+   "publishing_status": "C",
+   "industry_name": "Credit bureaus",
+   "display_level": 6,
+   "selectable": "T",
+   "sort_sequence": 673
+ },
+ {
+   "industry_code": 60561490,
+   "naics_code": "56149",
+   "publishing_status": "C",
+   "industry_name": "Other business support services",
+   "display_level": 6,
+   "selectable": "T",
+   "sort_sequence": 674
+ },
+ {
+   "industry_code": 60561500,
+   "naics_code": "5615",
+   "publishing_status": "A",
+   "industry_name": "Travel arrangement and reservation services",
+   "display_level": 5,
+   "selectable": "T",
+   "sort_sequence": 675
+ },
+ {
+   "industry_code": 60561510,
+   "naics_code": "56151",
+   "publishing_status": "A",
+   "industry_name": "Travel agencies",
+   "display_level": 6,
+   "selectable": "T",
+   "sort_sequence": 676
+ },
+ {
+   "industry_code": 60561520,
+   "naics_code": "56152",
+   "publishing_status": "C",
+   "industry_name": "Tour operators",
+   "display_level": 6,
+   "selectable": "T",
+   "sort_sequence": 677
+ },
+ {
+   "industry_code": 60561590,
+   "naics_code": "56159",
+   "publishing_status": "C",
+   "industry_name": "Other travel arrangement services",
+   "display_level": 6,
+   "selectable": "T",
+   "sort_sequence": 678
+ },
+ {
+   "industry_code": 60561600,
+   "naics_code": "5616",
+   "publishing_status": "A",
+   "industry_name": "Investigation and security services",
+   "display_level": 5,
+   "selectable": "T",
+   "sort_sequence": 679
+ },
+ {
+   "industry_code": 60561610,
+   "naics_code": "56161",
+   "publishing_status": "A",
+   "industry_name": "Security and armored car services",
+   "display_level": 6,
+   "selectable": "T",
+   "sort_sequence": 680
+ },
+ {
+   "industry_code": 60561611,
+   "naics_code": "561611",
+   "publishing_status": "C",
+   "industry_name": "Investigation services",
+   "display_level": 7,
+   "selectable": "T",
+   "sort_sequence": 681
+ },
+ {
+   "industry_code": 60561613,
+   "naics_code": "561612,3",
+   "publishing_status": "C",
+   "industry_name": "Security guards and patrols and armored car services",
+   "display_level": 7,
+   "selectable": "T",
+   "sort_sequence": 682
+ },
+ {
+   "industry_code": 60561620,
+   "naics_code": "56162",
+   "publishing_status": "A",
+   "industry_name": "Security systems services",
+   "display_level": 6,
+   "selectable": "T",
+   "sort_sequence": 683
+ },
+ {
+   "industry_code": 60561700,
+   "naics_code": "5617",
+   "publishing_status": "A",
+   "industry_name": "Services to buildings and dwellings",
+   "display_level": 5,
+   "selectable": "T",
+   "sort_sequence": 684
+ },
+ {
+   "industry_code": 60561710,
+   "naics_code": "56171",
+   "publishing_status": "A",
+   "industry_name": "Exterminating and pest control services",
+   "display_level": 6,
+   "selectable": "T",
+   "sort_sequence": 685
+ },
+ {
+   "industry_code": 60561720,
+   "naics_code": "56172",
+   "publishing_status": "A",
+   "industry_name": "Janitorial services",
+   "display_level": 6,
+   "selectable": "T",
+   "sort_sequence": 686
+ },
+ {
+   "industry_code": 60561730,
+   "naics_code": "56173",
+   "publishing_status": "A",
+   "industry_name": "Landscaping services",
+   "display_level": 6,
+   "selectable": "T",
+   "sort_sequence": 687
+ },
+ {
+   "industry_code": 60561740,
+   "naics_code": "56174",
+   "publishing_status": "A",
+   "industry_name": "Carpet and upholstery cleaning services",
+   "display_level": 6,
+   "selectable": "T",
+   "sort_sequence": 688
+ },
+ {
+   "industry_code": 60561790,
+   "naics_code": "56179",
+   "publishing_status": "A",
+   "industry_name": "Other services to buildings and dwellings",
+   "display_level": 6,
+   "selectable": "T",
+   "sort_sequence": 689
+ },
+ {
+   "industry_code": 60561900,
+   "naics_code": "5619",
+   "publishing_status": "A",
+   "industry_name": "Other support services",
+   "display_level": 5,
+   "selectable": "T",
+   "sort_sequence": 690
+ },
+ {
+   "industry_code": 60561910,
+   "naics_code": "56191",
+   "publishing_status": "A",
+   "industry_name": "Packaging and labeling services",
+   "display_level": 6,
+   "selectable": "T",
+   "sort_sequence": 691
+ },
+ {
+   "industry_code": 60561920,
+   "naics_code": "56192",
+   "publishing_status": "A",
+   "industry_name": "Convention and trade show organizers",
+   "display_level": 6,
+   "selectable": "T",
+   "sort_sequence": 692
+ },
+ {
+   "industry_code": 60561990,
+   "naics_code": "56199",
+   "publishing_status": "A",
+   "industry_name": "All other support services",
+   "display_level": 6,
+   "selectable": "T",
+   "sort_sequence": 693
+ },
+ {
+   "industry_code": 60562000,
+   "naics_code": "562",
+   "publishing_status": "A",
+   "industry_name": "Waste management and remediation services",
+   "display_level": 4,
+   "selectable": "T",
+   "sort_sequence": 694
+ },
+ {
+   "industry_code": 60562100,
+   "naics_code": "5621",
+   "publishing_status": "A",
+   "industry_name": "Waste collection",
+   "display_level": 5,
+   "selectable": "T",
+   "sort_sequence": 695
+ },
+ {
+   "industry_code": 60562200,
+   "naics_code": "5622",
+   "publishing_status": "A",
+   "industry_name": "Waste treatment and disposal",
+   "display_level": 5,
+   "selectable": "T",
+   "sort_sequence": 696
+ },
+ {
+   "industry_code": 60562211,
+   "naics_code": "562211",
+   "publishing_status": "C",
+   "industry_name": "Hazardous waste treatment and disposal",
+   "display_level": 7,
+   "selectable": "T",
+   "sort_sequence": 697
+ },
+ {
+   "industry_code": 60562219,
+   "naics_code": "562212,3,9",
+   "publishing_status": "C",
+   "industry_name": "Nonhazardous waste treatment and disposal",
+   "display_level": 7,
+   "selectable": "T",
+   "sort_sequence": 698
+ },
+ {
+   "industry_code": 60562900,
+   "naics_code": "5629",
+   "publishing_status": "A",
+   "industry_name": "Remediation and other waste services",
+   "display_level": 5,
+   "selectable": "T",
+   "sort_sequence": 699
+ },
+ {
+   "industry_code": 60562910,
+   "naics_code": "56291",
+   "publishing_status": "C",
+   "industry_name": "Remediation services",
+   "display_level": 6,
+   "selectable": "T",
+   "sort_sequence": 700
+ },
+ {
+   "industry_code": 60562990,
+   "naics_code": "56292,9",
+   "publishing_status": "C",
+   "industry_name": "Materials recovery facilities and other waste management services",
+   "display_level": 6,
+   "selectable": "T",
+   "sort_sequence": 701
+ },
+ {
+   "industry_code": 65000000,
+   "naics_code": "-",
+   "publishing_status": "A",
+   "industry_name": "Education and health services",
+   "display_level": 2,
+   "selectable": "T",
+   "sort_sequence": 702
+ },
+ {
+   "industry_code": 65610000,
+   "naics_code": "61",
+   "publishing_status": "B",
+   "industry_name": "Educational services",
+   "display_level": 3,
+   "selectable": "T",
+   "sort_sequence": 703
+ },
+ {
+   "industry_code": 65611100,
+   "naics_code": "6111",
+   "publishing_status": "B",
+   "industry_name": "Elementary and secondary schools",
+   "display_level": 5,
+   "selectable": "T",
+   "sort_sequence": 704
+ },
+ {
+   "industry_code": 65611200,
+   "naics_code": "6112",
+   "publishing_status": "C",
+   "industry_name": "Junior colleges",
+   "display_level": 5,
+   "selectable": "T",
+   "sort_sequence": 705
+ },
+ {
+   "industry_code": 65611300,
+   "naics_code": "6113",
+   "publishing_status": "B",
+   "industry_name": "Colleges and universities",
+   "display_level": 5,
+   "selectable": "T",
+   "sort_sequence": 706
+ },
+ {
+   "industry_code": 65611400,
+   "naics_code": "6114",
+   "publishing_status": "B",
+   "industry_name": "Business, computer, and management training",
+   "display_level": 5,
+   "selectable": "T",
+   "sort_sequence": 707
+ },
+ {
+   "industry_code": 65611420,
+   "naics_code": "61141,2",
+   "publishing_status": "C",
+   "industry_name": "Business and secretarial schools and computer training",
+   "display_level": 6,
+   "selectable": "T",
+   "sort_sequence": 708
+ },
+ {
+   "industry_code": 65611430,
+   "naics_code": "61143",
+   "publishing_status": "C",
+   "industry_name": "Management training",
+   "display_level": 6,
+   "selectable": "T",
+   "sort_sequence": 709
+ },
+ {
+   "industry_code": 65611500,
+   "naics_code": "6115",
+   "publishing_status": "B",
+   "industry_name": "Technical and trade schools",
+   "display_level": 5,
+   "selectable": "T",
+   "sort_sequence": 710
+ },
+ {
+   "industry_code": 65611600,
+   "naics_code": "6116",
+   "publishing_status": "C",
+   "industry_name": "Other schools and instruction",
+   "display_level": 5,
+   "selectable": "T",
+   "sort_sequence": 711
+ },
+ {
+   "industry_code": 65611610,
+   "naics_code": "61161",
+   "publishing_status": "C",
+   "industry_name": "Fine arts schools",
+   "display_level": 6,
+   "selectable": "T",
+   "sort_sequence": 712
+ },
+ {
+   "industry_code": 65611620,
+   "naics_code": "61162",
+   "publishing_status": "C",
+   "industry_name": "Sports and recreation instruction",
+   "display_level": 6,
+   "selectable": "T",
+   "sort_sequence": 713
+ },
+ {
+   "industry_code": 65611690,
+   "naics_code": "61163,9",
+   "publishing_status": "C",
+   "industry_name": "Miscellaneous schools and instruction",
+   "display_level": 6,
+   "selectable": "T",
+   "sort_sequence": 714
+ },
+ {
+   "industry_code": 65611700,
+   "naics_code": "6117",
+   "publishing_status": "B",
+   "industry_name": "Educational support services",
+   "display_level": 5,
+   "selectable": "T",
+   "sort_sequence": 715
+ },
+ {
+   "industry_code": 65620000,
+   "naics_code": "62",
+   "publishing_status": "A",
+   "industry_name": "Health care and social assistance",
+   "display_level": 3,
+   "selectable": "T",
+   "sort_sequence": 716
+ },
+ {
+   "industry_code": 65620001,
+   "naics_code": "621,2,3",
+   "publishing_status": "A",
+   "industry_name": "Health care",
+   "display_level": 4,
+   "selectable": "T",
+   "sort_sequence": 717
+ },
+ {
+   "industry_code": 65621000,
+   "naics_code": "621",
+   "publishing_status": "A",
+   "industry_name": "Ambulatory health care services",
+   "display_level": 4,
+   "selectable": "T",
+   "sort_sequence": 718
+ },
+ {
+   "industry_code": 65621100,
+   "naics_code": "6211",
+   "publishing_status": "A",
+   "industry_name": "Offices of physicians",
+   "display_level": 5,
+   "selectable": "T",
+   "sort_sequence": 719
+ },
+ {
+   "industry_code": 65621111,
+   "naics_code": "621111",
+   "publishing_status": "E",
+   "industry_name": "Offices of physicians, except mental health",
+   "display_level": 7,
+   "selectable": "T",
+   "sort_sequence": 720
+ },
+ {
+   "industry_code": 65621112,
+   "naics_code": "621112",
+   "publishing_status": "E",
+   "industry_name": "Offices of mental health physicians",
+   "display_level": 7,
+   "selectable": "T",
+   "sort_sequence": 721
+ },
+ {
+   "industry_code": 65621200,
+   "naics_code": "6212",
+   "publishing_status": "A",
+   "industry_name": "Offices of dentists",
+   "display_level": 5,
+   "selectable": "T",
+   "sort_sequence": 722
+ },
+ {
+   "industry_code": 65621300,
+   "naics_code": "6213",
+   "publishing_status": "A",
+   "industry_name": "Offices of other health practitioners",
+   "display_level": 5,
+   "selectable": "T",
+   "sort_sequence": 723
+ },
+ {
+   "industry_code": 65621310,
+   "naics_code": "62131",
+   "publishing_status": "A",
+   "industry_name": "Offices of chiropractors",
+   "display_level": 6,
+   "selectable": "T",
+   "sort_sequence": 724
+ },
+ {
+   "industry_code": 65621320,
+   "naics_code": "62132",
+   "publishing_status": "A",
+   "industry_name": "Offices of optometrists",
+   "display_level": 6,
+   "selectable": "T",
+   "sort_sequence": 725
+ },
+ {
+   "industry_code": 65621330,
+   "naics_code": "62133",
+   "publishing_status": "A",
+   "industry_name": "Offices of mental health practitioners",
+   "display_level": 6,
+   "selectable": "T",
+   "sort_sequence": 726
+ },
+ {
+   "industry_code": 65621340,
+   "naics_code": "62134",
+   "publishing_status": "A",
+   "industry_name": "Offices of specialty therapists",
+   "display_level": 6,
+   "selectable": "T",
+   "sort_sequence": 727
+ },
+ {
+   "industry_code": 65621390,
+   "naics_code": "62139",
+   "publishing_status": "A",
+   "industry_name": "Offices of all other health practitioners",
+   "display_level": 6,
+   "selectable": "T",
+   "sort_sequence": 728
+ },
+ {
+   "industry_code": 65621391,
+   "naics_code": "621391",
+   "publishing_status": "C",
+   "industry_name": "Offices of podiatrists",
+   "display_level": 7,
+   "selectable": "T",
+   "sort_sequence": 729
+ },
+ {
+   "industry_code": 65621399,
+   "naics_code": "621399",
+   "publishing_status": "C",
+   "industry_name": "Offices of miscellaneous health practitioners",
+   "display_level": 7,
+   "selectable": "T",
+   "sort_sequence": 730
+ },
+ {
+   "industry_code": 65621400,
+   "naics_code": "6214",
+   "publishing_status": "A",
+   "industry_name": "Outpatient care centers",
+   "display_level": 5,
+   "selectable": "T",
+   "sort_sequence": 731
+ },
+ {
+   "industry_code": 65621420,
+   "naics_code": "62142",
+   "publishing_status": "A",
+   "industry_name": "Outpatient mental health centers",
+   "display_level": 6,
+   "selectable": "T",
+   "sort_sequence": 732
+ },
+ {
+   "industry_code": 65621490,
+   "naics_code": "62141,9",
+   "publishing_status": "A",
+   "industry_name": "Outpatient care centers, except mental health",
+   "display_level": 6,
+   "selectable": "T",
+   "sort_sequence": 733
+ },
+ {
+   "industry_code": 65621491,
+   "naics_code": "621491",
+   "publishing_status": "C",
+   "industry_name": "HMO medical centers",
+   "display_level": 7,
+   "selectable": "T",
+   "sort_sequence": 734
+ },
+ {
+   "industry_code": 65621492,
+   "naics_code": "621492",
+   "publishing_status": "C",
+   "industry_name": "Kidney dialysis centers",
+   "display_level": 7,
+   "selectable": "T",
+   "sort_sequence": 735
+ },
+ {
+   "industry_code": 65621493,
+   "naics_code": "621493",
+   "publishing_status": "A",
+   "industry_name": "Freestanding emergency medical centers",
+   "display_level": 7,
+   "selectable": "T",
+   "sort_sequence": 736
+ },
+ {
+   "industry_code": 65621498,
+   "naics_code": "621410,98",
+   "publishing_status": "A",
+   "industry_name": "Miscellaneous outpatient care centers",
+   "display_level": 7,
+   "selectable": "T",
+   "sort_sequence": 737
+ },
+ {
+   "industry_code": 65621500,
+   "naics_code": "6215",
+   "publishing_status": "A",
+   "industry_name": "Medical and diagnostic laboratories",
+   "display_level": 5,
+   "selectable": "T",
+   "sort_sequence": 738
+ },
+ {
+   "industry_code": 65621511,
+   "naics_code": "621511",
+   "publishing_status": "A",
+   "industry_name": "Medical laboratories",
+   "display_level": 7,
+   "selectable": "T",
+   "sort_sequence": 739
+ },
+ {
+   "industry_code": 65621512,
+   "naics_code": "621512",
+   "publishing_status": "A",
+   "industry_name": "Diagnostic imaging centers",
+   "display_level": 7,
+   "selectable": "T",
+   "sort_sequence": 740
+ },
+ {
+   "industry_code": 65621600,
+   "naics_code": "6216",
+   "publishing_status": "A",
+   "industry_name": "Home health care services",
+   "display_level": 5,
+   "selectable": "T",
+   "sort_sequence": 741
+ },
+ {
+   "industry_code": 65621900,
+   "naics_code": "6219",
+   "publishing_status": "A",
+   "industry_name": "Other ambulatory health care services",
+   "display_level": 5,
+   "selectable": "T",
+   "sort_sequence": 742
+ },
+ {
+   "industry_code": 65621910,
+   "naics_code": "62191",
+   "publishing_status": "A",
+   "industry_name": "Ambulance services",
+   "display_level": 6,
+   "selectable": "T",
+   "sort_sequence": 743
+ },
+ {
+   "industry_code": 65621990,
+   "naics_code": "62199",
+   "publishing_status": "A",
+   "industry_name": "All other ambulatory health care services",
+   "display_level": 6,
+   "selectable": "T",
+   "sort_sequence": 744
+ },
+ {
+   "industry_code": 65621991,
+   "naics_code": "621991",
+   "publishing_status": "C",
+   "industry_name": "Blood and organ banks",
+   "display_level": 7,
+   "selectable": "T",
+   "sort_sequence": 745
+ },
+ {
+   "industry_code": 65621999,
+   "naics_code": "621999",
+   "publishing_status": "C",
+   "industry_name": "Miscellaneous ambulatory health care services",
+   "display_level": 7,
+   "selectable": "T",
+   "sort_sequence": 746
+ },
+ {
+   "industry_code": 65622000,
+   "naics_code": "622",
+   "publishing_status": "A",
+   "industry_name": "Hospitals",
+   "display_level": 4,
+   "selectable": "T",
+   "sort_sequence": 747
+ },
+ {
+   "industry_code": 65622100,
+   "naics_code": "6221",
+   "publishing_status": "A",
+   "industry_name": "General medical and surgical hospitals",
+   "display_level": 5,
+   "selectable": "T",
+   "sort_sequence": 748
+ },
+ {
+   "industry_code": 65622200,
+   "naics_code": "6222",
+   "publishing_status": "E",
+   "industry_name": "Psychiatric and substance abuse hospitals",
+   "display_level": 5,
+   "selectable": "T",
+   "sort_sequence": 749
+ },
+ {
+   "industry_code": 65622300,
+   "naics_code": "6223",
+   "publishing_status": "E",
+   "industry_name": "Other hospitals",
+   "display_level": 5,
+   "selectable": "T",
+   "sort_sequence": 750
+ },
+ {
+   "industry_code": 65623000,
+   "naics_code": "623",
+   "publishing_status": "A",
+   "industry_name": "Nursing and residential care facilities",
+   "display_level": 4,
+   "selectable": "T",
+   "sort_sequence": 751
+ },
+ {
+   "industry_code": 65623100,
+   "naics_code": "6231",
+   "publishing_status": "A",
+   "industry_name": "Nursing care facilities",
+   "display_level": 5,
+   "selectable": "T",
+   "sort_sequence": 752
+ },
+ {
+   "industry_code": 65623200,
+   "naics_code": "6232",
+   "publishing_status": "A",
+   "industry_name": "Residential mental health facilities",
+   "display_level": 5,
+   "selectable": "T",
+   "sort_sequence": 753
+ },
+ {
+   "industry_code": 65623210,
+   "naics_code": "62321",
+   "publishing_status": "A",
+   "industry_name": "Residential intellectual and developmental disability facilities",
+   "display_level": 6,
+   "selectable": "T",
+   "sort_sequence": 754
+ },
+ {
+   "industry_code": 65623220,
+   "naics_code": "62322",
+   "publishing_status": "A",
+   "industry_name": "Residential mental health and substance abuse facilities",
+   "display_level": 6,
+   "selectable": "T",
+   "sort_sequence": 755
+ },
+ {
+   "industry_code": 65623300,
+   "naics_code": "6233",
+   "publishing_status": "A",
+   "industry_name": "Community care facilities for the elderly",
+   "display_level": 5,
+   "selectable": "T",
+   "sort_sequence": 756
+ },
+ {
+   "industry_code": 65623311,
+   "naics_code": "623311",
+   "publishing_status": "A",
+   "industry_name": "Continuing care retirement communities",
+   "display_level": 7,
+   "selectable": "T",
+   "sort_sequence": 757
+ },
+ {
+   "industry_code": 65623312,
+   "naics_code": "623312",
+   "publishing_status": "A",
+   "industry_name": "Assisted living facilities for the elderly",
+   "display_level": 7,
+   "selectable": "T",
+   "sort_sequence": 758
+ },
+ {
+   "industry_code": 65623900,
+   "naics_code": "6239",
+   "publishing_status": "A",
+   "industry_name": "Other residential care facilities",
+   "display_level": 5,
+   "selectable": "T",
+   "sort_sequence": 759
+ },
+ {
+   "industry_code": 65624000,
+   "naics_code": "624",
+   "publishing_status": "A",
+   "industry_name": "Social assistance",
+   "display_level": 4,
+   "selectable": "T",
+   "sort_sequence": 760
+ },
+ {
+   "industry_code": 65624100,
+   "naics_code": "6241",
+   "publishing_status": "A",
+   "industry_name": "Individual and family services",
+   "display_level": 5,
+   "selectable": "T",
+   "sort_sequence": 761
+ },
+ {
+   "industry_code": 65624110,
+   "naics_code": "62411",
+   "publishing_status": "A",
+   "industry_name": "Child and youth services",
+   "display_level": 6,
+   "selectable": "T",
+   "sort_sequence": 762
+ },
+ {
+   "industry_code": 65624120,
+   "naics_code": "62412",
+   "publishing_status": "A",
+   "industry_name": "Services for the elderly and persons with disabilities",
+   "display_level": 6,
+   "selectable": "T",
+   "sort_sequence": 763
+ },
+ {
+   "industry_code": 65624190,
+   "naics_code": "62419",
+   "publishing_status": "A",
+   "industry_name": "Other individual and family services",
+   "display_level": 6,
+   "selectable": "T",
+   "sort_sequence": 764
+ },
+ {
+   "industry_code": 65624200,
+   "naics_code": "6242",
+   "publishing_status": "A",
+   "industry_name": "Emergency and other relief services",
+   "display_level": 5,
+   "selectable": "T",
+   "sort_sequence": 765
+ },
+ {
+   "industry_code": 65624210,
+   "naics_code": "62421",
+   "publishing_status": "E",
+   "industry_name": "Community food services",
+   "display_level": 6,
+   "selectable": "T",
+   "sort_sequence": 766
+ },
+ {
+   "industry_code": 65624230,
+   "naics_code": "62422,3",
+   "publishing_status": "E",
+   "industry_name": "Community housing, emergency, and relief services",
+   "display_level": 6,
+   "selectable": "T",
+   "sort_sequence": 767
+ },
+ {
+   "industry_code": 65624300,
+   "naics_code": "6243",
+   "publishing_status": "A",
+   "industry_name": "Vocational rehabilitation services",
+   "display_level": 5,
+   "selectable": "T",
+   "sort_sequence": 768
+ },
+ {
+   "industry_code": 65624400,
+   "naics_code": "6244",
+   "publishing_status": "A",
+   "industry_name": "Child day care services",
+   "display_level": 5,
+   "selectable": "T",
+   "sort_sequence": 769
+ },
+ {
+   "industry_code": 70000000,
+   "naics_code": "-",
+   "publishing_status": "A",
+   "industry_name": "Leisure and hospitality",
+   "display_level": 2,
+   "selectable": "T",
+   "sort_sequence": 770
+ },
+ {
+   "industry_code": 70710000,
+   "naics_code": "71",
+   "publishing_status": "A",
+   "industry_name": "Arts, entertainment, and recreation",
+   "display_level": 3,
+   "selectable": "T",
+   "sort_sequence": 771
+ },
+ {
+   "industry_code": 70711000,
+   "naics_code": "711",
+   "publishing_status": "A",
+   "industry_name": "Performing arts and spectator sports",
+   "display_level": 4,
+   "selectable": "T",
+   "sort_sequence": 772
+ },
+ {
+   "industry_code": 70711100,
+   "naics_code": "7111",
+   "publishing_status": "A",
+   "industry_name": "Performing arts companies",
+   "display_level": 5,
+   "selectable": "T",
+   "sort_sequence": 773
+ },
+ {
+   "industry_code": 70711130,
+   "naics_code": "71113",
+   "publishing_status": "C",
+   "industry_name": "Musical groups and artists",
+   "display_level": 6,
+   "selectable": "T",
+   "sort_sequence": 774
+ },
+ {
+   "industry_code": 70711190,
+   "naics_code": "71111,2,9",
+   "publishing_status": "C",
+   "industry_name": "Theater, dance, and other performing arts companies",
+   "display_level": 6,
+   "selectable": "T",
+   "sort_sequence": 775
+ },
+ {
+   "industry_code": 70711200,
+   "naics_code": "7112",
+   "publishing_status": "A",
+   "industry_name": "Spectator sports",
+   "display_level": 5,
+   "selectable": "T",
+   "sort_sequence": 776
+ },
+ {
+   "industry_code": 70711211,
+   "naics_code": "711211",
+   "publishing_status": "C",
+   "industry_name": "Sports teams and clubs",
+   "display_level": 7,
+   "selectable": "T",
+   "sort_sequence": 777
+ },
+ {
+   "industry_code": 70711212,
+   "naics_code": "711212",
+   "publishing_status": "C",
+   "industry_name": "Racetracks",
+   "display_level": 7,
+   "selectable": "T",
+   "sort_sequence": 778
+ },
+ {
+   "industry_code": 70711219,
+   "naics_code": "711219",
+   "publishing_status": "C",
+   "industry_name": "Other spectator sports",
+   "display_level": 7,
+   "selectable": "T",
+   "sort_sequence": 779
+ },
+ {
+   "industry_code": 70711300,
+   "naics_code": "7113,4",
+   "publishing_status": "A",
+   "industry_name": "Arts and sports promoters and agents and managers for public figures",
+   "display_level": 5,
+   "selectable": "T",
+   "sort_sequence": 780
+ },
+ {
+   "industry_code": 70711500,
+   "naics_code": "7115",
+   "publishing_status": "A",
+   "industry_name": "Independent artists, writers, and performers",
+   "display_level": 5,
+   "selectable": "T",
+   "sort_sequence": 781
+ },
+ {
+   "industry_code": 70712000,
+   "naics_code": "712",
+   "publishing_status": "A",
+   "industry_name": "Museums, historical sites, and similar institutions",
+   "display_level": 4,
+   "selectable": "T",
+   "sort_sequence": 782
+ },
+ {
+   "industry_code": 70712110,
+   "naics_code": "71211",
+   "publishing_status": "A",
+   "industry_name": "Museums",
+   "display_level": 6,
+   "selectable": "T",
+   "sort_sequence": 783
+ },
+ {
+   "industry_code": 70712190,
+   "naics_code": "71212,3,9",
+   "publishing_status": "A",
+   "industry_name": "Historical sites and other similar institutions",
+   "display_level": 6,
+   "selectable": "T",
+   "sort_sequence": 784
+ },
+ {
+   "industry_code": 70713000,
+   "naics_code": "713",
+   "publishing_status": "A",
+   "industry_name": "Amusements, gambling, and recreation",
+   "display_level": 4,
+   "selectable": "T",
+   "sort_sequence": 785
+ },
+ {
+   "industry_code": 70713100,
+   "naics_code": "7131",
+   "publishing_status": "E",
+   "industry_name": "Amusement parks and arcades",
+   "display_level": 5,
+   "selectable": "T",
+   "sort_sequence": 786
+ },
+ {
+   "industry_code": 70713200,
+   "naics_code": "7132",
+   "publishing_status": "A",
+   "industry_name": "Gambling industries",
+   "display_level": 5,
+   "selectable": "T",
+   "sort_sequence": 787
+ },
+ {
+   "industry_code": 70713210,
+   "naics_code": "71321",
+   "publishing_status": "E",
+   "industry_name": "Casinos, except casino hotels",
+   "display_level": 6,
+   "selectable": "T",
+   "sort_sequence": 788
+ },
+ {
+   "industry_code": 70713290,
+   "naics_code": "71329",
+   "publishing_status": "E",
+   "industry_name": "Other gambling industries",
+   "display_level": 6,
+   "selectable": "T",
+   "sort_sequence": 789
+ },
+ {
+   "industry_code": 70713900,
+   "naics_code": "7139",
+   "publishing_status": "E",
+   "industry_name": "Other amusement and recreation industries",
+   "display_level": 5,
+   "selectable": "T",
+   "sort_sequence": 790
+ },
+ {
+   "industry_code": 70713910,
+   "naics_code": "71391",
+   "publishing_status": "A",
+   "industry_name": "Golf courses and country clubs",
+   "display_level": 6,
+   "selectable": "T",
+   "sort_sequence": 791
+ },
+ {
+   "industry_code": 70713920,
+   "naics_code": "71392",
+   "publishing_status": "A",
+   "industry_name": "Skiing facilities",
+   "display_level": 6,
+   "selectable": "T",
+   "sort_sequence": 792
+ },
+ {
+   "industry_code": 70713930,
+   "naics_code": "71393",
+   "publishing_status": "A",
+   "industry_name": "Marinas",
+   "display_level": 6,
+   "selectable": "T",
+   "sort_sequence": 793
+ },
+ {
+   "industry_code": 70713940,
+   "naics_code": "71394",
+   "publishing_status": "A",
+   "industry_name": "Fitness and recreational sports centers",
+   "display_level": 6,
+   "selectable": "T",
+   "sort_sequence": 794
+ },
+ {
+   "industry_code": 70713950,
+   "naics_code": "71395",
+   "publishing_status": "A",
+   "industry_name": "Bowling centers",
+   "display_level": 6,
+   "selectable": "T",
+   "sort_sequence": 795
+ },
+ {
+   "industry_code": 70713990,
+   "naics_code": "71399",
+   "publishing_status": "E",
+   "industry_name": "All other amusement and recreation industries",
+   "display_level": 6,
+   "selectable": "T",
+   "sort_sequence": 796
+ },
+ {
+   "industry_code": 70720000,
+   "naics_code": "72",
+   "publishing_status": "A",
+   "industry_name": "Accommodation and food services",
+   "display_level": 3,
+   "selectable": "T",
+   "sort_sequence": 797
+ },
+ {
+   "industry_code": 70721000,
+   "naics_code": "721",
+   "publishing_status": "A",
+   "industry_name": "Accommodation",
+   "display_level": 4,
+   "selectable": "T",
+   "sort_sequence": 798
+ },
+ {
+   "industry_code": 70721100,
+   "naics_code": "7211",
+   "publishing_status": "A",
+   "industry_name": "Traveler accommodation",
+   "display_level": 5,
+   "selectable": "T",
+   "sort_sequence": 799
+ },
+ {
+   "industry_code": 70721110,
+   "naics_code": "72111",
+   "publishing_status": "A",
+   "industry_name": "Hotels and motels, except casino hotels",
+   "display_level": 6,
+   "selectable": "T",
+   "sort_sequence": 800
+ },
+ {
+   "industry_code": 70721120,
+   "naics_code": "72112",
+   "publishing_status": "C",
+   "industry_name": "Casino hotels",
+   "display_level": 6,
+   "selectable": "T",
+   "sort_sequence": 801
+ },
+ {
+   "industry_code": 70721190,
+   "naics_code": "72119",
+   "publishing_status": "C",
+   "industry_name": "Other traveler accommodation",
+   "display_level": 6,
+   "selectable": "T",
+   "sort_sequence": 802
+ },
+ {
+   "industry_code": 70721191,
+   "naics_code": "721191",
+   "publishing_status": "C",
+   "industry_name": "Bed-and-breakfast inns",
+   "display_level": 7,
+   "selectable": "T",
+   "sort_sequence": 803
+ },
+ {
+   "industry_code": 70721199,
+   "naics_code": "721310,199",
+   "publishing_status": "C",
+   "industry_name": "All other traveler accommodation and rooming and boarding houses",
+   "display_level": 7,
+   "selectable": "T",
+   "sort_sequence": 804
+ },
+ {
+   "industry_code": 70721200,
+   "naics_code": "7212",
+   "publishing_status": "A",
+   "industry_name": "RV parks and recreational camps",
+   "display_level": 5,
+   "selectable": "T",
+   "sort_sequence": 805
+ },
+ {
+   "industry_code": 70721211,
+   "naics_code": "721211",
+   "publishing_status": "C",
+   "industry_name": "RV parks and campgrounds",
+   "display_level": 7,
+   "selectable": "T",
+   "sort_sequence": 806
+ },
+ {
+   "industry_code": 70721214,
+   "naics_code": "721214",
+   "publishing_status": "C",
+   "industry_name": "Recreational and vacation camps",
+   "display_level": 7,
+   "selectable": "T",
+   "sort_sequence": 807
+ },
+ {
+   "industry_code": 70722000,
+   "naics_code": "722",
+   "publishing_status": "A",
+   "industry_name": "Food services and drinking places",
+   "display_level": 4,
+   "selectable": "T",
+   "sort_sequence": 808
+ },
+ {
+   "industry_code": 70722300,
+   "naics_code": "7223",
+   "publishing_status": "A",
+   "industry_name": "Special food services",
+   "display_level": 5,
+   "selectable": "T",
+   "sort_sequence": 809
+ },
+ {
+   "industry_code": 70722310,
+   "naics_code": "72231",
+   "publishing_status": "A",
+   "industry_name": "Food service contractors",
+   "display_level": 6,
+   "selectable": "T",
+   "sort_sequence": 810
+ },
+ {
+   "industry_code": 70722330,
+   "naics_code": "72232,3",
+   "publishing_status": "A",
+   "industry_name": "Caterers and mobile food services",
+   "display_level": 6,
+   "selectable": "T",
+   "sort_sequence": 811
+ },
+ {
+   "industry_code": 70722400,
+   "naics_code": "7224",
+   "publishing_status": "A",
+   "industry_name": "Drinking places, alcoholic beverages",
+   "display_level": 5,
+   "selectable": "T",
+   "sort_sequence": 812
+ },
+ {
+   "industry_code": 70722500,
+   "naics_code": "7225",
+   "publishing_status": "A",
+   "industry_name": "Restaurants and other eating places",
+   "display_level": 5,
+   "selectable": "T",
+   "sort_sequence": 813
+ },
+ {
+   "industry_code": 70722511,
+   "naics_code": "722511",
+   "publishing_status": "A",
+   "industry_name": "Full-service restaurants",
+   "display_level": 7,
+   "selectable": "T",
+   "sort_sequence": 814
+ },
+ {
+   "industry_code": 70722513,
+   "naics_code": "722513",
+   "publishing_status": "A",
+   "industry_name": "Limited-service restaurants",
+   "display_level": 7,
+   "selectable": "T",
+   "sort_sequence": 815
+ },
+ {
+   "industry_code": 70722514,
+   "naics_code": "722514",
+   "publishing_status": "A",
+   "industry_name": "Cafeterias, grill buffets, and buffets",
+   "display_level": 7,
+   "selectable": "T",
+   "sort_sequence": 816
+ },
+ {
+   "industry_code": 70722515,
+   "naics_code": "722515",
+   "publishing_status": "A",
+   "industry_name": "Snack and nonalcoholic beverage bars",
+   "display_level": 7,
+   "selectable": "T",
+   "sort_sequence": 817
+ },
+ {
+   "industry_code": 80000000,
+   "naics_code": "81",
+   "publishing_status": "A",
+   "industry_name": "Other services",
+   "display_level": 2,
+   "selectable": "T",
+   "sort_sequence": 818
+ },
+ {
+   "industry_code": 80811000,
+   "naics_code": "811",
+   "publishing_status": "A",
+   "industry_name": "Repair and maintenance",
+   "display_level": 4,
+   "selectable": "T",
+   "sort_sequence": 819
+ },
+ {
+   "industry_code": 80811100,
+   "naics_code": "8111",
+   "publishing_status": "A",
+   "industry_name": "Automotive repair and maintenance",
+   "display_level": 5,
+   "selectable": "T",
+   "sort_sequence": 820
+ },
+ {
+   "industry_code": 80811110,
+   "naics_code": "81111",
+   "publishing_status": "A",
+   "industry_name": "Automotive mechanical and electrical repair",
+   "display_level": 6,
+   "selectable": "T",
+   "sort_sequence": 821
+ },
+ {
+   "industry_code": 80811111,
+   "naics_code": "811111",
+   "publishing_status": "A",
+   "industry_name": "General automotive repair",
+   "display_level": 7,
+   "selectable": "T",
+   "sort_sequence": 822
+ },
+ {
+   "industry_code": 80811113,
+   "naics_code": "811112,3",
+   "publishing_status": "C",
+   "industry_name": "Automotive exhaust system and transmission repair",
+   "display_level": 7,
+   "selectable": "T",
+   "sort_sequence": 823
+ },
+ {
+   "industry_code": 80811118,
+   "naics_code": "811118",
+   "publishing_status": "E",
+   "industry_name": "Other automotive mechanical and elec. repair",
+   "display_level": 7,
+   "selectable": "T",
+   "sort_sequence": 824
+ },
+ {
+   "industry_code": 80811120,
+   "naics_code": "81112",
+   "publishing_status": "A",
+   "industry_name": "Automotive body, interior, and glass repair",
+   "display_level": 6,
+   "selectable": "T",
+   "sort_sequence": 825
+ },
+ {
+   "industry_code": 80811121,
+   "naics_code": "811121",
+   "publishing_status": "B",
+   "industry_name": "Automotive body and interior repair",
+   "display_level": 7,
+   "selectable": "T",
+   "sort_sequence": 826
+ },
+ {
+   "industry_code": 80811122,
+   "naics_code": "811122",
+   "publishing_status": "B",
+   "industry_name": "Automotive glass replacement shops",
+   "display_level": 7,
+   "selectable": "T",
+   "sort_sequence": 827
+ },
+ {
+   "industry_code": 80811190,
+   "naics_code": "81119",
+   "publishing_status": "A",
+   "industry_name": "Other automotive repair and maintenance",
+   "display_level": 6,
+   "selectable": "T",
+   "sort_sequence": 828
+ },
+ {
+   "industry_code": 80811192,
+   "naics_code": "811192",
+   "publishing_status": "A",
+   "industry_name": "Car washes",
+   "display_level": 7,
+   "selectable": "T",
+   "sort_sequence": 829
+ },
+ {
+   "industry_code": 80811198,
+   "naics_code": "811191,8",
+   "publishing_status": "A",
+   "industry_name": "Auto oil change shops and all other auto repair and maintenance",
+   "display_level": 7,
+   "selectable": "T",
+   "sort_sequence": 830
+ },
+ {
+   "industry_code": 80811200,
+   "naics_code": "8112",
+   "publishing_status": "A",
+   "industry_name": "Electronic equipment repair and maintenance",
+   "display_level": 5,
+   "selectable": "T",
+   "sort_sequence": 831
+ },
+ {
+   "industry_code": 80811212,
+   "naics_code": "811212",
+   "publishing_status": "A",
+   "industry_name": "Computer and office machine repair",
+   "display_level": 7,
+   "selectable": "T",
+   "sort_sequence": 832
+ },
+ {
+   "industry_code": 80811219,
+   "naics_code": "811211,3,9",
+   "publishing_status": "A",
+   "industry_name": "Miscellaneous electronic equipment repair and maintenance",
+   "display_level": 7,
+   "selectable": "T",
+   "sort_sequence": 833
+ },
+ {
+   "industry_code": 80811300,
+   "naics_code": "8113",
+   "publishing_status": "A",
+   "industry_name": "Commercial machinery repair and maintenance",
+   "display_level": 5,
+   "selectable": "T",
+   "sort_sequence": 834
+ },
+ {
+   "industry_code": 80811400,
+   "naics_code": "8114",
+   "publishing_status": "A",
+   "industry_name": "Household goods repair and maintenance",
+   "display_level": 5,
+   "selectable": "T",
+   "sort_sequence": 835
+ },
+ {
+   "industry_code": 80812000,
+   "naics_code": "812",
+   "publishing_status": "A",
+   "industry_name": "Personal and laundry services",
+   "display_level": 4,
+   "selectable": "T",
+   "sort_sequence": 836
+ },
+ {
+   "industry_code": 80812100,
+   "naics_code": "8121",
+   "publishing_status": "A",
+   "industry_name": "Personal care services",
+   "display_level": 5,
+   "selectable": "T",
+   "sort_sequence": 837
+ },
+ {
+   "industry_code": 80812110,
+   "naics_code": "81211",
+   "publishing_status": "A",
+   "industry_name": "Hair, nail, and skin care services",
+   "display_level": 6,
+   "selectable": "T",
+   "sort_sequence": 838
+ },
+ {
+   "industry_code": 80812112,
+   "naics_code": "812111,2",
+   "publishing_status": "E",
+   "industry_name": "Barber shops and beauty salons",
+   "display_level": 7,
+   "selectable": "T",
+   "sort_sequence": 839
+ },
+ {
+   "industry_code": 80812113,
+   "naics_code": "812113",
+   "publishing_status": "E",
+   "industry_name": "Nail salons",
+   "display_level": 7,
+   "selectable": "T",
+   "sort_sequence": 840
+ },
+ {
+   "industry_code": 80812190,
+   "naics_code": "81219",
+   "publishing_status": "A",
+   "industry_name": "Other personal care services",
+   "display_level": 6,
+   "selectable": "T",
+   "sort_sequence": 841
+ },
+ {
+   "industry_code": 80812200,
+   "naics_code": "8122",
+   "publishing_status": "A",
+   "industry_name": "Death care services",
+   "display_level": 5,
+   "selectable": "T",
+   "sort_sequence": 842
+ },
+ {
+   "industry_code": 80812210,
+   "naics_code": "81221",
+   "publishing_status": "E",
+   "industry_name": "Funeral homes and funeral services",
+   "display_level": 6,
+   "selectable": "T",
+   "sort_sequence": 843
+ },
+ {
+   "industry_code": 80812220,
+   "naics_code": "81222",
+   "publishing_status": "E",
+   "industry_name": "Cemeteries and crematories",
+   "display_level": 6,
+   "selectable": "T",
+   "sort_sequence": 844
+ },
+ {
+   "industry_code": 80812300,
+   "naics_code": "8123",
+   "publishing_status": "A",
+   "industry_name": "Drycleaning and laundry services",
+   "display_level": 5,
+   "selectable": "T",
+   "sort_sequence": 845
+ },
+ {
+   "industry_code": 80812310,
+   "naics_code": "81231",
+   "publishing_status": "A",
+   "industry_name": "Coin-operated laundries and drycleaners",
+   "display_level": 6,
+   "selectable": "T",
+   "sort_sequence": 846
+ },
+ {
+   "industry_code": 80812320,
+   "naics_code": "81232",
+   "publishing_status": "A",
+   "industry_name": "Drycleaning and laundry services, except coin-operated",
+   "display_level": 6,
+   "selectable": "T",
+   "sort_sequence": 847
+ },
+ {
+   "industry_code": 80812330,
+   "naics_code": "81233",
+   "publishing_status": "A",
+   "industry_name": "Linen and uniform supply",
+   "display_level": 6,
+   "selectable": "T",
+   "sort_sequence": 848
+ },
+ {
+   "industry_code": 80812331,
+   "naics_code": "812331",
+   "publishing_status": "C",
+   "industry_name": "Linen supply",
+   "display_level": 7,
+   "selectable": "T",
+   "sort_sequence": 849
+ },
+ {
+   "industry_code": 80812332,
+   "naics_code": "812332",
+   "publishing_status": "C",
+   "industry_name": "Industrial launderers",
+   "display_level": 7,
+   "selectable": "T",
+   "sort_sequence": 850
+ },
+ {
+   "industry_code": 80812900,
+   "naics_code": "8129",
+   "publishing_status": "A",
+   "industry_name": "Other personal services",
+   "display_level": 5,
+   "selectable": "T",
+   "sort_sequence": 851
+ },
+ {
+   "industry_code": 80812910,
+   "naics_code": "81291",
+   "publishing_status": "A",
+   "industry_name": "Pet care services, except veterinary",
+   "display_level": 6,
+   "selectable": "T",
+   "sort_sequence": 852
+ },
+ {
+   "industry_code": 80812930,
+   "naics_code": "81293",
+   "publishing_status": "A",
+   "industry_name": "Parking lots and garages",
+   "display_level": 6,
+   "selectable": "T",
+   "sort_sequence": 853
+ },
+ {
+   "industry_code": 80812990,
+   "naics_code": "81292,9",
+   "publishing_status": "C",
+   "industry_name": "All other personal services, including photofinishing",
+   "display_level": 6,
+   "selectable": "T",
+   "sort_sequence": 854
+ },
+ {
+   "industry_code": 80813000,
+   "naics_code": "813",
+   "publishing_status": "A",
+   "industry_name": "Membership associations and organizations",
+   "display_level": 4,
+   "selectable": "T",
+   "sort_sequence": 855
+ },
+ {
+   "industry_code": 80813200,
+   "naics_code": "8132",
+   "publishing_status": "A",
+   "industry_name": "Grantmaking and giving services",
+   "display_level": 5,
+   "selectable": "T",
+   "sort_sequence": 856
+ },
+ {
+   "industry_code": 80813211,
+   "naics_code": "813211",
+   "publishing_status": "A",
+   "industry_name": "Grantmaking foundations",
+   "display_level": 7,
+   "selectable": "T",
+   "sort_sequence": 857
+ },
+ {
+   "industry_code": 80813212,
+   "naics_code": "813212",
+   "publishing_status": "E",
+   "industry_name": "Voluntary health organizations",
+   "display_level": 7,
+   "selectable": "T",
+   "sort_sequence": 858
+ },
+ {
+   "industry_code": 80813219,
+   "naics_code": "813219",
+   "publishing_status": "E",
+   "industry_name": "Other grantmaking and giving services",
+   "display_level": 7,
+   "selectable": "T",
+   "sort_sequence": 859
+ },
+ {
+   "industry_code": 80813300,
+   "naics_code": "8133",
+   "publishing_status": "A",
+   "industry_name": "Social advocacy organizations",
+   "display_level": 5,
+   "selectable": "T",
+   "sort_sequence": 860
+ },
+ {
+   "industry_code": 80813311,
+   "naics_code": "813311",
+   "publishing_status": "A",
+   "industry_name": "Human rights organizations",
+   "display_level": 7,
+   "selectable": "T",
+   "sort_sequence": 861
+ },
+ {
+   "industry_code": 80813319,
+   "naics_code": "813312,9",
+   "publishing_status": "A",
+   "industry_name": "Environment, conservation, and other social advocacy organizations",
+   "display_level": 7,
+   "selectable": "T",
+   "sort_sequence": 862
+ },
+ {
+   "industry_code": 80813400,
+   "naics_code": "8134",
+   "publishing_status": "A",
+   "industry_name": "Civic and social organizations",
+   "display_level": 5,
+   "selectable": "T",
+   "sort_sequence": 863
+ },
+ {
+   "industry_code": 80813900,
+   "naics_code": "8139",
+   "publishing_status": "A",
+   "industry_name": "Professional and similar organizations",
+   "display_level": 5,
+   "selectable": "T",
+   "sort_sequence": 864
+ },
+ {
+   "industry_code": 80813910,
+   "naics_code": "81391",
+   "publishing_status": "A",
+   "industry_name": "Business associations",
+   "display_level": 6,
+   "selectable": "T",
+   "sort_sequence": 865
+ },
+ {
+   "industry_code": 80813920,
+   "naics_code": "81392",
+   "publishing_status": "A",
+   "industry_name": "Professional organizations",
+   "display_level": 6,
+   "selectable": "T",
+   "sort_sequence": 866
+ },
+ {
+   "industry_code": 80813930,
+   "naics_code": "81393",
+   "publishing_status": "A",
+   "industry_name": "Labor unions and similar labor organizations",
+   "display_level": 6,
+   "selectable": "T",
+   "sort_sequence": 867
+ },
+ {
+   "industry_code": 80813990,
+   "naics_code": "81394,9",
+   "publishing_status": "A",
+   "industry_name": "Miscellaneous professional and similar organizations",
+   "display_level": 6,
+   "selectable": "T",
+   "sort_sequence": 868
+ },
+ {
+   "industry_code": 90000000,
+   "naics_code": "-",
+   "publishing_status": "B",
+   "industry_name": "Government",
+   "display_level": 2,
+   "selectable": "T",
+   "sort_sequence": 869
+ },
+ {
+   "industry_code": 90910000,
+   "naics_code": "-",
+   "publishing_status": "B",
+   "industry_name": "Federal",
+   "display_level": 3,
+   "selectable": "T",
+   "sort_sequence": 870
+ },
+ {
+   "industry_code": 90911000,
+   "naics_code": "-",
+   "publishing_status": "B",
+   "industry_name": "Federal, except U.S. Postal Service",
+   "display_level": 4,
+   "selectable": "T",
+   "sort_sequence": 871
+ },
+ {
+   "industry_code": 90916220,
+   "naics_code": "-",
+   "publishing_status": "B",
+   "industry_name": "Federal hospitals",
+   "display_level": 5,
+   "selectable": "T",
+   "sort_sequence": 872
+ },
+ {
+   "industry_code": 90919110,
+   "naics_code": "-",
+   "publishing_status": "B",
+   "industry_name": "Department of Defense",
+   "display_level": 5,
+   "selectable": "T",
+   "sort_sequence": 873
+ },
+ {
+   "industry_code": 90919120,
+   "naics_code": "-",
+   "publishing_status": "B",
+   "industry_name": "U.S. Postal Service",
+   "display_level": 4,
+   "selectable": "T",
+   "sort_sequence": 874
+ },
+ {
+   "industry_code": 90919999,
+   "naics_code": "-",
+   "publishing_status": "B",
+   "industry_name": "Other Federal government",
+   "display_level": 5,
+   "selectable": "T",
+   "sort_sequence": 875
+ },
+ {
+   "industry_code": 90920000,
+   "naics_code": "-",
+   "publishing_status": "B",
+   "industry_name": "State government",
+   "display_level": 3,
+   "selectable": "T",
+   "sort_sequence": 876
+ },
+ {
+   "industry_code": 90921611,
+   "naics_code": "-",
+   "publishing_status": "B",
+   "industry_name": "State government education",
+   "display_level": 4,
+   "selectable": "T",
+   "sort_sequence": 877
+ },
+ {
+   "industry_code": 90922000,
+   "naics_code": "-",
+   "publishing_status": "B",
+   "industry_name": "State government, excluding education",
+   "display_level": 4,
+   "selectable": "T",
+   "sort_sequence": 878
+ },
+ {
+   "industry_code": 90922622,
+   "naics_code": "-",
+   "publishing_status": "B",
+   "industry_name": "State hospitals",
+   "display_level": 5,
+   "selectable": "T",
+   "sort_sequence": 879
+ },
+ {
+   "industry_code": 90922920,
+   "naics_code": "-",
+   "publishing_status": "B",
+   "industry_name": "State government general administration",
+   "display_level": 5,
+   "selectable": "T",
+   "sort_sequence": 880
+ },
+ {
+   "industry_code": 90922999,
+   "naics_code": "-",
+   "publishing_status": "B",
+   "industry_name": "Other State government",
+   "display_level": 5,
+   "selectable": "T",
+   "sort_sequence": 881
+ },
+ {
+   "industry_code": 90930000,
+   "naics_code": "-",
+   "publishing_status": "B",
+   "industry_name": "Local government",
+   "display_level": 3,
+   "selectable": "T",
+   "sort_sequence": 882
+ },
+ {
+   "industry_code": 90931611,
+   "naics_code": "-",
+   "publishing_status": "B",
+   "industry_name": "Local government education",
+   "display_level": 4,
+   "selectable": "T",
+   "sort_sequence": 883
+ },
+ {
+   "industry_code": 90932000,
+   "naics_code": "-",
+   "publishing_status": "B",
+   "industry_name": "Local government, excluding education",
+   "display_level": 4,
+   "selectable": "T",
+   "sort_sequence": 884
+ },
+ {
+   "industry_code": 90932221,
+   "naics_code": "-",
+   "publishing_status": "B",
+   "industry_name": "Local government utilities",
+   "display_level": 5,
+   "selectable": "T",
+   "sort_sequence": 885
+ },
+ {
+   "industry_code": 90932480,
+   "naics_code": "-",
+   "publishing_status": "B",
+   "industry_name": "Local government transportation",
+   "display_level": 5,
+   "selectable": "T",
+   "sort_sequence": 886
+ },
+ {
+   "industry_code": 90932622,
+   "naics_code": "-",
+   "publishing_status": "B",
+   "industry_name": "Local hospitals",
+   "display_level": 5,
+   "selectable": "T",
+   "sort_sequence": 887
+ },
+ {
+   "industry_code": 90932920,
+   "naics_code": "-",
+   "publishing_status": "B",
+   "industry_name": "Local government general administration",
+   "display_level": 5,
+   "selectable": "T",
+   "sort_sequence": 888
+ },
+ {
+   "industry_code": 90932999,
+   "naics_code": "-",
+   "publishing_status": "B",
+   "industry_name": "Other local government",
+   "display_level": 5,
+   "selectable": "T",
+   "sort_sequence": 889
+ }
+]
