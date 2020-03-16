@@ -9,5 +9,9 @@ export default {
 
   saveComment: function(comment) {
     return axios.post("/api/comments/", comment);
+  },
+
+  getStocks: function() {
+    return axios.get("/api/stocks/");
   }
 };
