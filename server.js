@@ -8,6 +8,7 @@ var db = require("./models");
 const comments = require("./routes/comments");
 const stocks = require("./routes/stocks");
 const labor = require("./routes/labor");
+const cases = require("./routes/coronavirus");
 
 // Define middleware here
 app.use(express.urlencoded({ extended: true }));
@@ -21,6 +22,7 @@ if (process.env.NODE_ENV === "production") {
 app.use(comments);
 app.use(stocks);
 app.use(labor);
+app.use(cases);
 
 // Define API routes here
 

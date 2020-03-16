@@ -21,5 +21,9 @@ export default {
 
   getWages: function() {
     return axios.get("/api/wages/");
+  },
+
+  getCases: function() {
+    return axios.get("/api/coronavirus/");
   }
 };
