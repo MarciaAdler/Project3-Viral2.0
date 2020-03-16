@@ -1,10 +1,12 @@
+require("dotenv").config();
 const express = require("express");
 const path = require("path");
 const PORT = process.env.PORT || 3001;
 const app = express();
 const Sequelize = require("sequelize");
 var db = require("./models");
-const routes = require("./routes/comments");
+const comments = require("./routes/comments");
+const stocks = require("./routes/stocks");
 
 // Define middleware here
 app.use(express.urlencoded({ extended: true }));
@@ -15,7 +17,8 @@ if (process.env.NODE_ENV === "production") {
 }
 
 // Add routes, both API and view
-app.use(routes);
+app.use(comments);
+app.use(stocks);
 
 // Define API routes here
 
