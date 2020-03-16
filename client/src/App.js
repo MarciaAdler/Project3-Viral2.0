@@ -6,8 +6,8 @@ import "bootstrap/dist/css/bootstrap.min.css";
 function App() {
   return (
 
-    <LoginLayout />
-    // <Home />
+    // <LoginLayout />
+    <Home />
   );
 }
 
