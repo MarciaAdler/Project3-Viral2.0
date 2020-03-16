@@ -13,5 +13,13 @@ export default {
 
   getStocks: function() {
     return axios.get("/api/stocks/");
+  },
+
+  getEmployees: function() {
+    return axios.get("/api/employees/");
+  },
+
+  getWages: function() {
+    return axios.get("/api/wages/");
   }
 };

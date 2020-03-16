@@ -7,6 +7,7 @@ const Sequelize = require("sequelize");
 var db = require("./models");
 const comments = require("./routes/comments");
 const stocks = require("./routes/stocks");
+const labor = require("./routes/labor");
 
 // Define middleware here
 app.use(express.urlencoded({ extended: true }));
@@ -19,6 +20,7 @@ if (process.env.NODE_ENV === "production") {
 // Add routes, both API and view
 app.use(comments);
 app.use(stocks);
+app.use(labor);
 
 // Define API routes here
 
