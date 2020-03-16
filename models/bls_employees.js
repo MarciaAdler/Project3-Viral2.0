@@ -8,15 +8,18 @@ var Sequelize = require("sequelize");
 // Creating our User model
 module.exports = function(sequelize, DataTypes) {
   // Creates a model that matches up with DB
-  var Employees = sequelize.define("Employees", {
-    seriesID: Sequelize.STRING,
-    industry: Sequelize.STRING,
-    employees: Sequelize.FLOAT,
-  },
-  {
-    freezeTableName: true,
-    tableName: 'Employees'
-  });
-  Employees.sync({ force: true });
+  var Employees = sequelize.define(
+    "Employees",
+    {
+      seriesID: Sequelize.STRING,
+      industry: Sequelize.STRING,
+      employees: Sequelize.FLOAT
+    },
+    {
+      freezeTableName: true,
+      tableName: "Employees"
+    }
+  );
+  //Employees.sync({ force: true });
   return Employees;
 };
