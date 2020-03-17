@@ -39,9 +39,19 @@ export default class SignUpForm extends Component {
       loggedIn: false,
     }
 
+    if (this.state.username === "" || this.state.password === "") {
+      document.getElementById("fields-error").classList.remove("d-none");
+        document.getElementById("fields-error").classList.add("form-error");
+      return 
+    }
+
     api.signupUser(user)
     .then(res => {
       window.location.replace("/home");
+    })
+    .catch(err => {
+      document.getElementById("login-error").classList.remove("d-none");
+        document.getElementById("login-error").classList.add("form-error");
     });
   }
   render() {
@@ -58,7 +68,8 @@ export default class SignUpForm extends Component {
           <input onChange = {this.onChangePassword} type="password" className="form-control" placeholder="Enter password" />
         </div>
 
-       
+        <div id="fields-error" class="d-none mb-2"><small>Please fill out all of the fields</small></div>
+        <div id="login-error" class="d-none mb-2"><small>An error occurred. Please try again.</small></div>
 
         <button type="submit" className="btn btn-primary btn-block">Sign Up</button>
         <p className="mt-4 mb-0 text-center">Already have an account? <Link to={"/"}>Log in</Link></p>
