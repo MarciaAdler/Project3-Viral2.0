@@ -21,5 +21,13 @@ export default {
 
   getWages: function() {
     return axios.get("/api/wages/");
+  },
+
+  signupUser: function(user) {
+    return axios.post('/api/signup/', user);
+    // .then (res => {
+    //   console.log(user);
+    //   window.location.replace("/");
+    // });   
   }
 };
