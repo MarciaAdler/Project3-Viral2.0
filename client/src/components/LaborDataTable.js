@@ -22,6 +22,9 @@ function LaborDataTable(props) {
             <td>{props.count}</td>
             <td>{!props.wages ? 28 : props.wages}</td>
             <td>{props.count * (!props.wages ? 28 : props.wages) * 40 * 52}</td>
+            <td>
+              <input placeholder="%"></input>
+            </td>
           </tr>
         </tbody>
       </Table>
