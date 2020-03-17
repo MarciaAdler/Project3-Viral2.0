@@ -16,7 +16,7 @@ router.route('/api/login').get ((req, res) => {
   .catch(err => res.status(400).json ('Error: ' + err))
 });
 
-router.route ('/api/signup').post((req,res) => {
+router.route('/api/signup').post((req,res) => {
 
   const username = req.body.username;
   const password = req.body.password;
