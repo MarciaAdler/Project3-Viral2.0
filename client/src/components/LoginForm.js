@@ -52,14 +52,14 @@ export default class LoginForm extends Component {
   render() {
     return (
       <form className="border-left ml-md-3 pl-md-5 py-3" onSubmit = {this.onSubmit}>
-        <h3 className="mb-3">Login</h3>
+        <h3 className="mb-4 text-center">Login</h3>
         <div className="form-group">
-          <label>Username</label>
+          {/* <label>Username</label> */}
           <input onChange= {this.onChangeUsername} type="username" className="form-control" placeholder="Enter username" />
         </div>
 
         <div className="form-group">
-          <label>Password</label>
+          {/* <label>Password</label> */}
           <input onChange = {this.onChangePassword} type="password" className="form-control" placeholder="Enter password" />
         </div>
         <div id="login-error" class="d-none mb-2"><small>An error occurred. Please try again.</small></div>
