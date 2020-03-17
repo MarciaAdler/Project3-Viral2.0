@@ -24,10 +24,15 @@ export default {
   },
 
   signupUser: function(user) {
+    // console.log(user);
     return axios.post('/api/signup/', user);
     // .then (res => {
     //   console.log(user);
     //   window.location.replace("/");
     // });   
+  },
+
+  loginUser: function(user) {
+    return axios.post('/api/login', user);
   }
 };

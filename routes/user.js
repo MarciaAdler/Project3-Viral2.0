@@ -1,12 +1,13 @@
 const router = require('express').Router();
 // const userController = require('../controllers/userController');
-const User = require("../models/user");
+// const User = require("../models/user");
+const db = require("../models");
 
 //Get all users
 router.route('/api/users').get ((req, res) => {
   User.find()
   .then(user => res.json(user))
-  .catch(err => res.status(400).json ('Error: ' + err))
+  .catch(err => res.status(400).json ('Error: ' + err));
 });
 
 //Get one user
@@ -20,12 +21,13 @@ router.route('/api/signup').post((req,res) => {
 
   const username = req.body.username;
   const password = req.body.password;
-
-  const newUser = new User({username, password});
   
-   newUser.save()
-    .then(() => res.json('You have signed up!'))
-    .catch(err => res.status(400).json('Error: ' + err));
+  db.User.create({
+    username: username, 
+    password: password
+  })
+  .then(dbModel => res.json(dbModel))
+  .catch(err => res.status(422).json(err));
 
 })
 
@@ -37,14 +39,14 @@ router.post("/api/login", (req, res) => {
     return res.status(400).json({ msg: "Please enter all fields" });
   }
   //check for existing user
-  User.findOne({ username }).then((user) => {
+  db.User.findOne({where: { username: username }}).then((user) => {
     if (!user) return res.status(400).json({ msg: "User does not exist" });
     console.log(user)
     // Validate password
-    const sessUser = { id: user._id, name: username };
+    // const sessUser = { id: user._id, name: username };
     // req.session.user = sessUser; // Auto saves session data in mongo store
 
-    res.json({ msg: " Logged In Successfully", sessUser }); // sends cookie with sessionID automatically in response
+    res.json({ msg: " Logged In Successfully"}); // sends cookie with sessionID automatically in response
    });
   });
 
