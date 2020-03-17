@@ -43,17 +43,16 @@ export default class LoginForm extends Component {
     api.loginUser(user)
     .then (res => {
         window.location.replace("/home");
-      });   
-    // axios.post('/api/login', user)
-    //   .then (res => {
-        
-    //     window.location.replace("/");
-    //   });   
+      })
+      .catch(err => {
+        document.getElementById("login-error").classList.remove("d-none");
+        document.getElementById("login-error").classList.add("form-error");
+      });  
   }
   render() {
     return (
-      <form onSubmit = {this.onSubmit}>
-        <h3>Login</h3>
+      <form className="border-left ml-md-3 pl-md-5 py-3" onSubmit = {this.onSubmit}>
+        <h3 className="mb-3">Login</h3>
         <div className="form-group">
           <label>Username</label>
           <input onChange= {this.onChangeUsername} type="username" className="form-control" placeholder="Enter username" />
@@ -63,13 +62,7 @@ export default class LoginForm extends Component {
           <label>Password</label>
           <input onChange = {this.onChangePassword} type="password" className="form-control" placeholder="Enter password" />
         </div>
-
-        <div className="form-group">
-          <div className="custom-control custom-checkbox">
-            <input type="checkbox" className="custom-control-input" id="customCheck1" />
-          </div>
-        </div>
-
+        <div id="login-error" class="d-none mb-2"><small>An error occurred. Please try again.</small></div>
         <button type="submit" className="btn btn-primary btn-block">Submit</button>
 
         <p className="mt-4 mb-0">Don't have an account? <Link to={"/signup"}>Sign up</Link></p>

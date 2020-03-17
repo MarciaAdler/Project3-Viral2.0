@@ -42,11 +42,6 @@ export default class SignUpForm extends Component {
     .then(res => {
       window.location.replace("/home");
     });
-    // axios.post ('/api/signup/', user)
-    //   .then (res => {
-    //     console.log(user);
-    //     window.location.replace("/");
-    //   });   
   }
   render() {
     return (

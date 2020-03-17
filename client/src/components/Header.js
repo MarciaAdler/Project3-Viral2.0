@@ -6,13 +6,11 @@ function Header(props) {
   
   return (
     <div>
-      {/* <Navbar  fixed="top"  bg="light" expand="md"> */}
-      <Navbar  fixed="top"  bg="light" expand="md">
+      <Navbar  fixed="top"  bg="light" expand="md" className="justify-content-between">
         <Navbar.Brand href="#home">The Viral 2.0</Navbar.Brand>
-        <Navbar.Toggle aria-controls="basic-navbar-nav" />
+        {/* <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav" className="justify-content-end text-right">
           <Nav>
-            {/* <Nav.Link href="#home">Home</Nav.Link> */}
             <Navbar.Text className="small my-auto d-none d-md-inline-block">Currently Viewing:</Navbar.Text>
             <NavDropdown alignRight title="Main Page Overview" id="basic-nav-dropdown">
               <NavDropdown.Item href="#industry1">Industry 1</NavDropdown.Item>
@@ -23,7 +21,10 @@ function Header(props) {
             </NavDropdown>
             <Nav.Link href="#logout">Log out</Nav.Link>
           </Nav>
-        </Navbar.Collapse>
+        </Navbar.Collapse> */}
+        <Nav id="basic-navbar-nav">
+        <Nav.Link href="/">Log out</Nav.Link>
+        </Nav>
       </Navbar>
     </div>
     );
