@@ -24,8 +24,9 @@ function CovidInfo(props) {
     <div>
       {/* <CovidInfo /> */}
       <Container fluid>
-        <Row className="py-5 border-bottom">
-          <Col className="text-center py-5">
+        <Row className="py-md-5 border-bottom">
+          <Col className="text-center py-md-5">
+            <h2>US Covid-19 Cases</h2>
             <CoronaChart cases={cases} />
           </Col>
         </Row>

@@ -24,8 +24,9 @@ function Markets() {
   return (
     <div>
       <Container fluid>
-        <Row className="py-5 border-bottom">
-          <Col className="text-center py-5">
+        <Row className="py-md-5 border-bottom">
+          <Col className="text-center py-md-5">
+            <h2>Stock Market Impact</h2>
             {stocks.length ? (
               <MarketChart stocks={stocks} />
             ) : (
