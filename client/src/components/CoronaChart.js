@@ -31,9 +31,8 @@ function CoronaChart({ cases }) {
       if (cases[k].caseDay === element) {
         totalDayNumber = casesInThatDay;
       }
-      console.log(totalDayNumber)
+      console.log(totalDayNumber);
     }
-    
 
     numbers.push(totalDayNumber);
   }
