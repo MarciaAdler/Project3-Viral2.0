@@ -63,13 +63,12 @@ function Comments(props) {
               handleInputChange={handleInputChange}
             ></CommentsForm>
 
-            <div id="comment-loading" class="text-center d-none">
-              <div class="spinner-border text-success" role="status">
-                <span class="sr-only">Loading...</span>
+            <div id="comment-loading" className="text-center d-none">
+              <div className="spinner-border text-success" role="status">
+                <span className="sr-only">Loading...</span>
               </div>
-              <div class="mt-3">
-                <span class="my-auto">Your comment is being posted...</span>
-              </div>
+              <div className="mt-3"><span className="my-auto">Your comment is being posted...</span></div>
+
             </div>
 
             {comments
