@@ -56,6 +56,14 @@ class LaborTable extends React.Component {
 
     return (
       <div>
+        <h2>Industry Calculator</h2>
+        <p>
+          For anticipated % industry impact, input an assumption of % job
+          decrease to see the impact on industry wages. <br />
+          <small>
+            For example, putting in 10% will reduce pre-covid wages by 10%.
+          </small>
+        </p>
         <Accordion>
           {employees.length
             ? employees.map((employee, index) => {
@@ -77,12 +85,13 @@ class LaborTable extends React.Component {
                         <br />
                         Pre Covid-19 Wages: {" $"}
                         {Math.round(preCovidWages[index])}
+                        {"(mil)"}
                       </Accordion.Toggle>
                     </Card.Header>
                     <Accordion.Collapse eventKey={index}>
                       <Card.Body>
                         <form onSubmit={this.handleSubmit}>
-                          User Assumption:{" "}
+                          Anticipated % industry impact:{" "}
                           <input
                             value={this.state.value}
                             onChange={this.handleChange}
@@ -93,6 +102,7 @@ class LaborTable extends React.Component {
                         </form>{" "}
                         Post Covid-19 Wages: {" $"}
                         {Math.round(postCovidWages[index])}
+                        {"(mil)"}
                         <br /> Hit to Economy(total wages/US GDP):
                       </Card.Body>
                     </Accordion.Collapse>
