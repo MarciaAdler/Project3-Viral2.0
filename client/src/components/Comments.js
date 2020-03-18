@@ -15,6 +15,7 @@ function Comments(props) {
   async function loadComments() {
     let { data } = await api.getComments();
     data = data.reverse();
+    document.getElementById("comment-loading").classList.add("d-none");
     return setComments(data);
   }
 
@@ -22,7 +23,16 @@ function Comments(props) {
 
   function saveComment(event) {
     event.preventDefault();
+    const usernameInput = document.getElementById("commentForm.ControlInput1");
+    const commentInput = document.getElementById("commentForm.ControlTextarea1");
 
+    if (usernameInput.value === "") {
+      usernameInput.focus();
+      return;
+    } else if (commentInput.value === "") {
+      commentInput.focus();
+      return;
+    }
     api
       .saveComment({
         comment: formObject.comment,
@@ -33,8 +43,9 @@ function Comments(props) {
       })
       .catch(err => console.log(err));
 
-    document.getElementById("commentForm.ControlInput1").value = "";
-    document.getElementById("commentForm.ControlTextarea1").value = "";
+    usernameInput.value = "";
+    commentInput.value = "";
+    document.getElementById("comment-loading").classList.remove("d-none");
 
   }
 
@@ -52,6 +63,14 @@ function Comments(props) {
               saveComment={saveComment}
               handleInputChange={handleInputChange}
             ></CommentsForm>
+
+            <div id="comment-loading" class="text-center d-none">
+              <div class="spinner-border text-success" role="status">
+                <span class="sr-only">Loading...</span>
+              </div>
+              <div class="mt-3"><span class="my-auto">Your comment is being posted...</span></div>
+            </div>
+            
             {comments
               ? comments.map(comment => (
                   <ViewComments
