@@ -15,12 +15,17 @@ export default {
     return axios.get("/api/stocks/");
   },
 
-  getEmployees: function() {
-    return axios.get("/api/employees/");
+  getEmployees: function(industry) {
+    return axios.get("/api/employees/" + industry);
   },
 
-  getWages: function() {
-    return axios.get("/api/wages/");
+
+  getWages: function(industry) {
+    return axios.get("/api/wages/" + industry);
+  },
+
+  getCases: function() {
+    return axios.get("/api/coronavirus/");
   },
 
   signupUser: function(user) {
@@ -34,5 +39,6 @@ export default {
 
   loginUser: function(user) {
     return axios.post('/api/login', user);
+
   }
 };

@@ -7,40 +7,67 @@ function Labor(props) {
   const [employees, setEmployees] = useState([]);
   const [wages, setWages] = useState([]);
 
+  const industries = [
+    "Retail trade",
+    "Food services and drinking places",
+    "Leisure and hospitality",
+    "Health care",
+    "Professional and technical services"
+  ];
   useEffect(() => {
     loadEmployees();
+    console.log(employees);
     loadWages();
   }, []);
-  function loadEmployees() {
-    api
-      .getEmployees()
-      .then(res => {
-        console.log(res);
-        setEmployees(res.data);
-      })
 
-      .catch(err => console.log(err));
+  // function loadEmployees() {
+  //   const ind = [];
+  //   for (let i = 0; i < industries.length; i++) {
+  //     const industry = industries[i];
+  //     api
+  //       .getEmployees(industry)
+  //       .then(res => {
+  //         return ind.push(res.data);
+  //       })
+  //       .catch(err => console.log(err));
+  //   }
+
+  //   console.log(ind);
+  //   return setEmployees(ind);
+  // }
+  async function loadEmployees() {
+    const ind = [];
+    for (let i = 0; i < industries.length; i++) {
+      const industry = industries[i];
+      const { data } = await api.getEmployees(industry);
+
+      ind.push(data);
+    }
+    console.log(ind);
+    setEmployees(ind);
   }
 
   function loadWages() {
-    api
-      .getWages()
-      .then(res => {
-        console.log(res);
-        setWages(res.data);
-      })
+    const ind = [];
+    for (let i = 0; i < industries.length; i++) {
+      const industry = industries[i];
+      api
+        .getWages(industry)
+        .then(res => {
+          return ind.push(res.data[0]);
+        })
 
-      .catch(err => console.log(err));
+        .catch(err => console.log(err));
+    }
+    setWages(ind);
   }
+
   return (
     <div>
       <Container fluid>
         <Row className="py-5 border-bottom">
           <Col className="text-center py-5">
-            <LaborDataTable
-              name={employees.industry}
-              count={employees.employees}
-            />
+            <LaborDataTable employees={employees} wages={wages} />
           </Col>
         </Row>
       </Container>
