@@ -3,7 +3,6 @@ import { Line } from "react-chartjs-2";
 import { Container, Row, Col } from "react-bootstrap";
 
 function CoronaChart({ cases }) {
-  console.log(cases);
   let totalDayNumber = 0;
   const days = [];
 
@@ -31,12 +30,11 @@ function CoronaChart({ cases }) {
       if (cases[k].caseDay === element) {
         totalDayNumber = casesInThatDay;
       }
-      console.log(totalDayNumber);
     }
 
     numbers.push(totalDayNumber);
   }
-  console.log(numbers);
+
   // for (let i = 0; i < days.length; i++) {
   //   let totalNumber = 0;
   //   const virus = cases[i].caseDay;

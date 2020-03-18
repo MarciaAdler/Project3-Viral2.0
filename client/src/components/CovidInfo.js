@@ -14,7 +14,6 @@ function CovidInfo(props) {
     api
       .getCases()
       .then(res => {
-        console.log(res.data);
         setCases(res.data);
       })
 

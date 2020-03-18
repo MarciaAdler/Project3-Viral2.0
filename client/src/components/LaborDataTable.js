@@ -20,7 +20,6 @@ class LaborTable extends React.Component {
 
   handleChange(event) {
     this.setState({ value: event.target.value });
-    console.log(this.state);
   }
 
   handleSubmit(event) {
@@ -40,7 +39,6 @@ class LaborTable extends React.Component {
           52)
       );
     });
-    console.log(preCovidWages[0]);
 
     let postCovidWages = employees.map((employee, index) => {
       return (
