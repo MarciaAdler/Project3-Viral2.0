@@ -1,0 +1,26 @@
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+div#root{
+    height:100%!important;
+}
+
+.signup-hero {
+    background-image: url('../img/earth-viral.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #000000;
+    color: #FFFFFF;
+}
+
+.signup-hero .row {
+    background-color: rgba(0, 0, 0, 0.7);;
+}
+
+.signup-hero a {
+    font-weight: bold;
+}

@@ -13,12 +13,10 @@ function Home(props) {
   return (
     <div>
       <Header />
-      <PageDropdown />
       <Markets />
       <Labor />
       <CovidInfo />
       <Comments />
-
       <Footer />
     </div>
   );
