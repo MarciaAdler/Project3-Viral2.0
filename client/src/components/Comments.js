@@ -56,8 +56,9 @@ function Comments(props) {
   return (
     <div>
       <Container fluid>
-        <Row className="py-5 border-bottom justify-content-center">
-          <Col className="py-5" md={10} lg={8} xl={6}>
+        <Row className="py-md-5 border-bottom justify-content-center">
+          <Col className="py-md-5" md={10} lg={8} xl={6}>
+            <h2>Comments</h2>
             <CommentsForm
               saveComment={saveComment}
               handleInputChange={handleInputChange}
@@ -67,8 +68,9 @@ function Comments(props) {
               <div className="spinner-border text-success" role="status">
                 <span className="sr-only">Loading...</span>
               </div>
-              <div className="mt-3"><span className="my-auto">Your comment is being posted...</span></div>
-
+              <div className="mt-3">
+                <span className="my-auto">Your comment is being posted...</span>
+              </div>
             </div>
 
             {comments
