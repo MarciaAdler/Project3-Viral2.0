@@ -6,9 +6,9 @@ import MarketChart from "./MarketChart";
 function Markets() {
   const [stocks, setStocks] = useState([]);
 
-  // useEffect(() => {
-  //   loadStocks();
-  // }, []);
+  useEffect(() => {
+    loadStocks();
+  }, []);
 
   function loadStocks() {
     api
