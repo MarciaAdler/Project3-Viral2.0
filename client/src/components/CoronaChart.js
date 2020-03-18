@@ -18,15 +18,23 @@ function CoronaChart({ cases }) {
   }
   console.log(days);
   for (let j = 0; j < days.length; j++) {
-    const caseDay = days[j];
+    const element = days[j];
 
+    let casesInThatDay = 0;
     for (let i = 0; i < cases.length; i++) {
-      const number = cases[i].cases;
-
-      if (cases[i].caseDay === caseDay) {
-        totalDayNumber = totalDayNumber + number;
+      if (cases[i].caseDay === element) {
+        casesInThatDay += cases[i].cases;
       }
     }
+
+    for (let k = 0; k < cases.length; k++) {
+      if (cases[k].caseDay === element) {
+        totalDayNumber = casesInThatDay;
+      }
+      console.log(totalDayNumber)
+    }
+    
+
     numbers.push(totalDayNumber);
   }
   console.log(numbers);
