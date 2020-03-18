@@ -1,7 +1,8 @@
 import React from "react";
 import { Container, Row, Col, Table } from "react-bootstrap";
 
-function LaborDataTable(props) {
+function LaborDataTable({ employees, wages }) {
+  console.log(employees.length);
   return (
     <div>
       <Table>
@@ -17,15 +18,33 @@ function LaborDataTable(props) {
           </tr>
         </thead>
         <tbody>
-          <tr>
-            <td>{props.name}</td>
-            <td>{props.count}</td>
-            <td>{!props.wages ? 28 : props.wages}</td>
-            <td>{props.count * (!props.wages ? 28 : props.wages) * 40 * 52}</td>
-            <td>
-              <input placeholder="%"></input>
-            </td>
-          </tr>
+          {employees.length
+            ? employees.map((employee, index) => {
+                console.log(wages);
+                return (
+                  <tr key={index}>
+                    <td>{employee.industry}</td>
+                    <td>{employee.employees}</td>
+                    <td>
+                      {!wages[index].averageWage
+                        ? 28
+                        : wages[index].averageWage}
+                    </td>
+                    <td>
+                      {employee.employees *
+                        (!wages[index].averageWage
+                          ? 28
+                          : wages[index].averageWage) *
+                        40 *
+                        52}
+                    </td>
+                    <td>
+                      <input placeholder="%"></input>
+                    </td>
+                  </tr>
+                );
+              })
+            : "no data found"}
         </tbody>
       </Table>
     </div>
