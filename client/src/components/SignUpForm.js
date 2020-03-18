@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import axios from 'axios';
 import api from '../utils/api';
+import { Link } from "react-router-dom";
 
 export default class SignUpForm extends Component {
   constructor(props) {
@@ -38,15 +39,20 @@ export default class SignUpForm extends Component {
       loggedIn: false,
     }
 
+    if (this.state.username === "" || this.state.password === "") {
+      document.getElementById("fields-error").classList.remove("d-none");
+        document.getElementById("fields-error").classList.add("form-error");
+      return 
+    }
+
     api.signupUser(user)
     .then(res => {
       window.location.replace("/home");
+    })
+    .catch(err => {
+      document.getElementById("login-error").classList.remove("d-none");
+        document.getElementById("login-error").classList.add("form-error");
     });
-    // axios.post ('/api/signup/', user)
-    //   .then (res => {
-    //     console.log(user);
-    //     window.location.replace("/");
-    //   });   
   }
   render() {
     return (
@@ -62,13 +68,11 @@ export default class SignUpForm extends Component {
           <input onChange = {this.onChangePassword} type="password" className="form-control" placeholder="Enter password" />
         </div>
 
-        <div className="form-group">
-          <div className="custom-control custom-checkbox">
-            <input type="checkbox" className="custom-control-input" id="customCheck1" />
-          </div>
-        </div>
+        <div id="fields-error" class="d-none mb-2"><small>Please fill out all of the fields</small></div>
+        <div id="login-error" class="d-none mb-2"><small>An error occurred. Please try again.</small></div>
 
-        <button type="submit" className="btn btn-primary btn-block">Submit</button>
+        <button type="submit" className="btn btn-primary btn-block">Sign Up</button>
+        <p className="mt-4 mb-0 text-center">Already have an account? <Link to={"/"}>Log in</Link></p>
        </form>
     );
   }

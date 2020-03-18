@@ -3,7 +3,7 @@ import { Container, Row, Col } from "react-bootstrap";
 
 export default function ViewComments(props) {
   return (
-    <Container>
+    <Container className="my-3 pt-4 border-top">
       <Row>
         <Col>
           <h4>{props.username}</h4>

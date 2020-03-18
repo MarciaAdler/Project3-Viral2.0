@@ -39,14 +39,14 @@ function Comments(props) {
   return (
     <div>
       <Container fluid>
-        <Row className="py-5 border-bottom">
-          <Col className="py-5">
+        <Row className="py-5 border-bottom justify-content-center">
+          <Col className="py-5" md={10} lg={8} xl={6}>
             <CommentsForm
               saveComment={saveComment}
               handleInputChange={handleInputChange}
             ></CommentsForm>
             {comments
-              ? comments.map(comment => (
+              ? comments.reverse().map(comment => (
                   <ViewComments
                     key={comment.id}
                     comment={comment.comment}

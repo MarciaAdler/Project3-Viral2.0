@@ -4,6 +4,7 @@ import Home from "./pages/Home";
 import Signup from "./pages/Signup";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+import "./components/assets/styles/Styles.css";
 
 function App() {
   return (
