@@ -1,13 +1,14 @@
 import React, { useState, useEffect } from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import api from "../utils/api";
-// import CoronaChart from "./CoronaChart";
+import CoronaChart from "./CoronaChart";
 
 function CovidInfo(props) {
   const [cases, setCases] = useState([]);
 
   useEffect(() => {
     loadCases();
+    console.log(cases);
   }, []);
 
   function loadCases() {
@@ -27,7 +28,7 @@ function CovidInfo(props) {
       <Container fluid>
         <Row className="py-5 border-bottom">
           <Col className="text-center py-5">
-            {/* <CoronaChart cases={cases} /> */}
+            <CoronaChart cases={cases} />
           </Col>
         </Row>
       </Container>
