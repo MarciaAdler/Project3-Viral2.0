@@ -1,4 +1,4 @@
-import React, { useRef } from "react";
+import React from "react";
 import {
   Container,
   Row,
@@ -28,7 +28,7 @@ class LaborTable extends React.Component {
 
   render() {
     const { wages, employees } = this.props;
-    console.log(employees);
+
     let preCovidWages = employees.map((employee, index) => {
       return (
         employee.employees *
@@ -50,6 +50,10 @@ class LaborTable extends React.Component {
         40 *
         52
       );
+    });
+
+    let hitToEconomy = employees.map((employee, index) => {
+      return (parseInt(postCovidWages) - parseInt(preCovidWages)) / 215;
     });
 
     return (
@@ -83,7 +87,7 @@ class LaborTable extends React.Component {
                         <br />
                         Pre Covid-19 Wages: {" $"}
                         {Math.round(preCovidWages[index])}
-                        {"(mil)"}
+                        {"(bil)"}
                       </Accordion.Toggle>
                     </Card.Header>
                     <Accordion.Collapse eventKey={index}>
@@ -100,8 +104,10 @@ class LaborTable extends React.Component {
                         </form>{" "}
                         Post Covid-19 Wages: {" $"}
                         {Math.round(postCovidWages[index])}
-                        {"(mil)"}
+                        {"(bil)"}
                         <br /> Hit to Economy(total wages/US GDP):
+                        {Math.round(hitToEconomy[index] * 100) / 100}
+                        {"%"}
                       </Card.Body>
                     </Accordion.Collapse>
                   </Card>
