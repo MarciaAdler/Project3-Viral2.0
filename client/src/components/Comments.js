@@ -19,12 +19,12 @@ function Comments(props) {
     return setComments(data);
   }
 
- 
-
   function saveComment(event) {
     event.preventDefault();
     const usernameInput = document.getElementById("commentForm.ControlInput1");
-    const commentInput = document.getElementById("commentForm.ControlTextarea1");
+    const commentInput = document.getElementById(
+      "commentForm.ControlTextarea1"
+    );
 
     if (usernameInput.value === "") {
       usernameInput.focus();
@@ -46,7 +46,6 @@ function Comments(props) {
     usernameInput.value = "";
     commentInput.value = "";
     document.getElementById("comment-loading").classList.remove("d-none");
-
   }
 
   function handleInputChange(event) {
@@ -69,8 +68,9 @@ function Comments(props) {
                 <span className="sr-only">Loading...</span>
               </div>
               <div className="mt-3"><span className="my-auto">Your comment is being posted...</span></div>
+
             </div>
-            
+
             {comments
               ? comments.map(comment => (
                   <ViewComments
@@ -82,7 +82,6 @@ function Comments(props) {
                   ></ViewComments>
                 ))
               : "Add your comment above!"}
-
           </Col>
         </Row>
       </Container>
