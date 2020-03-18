@@ -1,10 +1,49 @@
-.form-error {
+html, body, p, a {
+	font-family: 'Raleway', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Caladea', serif;
+}
+
+a {
+	color: #5b7fa7;
+}
+
+a:hover {
+	color: #4B6889;
+}
+
+.btn-primary {
+	background-color: #166088!important;
+	border: 1px solid #166088;
+}
+
+.btn-primary:hover {
+	background-color: #558BA8!important;
+	border: 1px solid #558BA8;
+	cursor: pointer
+}
+
+.title-text {
+	font-family: 'Caladea', serif;
+}
+
+.form-error, .fade-in {
     opacity: 1;
     /* color: red; */
 	animation-name: fadeInOpacity;
 	animation-iteration-count: 1;
 	animation-timing-function: ease-in;
+	
+}
+
+.form-error {
 	animation-duration: .5s;
+}
+
+.fade-in {
+	animation-duration: 1.5s;
 }
 
 @keyframes fadeInOpacity {
@@ -14,4 +53,8 @@
 	100% {
 		opacity: 1;
 	}
+}
+
+.footer {
+	background-color: #DBE9EE;
 }

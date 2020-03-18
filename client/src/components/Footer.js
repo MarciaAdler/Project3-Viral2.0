@@ -6,7 +6,7 @@ function Footer(props) {
   
   return (
     <div>
-      <Container fluid className="border-top py-5">
+      <Container fluid className="py-5 footer">
             <Row className="py-5">
                 <Col className="text-center">
                     The Viral 2.0

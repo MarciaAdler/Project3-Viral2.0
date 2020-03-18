@@ -25,6 +25,10 @@ div#root{
     font-weight: bold;
 }
 
+.login-tagline {
+    font-size: 21px;
+}
+
 /* Styles for viewports xs and sm in bootstrap */
 @media (max-width:767px){
 
