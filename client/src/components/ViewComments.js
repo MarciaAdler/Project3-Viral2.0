@@ -7,7 +7,7 @@ export default function ViewComments(props) {
     <Container id={'comment-' + props.id} className="my-3 pt-4 border-top">
       <Row>
         <Col className="col-auto">
-          <img src={props.image ? props.image : image} alt={props.username} style={{width: "100px"}} />
+          <img src={props.image ? props.image : image} alt={props.username} style={{width: "100px", borderRadius: "50%"}} />
         </Col>
         <Col>
           <h4>{props.username}</h4>
