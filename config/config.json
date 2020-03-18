@@ -1,9 +1,9 @@
 {
   "development": {
-    "username": "pw8z7vejafe7fv3s",
-    "password": "jdmlzxm26aqssqnw",
-    "database": "dbirpb1i0t3x3g2p",
-    "host": "qbhol6k6vexd5qjs.cbetxkdyhwsb.us-east-1.rds.amazonaws.com",
+    "username": "root",
+    "password": "Databasepassword",
+    "database": "corona_db",
+    "host": "127.0.0.1",
     "dialect": "mysql"
   },
   "test": {

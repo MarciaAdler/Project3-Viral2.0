@@ -22,12 +22,6 @@ function CoronaChart({ cases }) {
 
     let casesInThatDay = 0;
     for (let i = 0; i < cases.length; i++) {
-<<<<<<< HEAD
-      let number = cases[i].cases;
-
-      if (cases[i].caseDay === caseDay) {
-        totalDayNumber = 
-=======
       if (cases[i].caseDay === element) {
         casesInThatDay += cases[i].cases;
       }
@@ -36,11 +30,9 @@ function CoronaChart({ cases }) {
     for (let k = 0; k < cases.length; k++) {
       if (cases[k].caseDay === element) {
         totalDayNumber = casesInThatDay;
->>>>>>> master
       }
-      console.log(totalDayNumber)
+      console.log(totalDayNumber);
     }
-    
 
     numbers.push(totalDayNumber);
   }

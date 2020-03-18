@@ -14,7 +14,7 @@ function Home(props) {
     <div>
       <Header />
       <Markets />
-      <Labor />
+
       <CovidInfo />
       <Comments />
       <Footer />
