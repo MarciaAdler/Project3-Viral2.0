@@ -49,7 +49,7 @@ export default function ViewComments(props) {
           <img
             src={props.image ? props.image : image}
             alt={props.username}
-            style={{ width: "100px", borderRadius: "50%" }}
+            style={{ width: "100px",height: "100px", borderRadius: "50%" }}
           />
         </Col>
         <Col>
