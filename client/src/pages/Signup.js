@@ -13,7 +13,7 @@ function Signup() {
           
         </Col> */}
         <Col sm={6} lg={4} className=" my-auto">
-        <h1 class="text-center mb-5">The Viral 2.0</h1>
+        
           <SignUpForm />
         </Col>
       </Row>

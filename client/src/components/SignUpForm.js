@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 import axios from 'axios';
 import api from '../utils/api';
 import { Link } from "react-router-dom";
+import LogoStacked from "../pages/assets/img/viral-effect-white-stacked.png";
+
 
 export default class SignUpForm extends Component {
   constructor(props) {
@@ -57,6 +59,9 @@ export default class SignUpForm extends Component {
   render() {
     return (
       <form onSubmit = {this.onSubmit}>
+        <div className="text-center">
+        <img src={LogoStacked} alt="The Viral Effect" className="d-block text-center mb-5 mx-auto" style={{width: "200px"}} />
+        </div>
         <h3>Sign Up</h3>
         <div className="form-group">
           <label>Username</label>
