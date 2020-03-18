@@ -8,7 +8,6 @@ function CovidInfo(props) {
 
   useEffect(() => {
     loadCases();
-    console.log(cases);
   }, []);
 
   function loadCases() {

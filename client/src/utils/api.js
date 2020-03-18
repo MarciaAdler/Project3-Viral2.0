@@ -12,33 +12,31 @@ export default {
   },
 
   getStocks: function() {
-    return axios.get("/api/stocks/");
+    return axios.get("/api/stocks");
   },
 
   getEmployees: function(industry) {
     return axios.get("/api/employees/" + industry);
   },
 
-
   getWages: function(industry) {
     return axios.get("/api/wages/" + industry);
   },
 
   getCases: function() {
-    return axios.get("/api/coronavirus/");
+    return axios.get("/api/coronavirus");
   },
 
   signupUser: function(user) {
     // console.log(user);
-    return axios.post('/api/signup/', user);
+    return axios.post("/api/signup/", user);
     // .then (res => {
     //   console.log(user);
     //   window.location.replace("/");
-    // });   
+    // });
   },
 
   loginUser: function(user) {
-    return axios.post('/api/login', user);
-
+    return axios.post("/api/login", user);
   }
 };

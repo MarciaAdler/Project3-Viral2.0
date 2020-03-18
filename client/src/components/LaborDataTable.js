@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useRef } from "react";
 import {
   Container,
   Row,
@@ -10,6 +10,12 @@ import {
 } from "react-bootstrap";
 
 function LaborDataTable({ employees, wages }) {
+  const inputEl = useRef(null);
+  const onButtonClick = event => {
+    event.preventDefault();
+    let percent = inputEl.current.value;
+    console.log(percent);
+  };
   return (
     <div>
       {/* <Table>
@@ -83,7 +89,9 @@ function LaborDataTable({ employees, wages }) {
                   </Card.Header>
                   <Accordion.Collapse eventKey={index}>
                     <Card.Body>
-                      User Assumption: <input></input>
+                      User Assumption:{" "}
+                      <input ref={inputEl} type="text" placeholder="%" />
+                      <button onClick={onButtonClick}>Input</button>
                       {""}
                       Post Covid-19 Wages: Hit to Economy(total wages/US GDP):
                     </Card.Body>
