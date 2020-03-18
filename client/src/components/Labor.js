@@ -16,7 +16,7 @@ function Labor(props) {
   ];
   useEffect(() => {
     loadEmployees();
-    console.log(employees);
+
     loadWages();
   }, []);
 
@@ -28,7 +28,7 @@ function Labor(props) {
 
       ind.push(data);
     }
-    console.log(ind);
+
     setEmployees(ind);
   }
 
