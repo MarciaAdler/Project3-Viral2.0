@@ -21,10 +21,10 @@ function CoronaChart({ cases }) {
     const caseDay = days[j];
 
     for (let i = 0; i < cases.length; i++) {
-      const number = cases[i].cases;
+      let number = cases[i].cases;
 
       if (cases[i].caseDay === caseDay) {
-        totalDayNumber = totalDayNumber + number;
+        totalDayNumber = 
       }
     }
     numbers.push(totalDayNumber);
