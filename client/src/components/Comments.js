@@ -7,14 +7,19 @@ import api from "../utils/api";
 function Comments(props) {
   const [comments, setComments] = useState([]);
   const [formObject, setFormObject] = useState({});
+
   useEffect(() => {
     loadComments();
   }, []);
-  async function loadComments() {
-    const { data } = await api.getComments();
 
+  async function loadComments() {
+    let { data } = await api.getComments();
+    data = data.reverse();
     return setComments(data);
   }
+
+ 
+
   function saveComment(event) {
     event.preventDefault();
 
@@ -27,8 +32,10 @@ function Comments(props) {
         loadComments();
       })
       .catch(err => console.log(err));
+
     document.getElementById("commentForm.ControlInput1").value = "";
     document.getElementById("commentForm.ControlTextarea1").value = "";
+
   }
 
   function handleInputChange(event) {
@@ -46,15 +53,17 @@ function Comments(props) {
               handleInputChange={handleInputChange}
             ></CommentsForm>
             {comments
-              ? comments.reverse().map(comment => (
+              ? comments.map(comment => (
                   <ViewComments
                     key={comment.id}
+                    image={comment.image}
                     comment={comment.comment}
                     username={comment.username}
                     date={comment.createdAt}
                   ></ViewComments>
                 ))
-              : "no comments found"}
+              : "Add your comment above!"}
+
           </Col>
         </Row>
       </Container>

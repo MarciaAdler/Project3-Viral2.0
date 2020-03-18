@@ -7,7 +7,8 @@ module.exports = function(sequelize, DataTypes) {
   // Creates a model that matches up with DB
   var Comment = sequelize.define("Comment", {
     comment: Sequelize.STRING,
-    username: Sequelize.STRING
+    username: Sequelize.STRING,
+    image: Sequelize.STRING
   });
   //Case.sync({ force: true });
   return Comment;
