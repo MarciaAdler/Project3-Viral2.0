@@ -4,6 +4,8 @@ import Footer from '../components/Footer';
 import './assets/styles/LoginLayout.css';
 import LoginForm from "../components/LoginForm";
 import { Link } from "react-router-dom";
+import Logo from "./assets/img/viral-effect-white.png";
+
 
 function LoginLayout(props) {
   
@@ -11,25 +13,12 @@ function LoginLayout(props) {
       <div className="h-100 w-100">
           <Container fluid className="h-100 w-100 login-hero">
                 <Row className="h-100 justify-content-center">
-                    <Col md={"auto"} className="mt-5 my-md-auto text-center text-md-right">
-                        <h1>The Viral 2.0</h1>
-                        Tagline
+                    <Col md={"auto"} className="mt-5 my-md-auto text-center text-md-right d-none d-md-block">
+                        <img src={Logo} alt="The Viral Effect" className="d-block" style={{width: "500px"}} />
+                        <p>Check the symptoms of the economy</p>
                     </Col>
                     <Col xs={"auto"} className="mt-3 my-md-auto">
-                    {/* <Form className="border-left ml-md-3 pl-md-5 py-3 text-center">
-                        <h3 className="mb-4">Login to your account</h3>
-                        <Form.Group className="mb-3" controlId="formUsername">
-                            <Form.Control type="email" placeholder="Username" />
-                        </Form.Group>
-
-                        <Form.Group className="mb-3" controlId="formPassword">
-                            <Form.Control type="password" placeholder="Password" />
-                        </Form.Group>
-                        <Button variant="outline-light" size="lg" className="mx-auto d-block mt-3" type="submit">
-                            Submit
-                        </Button>
-                        <p className="mt-4 mb-0">Don't have an account? <a href="#signup">Sign up</a></p>
-                        </Form> */}
+                        
                         <LoginForm />
                     </Col>
                 </Row>
