@@ -7,17 +7,32 @@ import api from "../utils/api";
 function Comments(props) {
   const [comments, setComments] = useState([]);
   const [formObject, setFormObject] = useState({});
+
   useEffect(() => {
     loadComments();
   }, []);
-  async function loadComments() {
-    const { data } = await api.getComments();
 
+  async function loadComments() {
+    let { data } = await api.getComments();
+    data = data.reverse();
+    document.getElementById("comment-loading").classList.add("d-none");
     return setComments(data);
   }
+
+ 
+
   function saveComment(event) {
     event.preventDefault();
+    const usernameInput = document.getElementById("commentForm.ControlInput1");
+    const commentInput = document.getElementById("commentForm.ControlTextarea1");
 
+    if (usernameInput.value === "") {
+      usernameInput.focus();
+      return;
+    } else if (commentInput.value === "") {
+      commentInput.focus();
+      return;
+    }
     api
       .saveComment({
         comment: formObject.comment,
@@ -27,8 +42,11 @@ function Comments(props) {
         loadComments();
       })
       .catch(err => console.log(err));
-    document.getElementById("commentForm.ControlInput1").value = "";
-    document.getElementById("commentForm.ControlTextarea1").value = "";
+
+    usernameInput.value = "";
+    commentInput.value = "";
+    document.getElementById("comment-loading").classList.remove("d-none");
+
   }
 
   function handleInputChange(event) {
@@ -45,16 +63,26 @@ function Comments(props) {
               saveComment={saveComment}
               handleInputChange={handleInputChange}
             ></CommentsForm>
+
+            <div id="comment-loading" class="text-center d-none">
+              <div class="spinner-border text-success" role="status">
+                <span class="sr-only">Loading...</span>
+              </div>
+              <div class="mt-3"><span class="my-auto">Your comment is being posted...</span></div>
+            </div>
+            
             {comments
-              ? comments.reverse().map(comment => (
+              ? comments.map(comment => (
                   <ViewComments
                     key={comment.id}
+                    image={comment.image}
                     comment={comment.comment}
                     username={comment.username}
                     date={comment.createdAt}
                   ></ViewComments>
                 ))
-              : "no comments found"}
+              : "Add your comment above!"}
+
           </Col>
         </Row>
       </Container>
