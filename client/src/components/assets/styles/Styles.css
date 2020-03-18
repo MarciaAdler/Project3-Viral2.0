@@ -15,13 +15,13 @@ a:hover {
 }
 
 .btn-primary {
-	background-color: #166088!important;
-	border: 1px solid #166088;
+	background-color: #558BA8!important;
+	border: 1px solid #558BA8;
 }
 
 .btn-primary:hover {
-	background-color: #558BA8!important;
-	border: 1px solid #558BA8;
+	background-color: #166088!important;
+	border: 1px solid #166088;
 	cursor: pointer
 }
 

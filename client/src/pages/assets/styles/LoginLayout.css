@@ -29,8 +29,8 @@ div#root{
     font-size: 21px;
 }
 
-/* Styles for viewports xs and sm in bootstrap */
-@media (max-width:767px){
+/* Styles for viewports xs to md in bootstrap */
+@media (max-width:991px){
 
     form.border-left{
         border-left:none!important;

@@ -52,7 +52,7 @@ export default class LoginForm extends Component {
   }
   render() {
     return (
-      <form className="border-left ml-md-3 pl-md-5 py-3" onSubmit = {this.onSubmit}>
+      <form className="border-left ml-lg-3 pl-lg-5 py-3" onSubmit = {this.onSubmit}>
         <img src={LogoStacked} alt="The Viral Effect" className="d-block d-lg-none mb-5" style={{width: "350px"}} />
         <h3 className="mb-4 text-center">Login</h3>
         <div className="form-group">
