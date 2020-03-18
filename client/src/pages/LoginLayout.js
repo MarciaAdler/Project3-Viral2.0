@@ -13,11 +13,11 @@ function LoginLayout(props) {
       <div className="h-100 w-100">
           <Container fluid className="h-100 w-100 login-hero">
                 <Row className="h-100 justify-content-center">
-                    <Col md={"auto"} className="mt-5 my-md-auto text-center text-md-right d-none d-md-block">
+                    <Col md={"auto"} className="mt-5 my-md-auto text-center text-md-right d-none d-lg-block fade-in">
                         <img src={Logo} alt="The Viral Effect" className="d-block" style={{width: "500px"}} />
-                        <p>Check the symptoms of the economy</p>
+                        <p className="mt-3 login-tagline">Check the symptoms of the economy</p>
                     </Col>
-                    <Col xs={"auto"} className="mt-3 my-md-auto">
+                    <Col xs={"auto"} className="mt-3 my-auto">
                         
                         <LoginForm />
                     </Col>
@@ -30,14 +30,14 @@ function LoginLayout(props) {
                 <img src="https://via.placeholder.com/150x150?text=Image" alt="" />
               </Col>
               <Col className="mr-md-4 mr-lg-5">
-               <h3>Headline</h3>
+               <h3>The effect is getting to work.</h3>
                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ut velit felis. Fusce consequat viverra placerat. Ut finibus metus ut sem rhoncus volutpat. Quisque mauris odio, fermentum in purus et, iaculis laoreet felis.</p>
                <p className="mb-0"><Link  to={"/signup"}>Sign up for an account</Link></p>
               </Col>
             </Row>
             <Row className="py-5 border-bottom">
                 <Col className="ml-md-4 ml-lg-5 order-last order-md-first">
-                <h3>Headline</h3>
+                <h3>Stay informed. Stay safe.</h3>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ut velit felis. Fusce consequat viverra placerat. Ut finibus metus ut sem rhoncus volutpat. Quisque mauris odio, fermentum in purus et, iaculis laoreet felis.</p>
                 <p className="mb-0"><Link  to={"/signup"}>Sign up for an account</Link></p>
                 </Col>

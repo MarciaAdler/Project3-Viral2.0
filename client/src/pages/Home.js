@@ -11,7 +11,7 @@ import ViewComments from "../components/ViewComments";
 
 function Home(props) {
   return (
-    <div>
+    <div id="members-page">
       <Header />
       <Markets />
       <Labor />
