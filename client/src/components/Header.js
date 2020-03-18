@@ -6,7 +6,7 @@ function Header(props) {
   
   return (
     <div>
-      <Navbar  fixed="top"  bg="light" expand="md" className="justify-content-between">
+      <Navbar bg="light" expand="md" className="justify-content-between">
         <Navbar.Brand>The Viral 2.0</Navbar.Brand>
         {/* <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav" className="justify-content-end text-right">
