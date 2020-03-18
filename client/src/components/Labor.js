@@ -20,21 +20,6 @@ function Labor(props) {
     loadWages();
   }, []);
 
-  // function loadEmployees() {
-  //   const ind = [];
-  //   for (let i = 0; i < industries.length; i++) {
-  //     const industry = industries[i];
-  //     api
-  //       .getEmployees(industry)
-  //       .then(res => {
-  //         return ind.push(res.data);
-  //       })
-  //       .catch(err => console.log(err));
-  //   }
-
-  //   console.log(ind);
-  //   return setEmployees(ind);
-  // }
   async function loadEmployees() {
     const ind = [];
     for (let i = 0; i < industries.length; i++) {
