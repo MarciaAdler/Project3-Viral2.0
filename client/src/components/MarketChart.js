@@ -12,7 +12,7 @@ export default function MarketChart({ stocks }) {
     labels: dates,
     datasets: [
       {
-        label: "Consumer Discretionary fund closing price",
+        label: "Consumer Discretionary fund ETF closing price",
         data: closing,
         backgroundColor: [
           "rgba(255, 99, 132, 0.2)",
