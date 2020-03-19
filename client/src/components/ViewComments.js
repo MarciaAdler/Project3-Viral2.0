@@ -55,7 +55,7 @@ export default function ViewComments(props) {
         <Col>
           <h4>{props.username}</h4>
           <p>
-            {date[0]} {standardTime}
+            {date[0]} {standardTime} {"GMT"}
           </p>
           <p>{props.comment}</p>
         </Col>
