@@ -106,7 +106,12 @@ class LaborTable extends React.Component {
                         {Math.round(postCovidWages[index])}
                         {"(bil)"}
                         <br /> Hit to Economy(total wages/US GDP):
-                        {Math.round(hitToEconomy[index] * 100) / 100}
+                        {Math.round(
+                          ((parseInt(postCovidWages[index]) -
+                            parseInt(preCovidWages[index])) /
+                            215) *
+                            100
+                        ) / 100}
                         {"%"}
                       </Card.Body>
                     </Accordion.Collapse>
