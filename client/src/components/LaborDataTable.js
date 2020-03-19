@@ -113,7 +113,7 @@ class LaborTable extends React.Component {
                   </Card>
                 );
               })
-            : "no data found"}
+            : "Loading"}
         </Accordion>
       </div>
     );
