@@ -52,10 +52,6 @@ class LaborTable extends React.Component {
       );
     });
 
-    let hitToEconomy = employees.map((employee, index) => {
-      return (parseInt(postCovidWages) - parseInt(preCovidWages)) / 215;
-    });
-
     return (
       <div>
         <h2>Industry Calculator</h2>
